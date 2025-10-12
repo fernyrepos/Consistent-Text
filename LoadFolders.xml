@@ -13,5 +13,6 @@
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
     <li IfModActive="xercaine.walltelevisions">Mods and Shit/Wall Televisions</li>
     <li IfModActive="vanillaexpanded.vfefarming">Mods and Shit/VFE Farming</li>
+    <li IfModActive="gondragon.mechanoidwaiter">Mods and Shit/Mechanoid Waiter</li>
   </v1.6>
 </loadFolders>

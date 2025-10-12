@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+Autonomous Cash Register
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="CashRegister_Mech"]/label</xpath>
+                    <value>
+                        <label>mechanoid cash register</label>
+                    </value>
+                </Operation>
+<!-- ORIGINAL
+A spot for mechanoid waiters. From here you can control your restaurant. -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="CashRegister_Mech"]/description</xpath>
+                    <value>
+                        <description>A spot for mechanoid waiters. From here they can control the restaurant.</description>
+                    </value>
+                </Operation>
+</Patch>
