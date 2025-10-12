@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Fix error that RRBigTV description has leading whitespace. -->
+	<!-- TODO tell dev to pls fix ;-; -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRBigTV"]/description</xpath>
+		<value>
+			<description>TV with a large screen. Place it on a stand.</description>
+		</value>
+	</Operation>
+
+	<!-- Original: Herona Wardrobe -->
+	<!-- Capitalization -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="RRHeronaWardrobe"]/label</xpath>
+        <value>
+            <label>Herona wardrobe</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Taragona Wardrobe -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRTaragonaWardrobe"]/label</xpath>
+		<value>
+			<label>Taragona wardrobe</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Saragosa Dresser -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRDresser"]/label</xpath>
+		<value>
+			<label>Saragosa dresser</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Albus Dresser -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRDresserTwo"]/label</xpath>
+		<value>
+			<label>Albus dresser</label>
+		</value>
+	</Operation>
+
+	<!-- Original: senevan single bed -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRMidModernSingleBed"]/label</xpath>
+		<value>
+			<label>Senevan single bed</label>
+		</value>
+	</Operation>
+
+	<!-- Original: senevan double bed -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRMidModernDoubleBed"]/label</xpath>
+		<value>
+			<label>Senevan double bed</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Valencia Royal double bed -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRRoyalBed"]/label</xpath>
+		<value>
+			<label>Valencia royal double bed</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Meina Crib -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRCrib"]/label</xpath>
+		<value>
+			<label>Meina crib</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Nante Office Chair -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRNanteOfficeChair"]/label</xpath>
+		<value>
+			<label>Nante office chair</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ruen Office Chair -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRRuenOfficeChair"]/label</xpath>
+		<value>
+			<label>Ruen office chair</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Marsile Couch -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRMarsileSofa"]/label</xpath>
+		<value>
+			<label>Marsile couch</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Tulen Couch -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRTulenSofa"]/label</xpath>
+		<value>
+			<label>Tulen couch</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Amien Couch -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRAmienSofa"]/label</xpath>
+		<value>
+			<label>Amien couch</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Maharid Cupboard -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRCupboard"]/label</xpath>
+		<value>
+			<label>Maharid cupboard</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Sevia Cupboard -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRCupboardTwo"]/label</xpath>
+		<value>
+			<label>Sevia cupboard</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Haen Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRBookshelfOne"]/label</xpath>
+		<value>
+			<label>Haen bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Teruel Cupboard -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRCupboardThree"]/label</xpath>
+		<value>
+			<label>Teruel cupboard</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Erdin Desk -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRDesk"]/label</xpath>
+		<value>
+			<label>Erdin desk</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Rosenheim desk -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RROfficeDesk"]/label</xpath>
+		<value>
+			<label>Rosenheim desk</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Rottenburg Desk -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRStreamlineDesk"]/label</xpath>
+		<value>
+			<label>Rottenburg desk</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Barsawa Table Lamp -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRTableLamp"]/label</xpath>
+		<value>
+			<label>Barsawa table lamp</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Katovise Desk Lamp -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRDeskLamp"]/label</xpath>
+		<value>
+			<label>Katovise desk lamp</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Vielsco Standing lamp -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRStandingLamp"]/label</xpath>
+		<value>
+			<label>Vielsco standing lamp</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Glivize Standing lamp -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRStandingLampTwo"]/label</xpath>
+		<value>
+			<label>Glivize standing lamp</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Mishkub Standing Lamp -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRStandingLampThree"]/label</xpath>
+		<value>
+			<label>Mishkub standing lamp</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Tahov Dining Table(1x2) -->
+	<!-- Capitalization, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRDiningTable"]/label</xpath>
+		<value>
+			<label>Tahov dining table (1x2)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Klatobi Dining Table(2x2) -->
+	<!-- Capitalization, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRDiningTableTwo"]/label</xpath>
+		<value>
+			<label>Klatobi dining table (2x2)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Esenik Dining Table(1x2) -->
+	<!-- Capitalization, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRDiningTableThree"]/label</xpath>
+		<value>
+			<label>Esenik dining table (1x2)</label>
+		</value>
+	</Operation>
+	
+</Patch>

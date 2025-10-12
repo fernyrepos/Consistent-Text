@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Original: DSU Input Bus -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DSU_InputBus_Building"]/label</xpath>
+		<value>
+			<label>DSU input bus</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Digital Storage Unit -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DSU_DigitalStorageUnit_Building"]/label</xpath>
+		<value>
+			<label>digital storage unit</label>
+		</value>
+	</Operation>
+
+	<!-- Original: DSU Data Extender -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DSU_DataExtender"]/label</xpath>
+		<value>
+			<label>DSU data extender</label>
+		</value>
+	</Operation>
+
+	<!-- Original: DSU Access Point -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DSU_AccessPoint_Building"]/label</xpath>
+		<value>
+			<label>DSU access point</label>
+		</value>
+	</Operation>
+
+	<!-- Original: DSU Output Bus -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DSU_OutputBus_Building"]/label</xpath>
+		<value>
+			<label>DSU output bus</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An interactive connection bus for the Digital Storage Unit. Pawns may request any item from the conneted Digital Storage Unit.
+	-->
+	<!-- Capitalization, add abbreviation for clarity -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DSU_AccessPoint_Building"]/description</xpath>
+		<value>
+			<description>An interactive connection bus for the digital storage unit. Pawns may request any item from the connected DSU.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	External data extender. Allows the connected DSU to hold 128 more stacks.
+	-->
+	<!-- Capitalization, remove abbreviation and rewrite for clarity -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DSU_DataExtender"]/description</xpath>
+		<value>
+			<description>External data extender. Allows the connected digital storage unit to hold 128 more item stacks.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An input bus for the Digital Storage Unit. Pawns may store items into connected DSU through it.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DSU_InputBus_Building"]/description</xpath>
+		<value>
+			<description>An input bus for the digital storage unit. Pawns may store items into connected DSU through it.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An output bus for the Digital Storage Unit. It may push desired items from the DSU nearby.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DSU_OutputBus_Building"]/description</xpath>
+		<value>
+			<description>An output bus for the digital storage unit. It may push desired items from the DSU nearby.</description>
+		</value>
+	</Operation>
+	
+</Patch>

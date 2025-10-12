@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Original: Anti Air Gun -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretAA"]/label</xpath>
+		<value>
+			<label>anti air gun</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Quad Anti Air Gun -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretQuadAA"]/label</xpath>
+		<value>
+			<label>quad anti air gun</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Quad Anti Air cannon -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Gun_TurretQuadAA"]/label</xpath>
+		<value>
+			<label>quad anti air cannon</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Anti Tank Gun -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretAT"]/label</xpath>
+		<value>
+			<label>anti tank gun</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Anti Tank Cannon -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Gun_TurretAT"]/label</xpath>
+		<value>
+			<label>anti tank cannon</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Quad Machine gun -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Maxim4M"]/label</xpath>
+		<value>
+			<label>quad machine gun</label>
+		</value>
+	</Operation>
+
+	<!-- Original: machine gun 4x mounted -->
+	<!-- Capitalization, more readable name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Gun_QuadMG"]/label</xpath>
+		<value>
+			<label>quad machine gun (mounted)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Machine Gun Nest -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Turret_BunkerL"]/label</xpath>
+		<value>
+			<label>machine gun nest</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Machine Gun Turret Bunker -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Turret_BunkerM"]/label</xpath>
+		<value>
+			<label>machine gun turret bunker</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Machine Gun Bunker -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Turret_BunkerC"]/label</xpath>
+		<value>
+			<label>machine gun bunker</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Military Machine Gun Nest -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Turret_BunkerF"]/label</xpath>
+		<value>
+			<label>military machine gun nest</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Hexagonal Mortar Launcher -->
+	<!-- Capitalization, shorter name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretHexMortar"]/label</xpath>
+		<value>
+			<label>hex mortar launcher</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Packed Concrete -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_ConcreteCompressed"]/label</xpath>
+		<value>
+			<label>packed concrete</label>
+		</value>
+	</Operation>
+
+	<!-- Original: rebar concrete -->
+	<!-- More lifelike rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_ReinforcedConcreteBag"]/label</xpath>
+		<value>
+			<label>reinforced concrete</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Antenna Tower -->
+	<!-- Capitalization, more purposeful name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_AntennaTower"]/label</xpath>
+		<value>
+			<label>trade tower</label>
+		</value>
+	</Operation>
+
+	<!-- Original: hydrant -->
+	<!-- More specific name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_FirefoamPopper"]/label</xpath>
+		<value>
+			<label>fire hydrant</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Military Sandbag -->
+	<!-- Vanilla style rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Sandbag"]/label</xpath>
+		<value>
+			<label>sandbag barricade</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Military sandbag wall -->
+	<!-- Vanilla style rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_WallSandbag"]/label</xpath>
+		<value>
+			<label>sandbag wall</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Tank Trap -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TankTrap"]/label</xpath>
+		<value>
+			<label>tank trap</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Concrete Barrier -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Barrier"]/label</xpath>
+		<value>
+			<label>concrete barrier</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Diagonal Concrete Barrier -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_BarrierDiagonal"]/label</xpath>
+		<value>
+			<label>diagonal concrete barrier</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Fine Concrete Tile -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName="FT_FineConcreteTile"]/label</xpath>
+		<value>
+			<label>fine concrete tile</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Chemistry Table -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TableChemistry"]/label</xpath>
+		<value>
+			<label>chemistry table</label>
+		</value>
+	</Operation>
+
+	<!-- Original: power pole (street lamp) -->
+	<!-- Immersive rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_PowerPole_Lamp"]/label</xpath>
+		<value>
+			<label>illuminated power pole</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Bags of locally-sourced dirt or sand, stacked for use as cover. they are well-stacked so it is more durable.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Sandbag"]/description</xpath>
+		<value>
+			<description>Bags of locally-sourced dirt or sand, stacked for use as cover. They are well-stacked so it is more durable.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Bags of locally-sourced dirt or sand, stacked for use as wall. they are well-stacked so it is more durable.
+	-->
+	<!--  -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_WallSandbag"]/description</xpath>
+		<value>
+			<description>Bags of locally-sourced dirt or sand, stacked for use as wall. They are well-stacked so it is more durable.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	tiles made by architectural concrete, it looks nice even though they are still concrete. Slow to construct.
+	-->
+	<!-- Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_FineConcreteTile"]/description</xpath>
+		<value>
+			<description>Tiles made by architectural concrete. They look nice even though they are still concrete. Slow to construct.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	using concrete prefab plank for that beautifully laid down flooring. Whilst beautiful, it takes a long time to lay down but non-flammable.
+	-->
+	<!-- Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VFEArch_WoodenParquetConcrete"]/description</xpath>
+		<value>
+			<description>Uses concrete prefab planks for that beautifully laid down flooring. Whilst beautiful, it takes a long time to lay down. Non-flammable.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	concrete prefab plank flooring instead of wooden, for that warm, homey feeling(not really). While it is still quick to lay,but non-flammable.
+	-->
+	<!-- Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VFEArch_WoodPlankFloorConcrete"]/description</xpath>
+		<value>
+			<description>concrete prefab plank flooring instead of wooden, for that warm, homey feeling (not really). While it is still quick to lay, it is non-flammable.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Random-size stone tiles for a rustical, castle feeling. Take less time to construct than ordinary stone tiles and don’t require stone cutting expertise, but lack the beauty of the polished design.
+	-->
+	<!-- Spelling -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VFEArch_CobblestoneFloorConcrete"]/description</xpath>
+		<value>
+			<description>Random-size stone tiles for a rustic, castle feeling. Take less time to construct than ordinary stone tiles and don’t require stone cutting expertise, but lack the beauty of the polished design.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Electronic Numerical Integrator And Computer Or simply call it Eniac, big and highly consume power energy, Increases research speed when placed near hi-tech research bench and unlocks new research projects from reading the Disk. Each research bench can connect to 4 ENIAC.
+	-->
+	<!-- Grammar, preceding spaces(?), readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_ENIAC"]/description</xpath>
+		<value>
+			<description>The Electronic Numerical Integrator And Computer, or ENIAC, increases research speed when placed near an hi-tech research bench and unlocks new research projects. Each research bench can connect to four ENIAC units. Consumes power and is quite large.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A bigger orbital trade beacon that can only place outside. can attract orbital traders so they can navigate to this planet.
+	-->
+	<!-- Style edit, grammar, removed reference to spacefaring traders due to potential vanilla collision -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_AntennaTower"]/description</xpath>
+		<value>
+			<description>A large orbital trade beacon which can only be placed outdoors. Attracts orbital traders.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Allows radio contact with other factions and orbital traders,also when interrogating the frequency band, some interference that may be precious metals can be located,(WIP), will have more function in the future.
+	-->
+	<!-- Grammar, removed dev comment, replaced it with an enticing statement to investigate its mechanics just in case -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Radio"]/description</xpath>
+		<value>
+			<description>Allows radio contact with other factions and orbital traders. Investigate the air waves.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually.
+	-->
+	<!-- Style. Remove reference to fire detection, which fire hydrants typically can't do. Made this implicit. -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_FirefoamPopper"]/description</xpath>
+		<value>
+			<description>This safety installation sprays a fire-retardant foam in a circular field when fire is present. Can be manually operated.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A machine that rotates a workpiece about an axis of rotation to perform various operations.
+	-->
+	<!-- Style, more specific -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TableLathe"]/description</xpath>
+		<value>
+			<description>A machine which rotates a workpiece about an axis of rotation to perform substractive operations.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A table that can artificially synthesize compounds such as Neutroamine.
+	-->
+	<!-- Vanilla style, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TableChemistry"]/description</xpath>
+		<value>
+			<description>A workstation for artificially synthesizing compounds such as neutroamine.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A machine that crushes and mixes stony materials into concrete dusts
+	-->
+	<!-- Grammar, style -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TableConcreteMixer"]/description</xpath>
+		<value>
+			<description>A machine which crushes and mixes stony materials into concrete dusts.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A manned mortar launcher with six barrel, with some mysterious technology, it can shoot six mortar shells at one time, however, it's not accurate.
+	-->
+	<!-- Grammar, more suitable descriptive term, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretHexMortar"]/description</xpath>
+		<value>
+			<description>A manned mortar launcher with six barrel. With some reckless technology, it can fire six mortar shells at once. However, it is not accurate.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An artillery that gave up part of the direct-fire capability in pursuit of high precision and light-weighted.\n\n Correctly called 155mm howitzer model NK-33L "Prince" ,It is a lightweight artillery designed to improve maneuverability.
+	-->
+	<!-- Grammar, style, conciseness, units formatting -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretPrince"]/description</xpath>
+		<value>
+			<description>An artillery piece which gives up some direct-fire capability in pursuit of higher precision and less weight.\n\nNamed the 155 millimeter howitzer model NK-33L "Prince", this weapon is designed for improved maneuverability.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	an artillery that can only shoot horizontally at close range due to extremely high Muzzle velocity,but it is high accuracy. \n\n Correctly called 155mm caliber howitzer model NK-30 "Empero",it is a relieable artillery designed for Interstellar Industries Complex Nara, provide the technical support of those pre-industrial world incapable to fight against the mechanoid armies.
+	-->
+	<!-- Readability, consistency -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretEmpero"]/description</xpath>
+		<value>
+			<description>An highly-accurate artillery piece which can only shoot horizontally at close range due to extreme muzzle velocities.\n\nNamed the 155 millimeter howitzer model NK-30 "Empero", this weapon was designed for the Nara Interstellar Industries Complex to provide reliable support to those pre-industrial worlds otherwise incapable of fighting against the mechanoid armies.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A light-weighted mortar that launches all kinds of mortar shells. Improved firing speed with a simplified design, it has a shorter range but it can be easily carried by infantry.
+	-->
+	<!-- Readability, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Turret_Mortar"]/description</xpath>
+		<value>
+			<description>A lightweight mortar for launching all kinds of mortar shells. Features an improved firing rate with a simplified design. It has a short range but can be easily carried by infantry.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A powerful indirect-firing weapon with ability to rapid deploy.
+	-->
+	<!-- Grammar, style -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Artillery_Mortar"]/description</xpath>
+		<value>
+			<description>A powerful indirect-fire weapon which can be rapidly deployed.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A manned autocannon that launches solid metal bullets.It is rapid fired makes it useful for attacking aerial target or enemies in the field.
+	-->
+	<!-- Grammar, word choice -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretAA"]/description</xpath>
+		<value>
+			<description>A manned autocannon which launches solid metal slugs. Its rapid fire makes it useful for engaging aerial as well as ground targets.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A manned autocannon that launches solid metal bullets.It is rapid fired makes it useful for attacking aerial target or enemies in the field.
+	-->
+	<!-- Consistency -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretQuadAA"]/description</xpath>
+		<value>
+			<description>A manned autocannon which launches solid metal slugs. Its rapid fire makes it useful for engaging aerial as well as ground targets.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A manned rifle cannon that launches solid metal shells.It is accurate makes it useful for attacking groups of enemies in the field or sniping the small fortifications.
+	-->
+	<!-- Grammar, consistency -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TurretAT"]/description</xpath>
+		<value>
+			<description>A manned rifle cannon which launches solid metal slugs. Its accuracy makes it useful for engaging groups of ground targets or sniping against fortifications.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A Tripod with Quadruple machine gun mounted so it Have a good firepower continuity,need a pawn man on it to operate. Requires steel to refurbish its barrels after heavy use.
+	-->
+	<!-- Capitalization, grammar, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_Maxim4M"]/description</xpath>
+		<value>
+			<description>A tripod-mounted machine gun with four barrels for increased firepower. Requires a pawn to operate the gun and steel to refurbish its barrels after heavy use.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	 A Tripod with high caliber machine gun mounted. Requires steel to refurbish its barrels after heavy use.it needs a pawn to man on it to operate. 
+	-->
+	<!-- Capitalization, grammar, consistency, spacing -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_AutoCannon"]/description</xpath>
+		<value>
+			<description>A tripod-mounted large caliber machine gun. Requires a pawn to operate the gun and steel to refurbish its barrels after heavy use.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	 A Tripod with Recoilless gun mounted.A light-weighted soloution of anti armour operation, Requires ReinforcedBarrel to refurbish its barrels after heavy use. also it needs a pawn to man on it to operate. But notice, do not use it indoors!! 
+	-->
+	<!-- Capitalization, grammar, consistency, spacing -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_RecoillessGun"]/description</xpath>
+		<value>
+			<description>A tripod-mounted recoilless gun presenting a lightweight anti-armor solution. Requires a pawn to operate the gun and reinforced barrels to refurbish it after heavy use. Notice: Do not use indoors!</description>
+		</value>
+	</Operation>
+	
+</Patch>

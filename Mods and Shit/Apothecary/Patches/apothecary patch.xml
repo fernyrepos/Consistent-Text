@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Original: Apothecary Table -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYApothecaryTable"]/label</xpath>
+		<value>
+			<label>apothecary table</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Charcoal Brazier -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYBrazier"]/label</xpath>
+		<value>
+			<label>charcoal brazier</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Passive cooler (Ammonia) -->
+	<!-- Capitalization, shorter name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYPassiveCooler"]/label</xpath>
+		<value>
+			<label>ammonia cooler</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Large Casting Table -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYLargeCastArtTable"]/label</xpath>
+		<value>
+			<label>large casting table</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Casting Table -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYCastArtTable"]/label</xpath>
+		<value>
+			<label>casting table</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Charcoal Kiln -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYCharcoalKiln"]/label</xpath>
+		<value>
+			<label>charcoal kiln</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Potting Mix Composting barrel -->
+	<!-- Capitalization, shorter name, still specific -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYCompostBarrel"]/label</xpath>
+		<value>
+			<label>composting barrel</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Herb Box -->
+	<!--  capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYHerbBox"]/label</xpath>
+		<value>
+			<label>herb box</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Herb Box (Limed) -->
+	<!-- Style edit, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYHerbBoxLime"]/label</xpath>
+		<value>
+			<label>limed herb box</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Potash barrel -->
+	<!-- More functional name for a production building -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYPotashBarrel"]/label</xpath>
+		<value>
+			<label>potash leeching barrel</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Preserving barrel -->
+	<!-- Grammer edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYPreserveBarrel"]/label</xpath>
+		<value>
+			<label>preservation barrel</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Clothes washing tub -->
+	<!-- Common term rename, shorter name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYApparelWashingTub"]/label</xpath>
+		<value>
+			<label>washboard</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Water Grower -->
+	<!-- Less awkward name, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AYWaterGrower"]/label</xpath>
+		<value>
+			<label>wet growing box</label>
+		</value>
+	</Operation>
+	
+</Patch>

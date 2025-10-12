@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Original: electric haute section -->
+	<!-- Station is a less awkward term here and is in line with the description. -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCE_ElectricHauteSection"]/label</xpath>
+		<value>
+			<label>haute cooking station</label>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+    <!-- Original: Drakken Laser Drill -->
+	<!-- Capitalization -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="MYDE_Building_DrakkenLaserDrill"]/label</xpath>
+        <value>
+            <label>Drakken laser drill</label>
+        </value>
+    </Operation>
+
+	<!--
+	Original:
+	A giant laser turret that is infinitely upgraded through research technology, has infinite range and consumes power to cause damage. Through research technology, it can infinitely upgrade power storage, damage and armor penetration.
+	-->
+	<!-- Edits for readability and vanillafication -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MYDE_Building_DrakkenLaserDrill"]/description</xpath>
+		<value>
+			<description>A massive mining laser of an ancient pattern repurposed into a weapon with practically unlimited range. Consumes power to inflict damage. Damage, armor penetration, and power storage can be upgraded limitlessly through research.</description>
+		</value>
+	</Operation>
+
+</Patch>

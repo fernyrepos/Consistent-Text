@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Original: oil press workshop -->
+	<!-- Shorter name with same meaning -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AC_OilPressWorkshop"]/label</xpath>
+		<value>
+			<label>oil press</label>
+		</value>
+	</Operation>
+
+	<!-- Original: dairy processing station -->
+	<!-- Shorter name referring to an appliance -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AC_DairyProcessingStation"]/label</xpath>
+		<value>
+			<label>dairy processor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: artisan fermenter -->
+	<!-- More lifelike, descriptive name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/label</xpath>
+		<value>
+			<label>fermentation reactor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: artisanal grinder -->
+	<!-- Common term rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AC_ArtisanalGrinder"]/label</xpath>
+		<value>
+			<label>artisanal processor</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A specialized workshop designed to process milk into a variety of dairy products, including yogurt, cream, condensed milk, and more. A must-have for any colony looking to produce high-quality, artisan dairy goods for consumption and trade.
+	-->
+	<!-- Replaced workshop reference -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AC_DairyProcessingStation"]/description</xpath>
+		<value>
+			<description>A specialized station designed to process milk into a variety of dairy products, including yogurt, cream, condensed milk, and more. A must-have for any colony looking to produce high-quality, artisan dairy goods for consumption and trade.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A high-quality grinder built for processing fruits, vegetables, and grains into artisanal products like flours, chips, zests, and purees, adding refinement to culinary and crafting processes. Not to be confused with Artisanal Grindr. We don't handle that.
+	-->
+	<!-- Edited to reflect that it appaers to be a food processor that does more than grinding. -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AC_ArtisanalGrinder"]/description</xpath>
+		<value>
+			<description>A high-quality grinder, blender, and chopper built for processing fruits, vegetables, and grains into artisanal products like flours, chips, zests, and purees, adding refinement to culinary and crafting processes. Not to be confused with Artisanal Grindr. We don't handle that.</description>
+		</value>
+	</Operation>
+	
+</Patch>

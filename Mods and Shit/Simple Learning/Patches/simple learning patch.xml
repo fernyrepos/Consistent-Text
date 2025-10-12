@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Original: Neolithic Desk -->
+	<!-- Capitalization, immersive rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Neo_Learning_Desk"]/label</xpath>
+		<value>
+			<label>student tablet</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Regular Desk -->
+	<!-- Capitalization, immersive rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Mid_Learning_Desk"]/label</xpath>
+		<value>
+			<label>student desk</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Advanced Desk -->
+	<!-- Immersive rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Adv_Learning_Desk"]/label</xpath>
+		<value>
+			<label>learning terminal</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Spacer Desk -->
+	<!-- Capitalization, vanilla rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Spacer_Learning_Desk"]/label</xpath>
+		<value>
+			<label>interactive desk</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Neolithic Stone -->
+	<!-- More immersive name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Neo_Board"]/label</xpath>
+		<value>
+			<label>learning stone</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Chalk Board -->
+	<!-- Capitalization, common spelling rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Board"]/label</xpath>
+		<value>
+			<label>chalkboard</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Spacer Board -->
+	<!-- Capitalization, vanilla rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Spacer_Board"]/label</xpath>
+		<value>
+			<label>interactive board</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Spacer Bookshelf -->
+	<!-- Capitalization, vanilla rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Spacer_Joy_Bookshelf"]/label</xpath>
+		<value>
+			<label>interactive bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Joy Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Joy_Bookshelf"]/label</xpath>
+		<value>
+			<label>joy bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Shooting Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Shooting_Bookshelf"]/label</xpath>
+		<value>
+			<label>shooting bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Melee Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Melee_Bookshelf"]/label</xpath>
+		<value>
+			<label>melee bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Construction Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Construct_Bookshelf"]/label</xpath>
+		<value>
+			<label>construction bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Mining Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Mining_Bookshelf"]/label</xpath>
+		<value>
+			<label>mining bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Cooking Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Cooking_Bookshelf"]/label</xpath>
+		<value>
+			<label>cooking bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Plants Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Plants_Bookshelf"]/label</xpath>
+		<value>
+			<label>plants bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Animals Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Animals_Bookshelf"]/label</xpath>
+		<value>
+			<label>animals bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Crafting Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Crafting_Bookshelf"]/label</xpath>
+		<value>
+			<label>crafting bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Art Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Art_Bookshelf"]/label</xpath>
+		<value>
+			<label>art bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Medicine Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Medicine_Bookshelf"]/label</xpath>
+		<value>
+			<label>medicine bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Social Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Social_Bookshelf"]/label</xpath>
+		<value>
+			<label>social bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Intellectual Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Intellectual_Bookshelf"]/label</xpath>
+		<value>
+			<label>intellectual bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Library table -->
+	<!-- Functional rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Library_Table"]/label</xpath>
+		<value>
+			<label>reading table</label>
+		</value>
+	</Operation>
+	
+	<!-- Original: Author Desk -->
+	<!-- Capitalization, avoid collision with VE Books -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AuthorDesk"]/label</xpath>
+		<value>
+			<label>authoring desk</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Printing Press -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Printing_Press"]/label</xpath>
+		<value>
+			<label>printing press</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An advanced industrial desk with a computer to improve note taking.
+	-->
+	<!-- Immersive and descriptive edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Adv_Learning_Desk"]/description</xpath>
+		<value>
+			<description>A desk with a computer to improve note taking and learning effectiveness.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A large electronic board designed to relay information into students at an incomprehensible rate
+	-->
+	<!-- Immersive edit, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Spacer_Board"]/description</xpath>
+		<value>
+			<description>A large electronic board designed to relay information into students at an accelerated rate.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A spacer bookshelf with a variety of data cores.
+	-->
+	<!-- Use rename and immersive edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Spacer_Joy_Bookshelf"]/description</xpath>
+		<value>
+			<description>An interactive 'bookshelf' containing a variety of data cores for learning about virtually any topic.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A bookshelf with a variety of various books and novels.
+	-->
+	<!-- More specific -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Joy_Bookshelf"]/description</xpath>
+		<value>
+			<description>A bookshelf with a variety of entertaining books and novels.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A bookshelf with a variety of books telling various tales and stories.
+	-->
+	<!-- More specific -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Art_Bookshelf"]/description</xpath>
+		<value>
+			<description>A bookshelf with a variety of books on the visual and performing arts.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A bookshelf with a variety of books describing anatomy and various surgery.
+	-->
+	<!-- Grammar, more general edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Medicine_Bookshelf"]/description</xpath>
+		<value>
+			<description>A bookshelf with a variety of books describing anatomy and numerous medical procedures.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A bookshelf with a variety of books describing learning strategies and research protocol.
+	-->
+	<!-- More immersive edit -->
+	<!-- Resisting the urge to fill this with academic jargon -pillbug2 -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Intellectual_Bookshelf"]/description</xpath>
+		<value>
+			<description>A bookshelf with a variety of study guides and literature detailing experimental methods.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A regular table that when placed next to a bookshelf colonist can relax and read at.
+	-->
+	<!-- Style edit, more readable -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Library_Table"]/description</xpath>
+		<value>
+			<description>An ordinary table that colonists can relax and read at when placed next to a bookshelf.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Lockers containing student's books and a place for students to socialize.
+	-->
+	<!-- Lockers are just decoration - do not mislead; grammar, conciseness -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Fox_Lockers"]/description</xpath>
+		<value>
+			<description>A row of decorative lockers. Perhaps they contain students' books and a place to socialize.</description>
+		</value>
+	</Operation>
+	
+</Patch>

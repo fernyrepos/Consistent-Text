@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Original: Replimat Terminal -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatTerminal"]/label</xpath>
+		<value>
+			<label>replimat terminal</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Replimat Wall Terminal -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatTerminalWall"]/label</xpath>
+		<value>
+			<label>replimat wall terminal</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Replimat Animal Feeder -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatAnimalFeeder"]/label</xpath>
+		<value>
+			<label>replimat animal feeder</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Replimat Feedstock Tank -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatFeedTank"]/label</xpath>
+		<value>
+			<label>replimat feedstock tank</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Replimat Large Feedstock Tank -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatFeedTankLarge"]/label</xpath>
+		<value>
+			<label>replimat feedstock tank (large)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Replimat Hopper -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatHopper"]/label</xpath>
+		<value>
+			<label>replimat hopper</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Replimat Cadaver Processor -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatCorpseRecycler"]/label</xpath>
+		<value>
+			<label>replimat cadaver processor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Replimat Computer -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatComputer"]/label</xpath>
+		<value>
+			<label>replimat computer</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Synthesizes meals and beverages through molecular resequencing. Requires a connection to a Replimat Feedstock Tank and Replimat Computer via conduits.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatTerminal"]/description</xpath>
+		<value>
+			<description>Synthesizes meals and beverages through molecular resequencing. Requires a connection to a replimat feedstock tank and replimat computer via conduits.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Synthesizes meals and beverages through molecular resequencing. Requires a connection to a Replimat Feedstock Tank and Replimat Computer via conduits.\n\nThis version of the Terminal is designed to be built into any existing walls.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatTerminalWall"]/description</xpath>
+		<value>
+			<description>Synthesizes meals and beverages through molecular resequencing. Requires a connection to a replimat feedstock tank and replimat computer via conduits.\n\nThis version of the terminal is designed to be built into any existing walls.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Synthesizes animal feed for pets and other colony animals through molecular resequencing. Requires a connection to a Replimat Feedstock Tank and Replimat Computer via conduits.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatAnimalFeeder"]/description</xpath>
+		<value>
+			<description>Synthesizes animal feed for pets and other colony animals through molecular resequencing. Requires a connection to a replimat feedstock tank and replimat computer via conduits.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Stores an organic particulate suspension for use by Replimat Terminals. Supplied by Replimat Hoppers.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatFeedTank"]/description</xpath>
+		<value>
+			<description>Stores an organic particulate suspension for use by replimat terminals. Supplied by replimat hoppers.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A larger version of the standard feedstock tank, which stores an organic particulate suspension for use by Replimat Terminals. Supplied by Replimat Hoppers.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatFeedTankLarge"]/description</xpath>
+		<value>
+			<description>A larger version of the standard feedstock tank, which stores an organic particulate suspension for use by replimat terminals. Supplied by replimat hoppers.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Holds refrigerated raw food and disassembles it at a molecular level into an organic particulate suspension for supplying Replimat systems.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatHopper"]/description</xpath>
+		<value>
+			<description>Holds refrigerated raw food and disassembles it at a molecular level into an organic particulate suspension for supplying replimat systems.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Recycles humanoid corpses in a dignified manner into organic particulate suspension for supplying Replimat systems.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatCorpseRecycler"]/description</xpath>
+		<value>
+			<description>Recycles humanoid corpses in a dignified manner into organic particulate suspension for supplying replimat systems.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Provides a wide range of meal and beverage recipes to all Replimat Terminals.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatComputer"]/description</xpath>
+		<value>
+			<description>Provides a wide range of meal and beverage recipes to all replimat terminals.</description>
+		</value>
+	</Operation>
+
+</Patch>

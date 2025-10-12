@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>    
+	
+	<!-- Original: collecting spot -->
+	<!-- More specific name in line with description -->
+    <Operation Class="PatchOperationReplace">
+		<success>Always</success>
+        <xpath>Defs/ThingDef[defName="FT_GatheringSpot"]/label</xpath>
+        <value>
+            <label>stone gathering spot</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Masonry table -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FT_TableMasonry"]/label</xpath>
+		<value>
+			<label>masonry table</label>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+	<!-- Original: Wall toiletpaper -->
+	<!-- Shorter name, typo fix -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="ucp_toiletpaper"]/label</xpath>
+        <value>
+            <label>toilet paper</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Wall mirror (light) -->
+	<!-- More readable name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_mirrorlight"]/label</xpath>
+		<value>
+			<label>illuminated wall mirror</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ivy Leaves -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleaves"]/label</xpath>
+		<value>
+			<label>ivy leaves</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ivy Leaves (corner) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavescorner"]/label</xpath>
+		<value>
+			<label>ivy leaves (corner)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ivy Leaves (inner) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavesinner"]/label</xpath>
+		<value>
+			<label>ivy leaves (inner)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ivy Leaves (Pattern A) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternA"]/label</xpath>
+		<value>
+			<label>ivy leaves (pattern A)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ivy Leaves (Pattern B) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternB"]/label</xpath>
+		<value>
+			<label>ivy leaves (pattern B)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ivy Leaves (Pattern C) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternC"]/label</xpath>
+		<value>
+			<label>ivy leaves (pattern C)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ivy Leaves (Pattern D) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternD"]/label</xpath>
+		<value>
+			<label>ivy leaves (pattern D)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Gauranlen Leaves -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavesorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Gauranlen Leaves (corner) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavescornerorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (corner)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Gauranlen Leaves (inner) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavesinnerorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (inner)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Gauranlen Leaves (Pattern A) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternAorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (pattern A)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Gauranlen Leaves (Pattern B) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternBorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (pattern B)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Gauranlen Leaves (Pattern C) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternCorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (pattern C)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Gauranlen Leaves (Pattern D) -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternDorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (pattern D)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Corkboard -->
+	<!-- Common spelling edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_corkboard"]/label</xpath>
+		<value>
+			<label>cork board</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Fits any workshop. Starts off as the 1x1 version. Rotate it to explore the longer connected versions.
+	-->
+	<!-- Removed 4th wall dev comment -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_corkboard"]/description</xpath>
+		<value>
+			<description>Fits any workshop. Rotate it to explore the longer connected versions.</description>
+		</value>
+	</Operation>
+
+</Patch>

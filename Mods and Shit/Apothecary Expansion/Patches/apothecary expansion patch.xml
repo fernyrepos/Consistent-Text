@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>    
+	
+	<!-- Original: Basic Apothecary Table -->
+	<!-- Capitalization, immersive rename -->
+    <Operation Class="PatchOperationReplace">
+		<success>Always</success>
+        <xpath>Defs/ThingDef[defName="Untamo_AYApothecaryTable_Basic"]/label</xpath>
+        <value>
+            <label>simple apothecary table</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Intermediate Apothecary Table -->
+	<!-- Capitalization, immersive rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Untamo_AYApothecaryTable_Intermediate"]/label</xpath>
+		<value>
+			<label>apothecary table</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Advanced Apothecary Table -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Untamo_AYApothecaryTable_Advanced"]/label</xpath>
+		<value>
+			<label>advanced apothecary table</label>
+		</value>
+	</Operation>
+	
+</Patch>

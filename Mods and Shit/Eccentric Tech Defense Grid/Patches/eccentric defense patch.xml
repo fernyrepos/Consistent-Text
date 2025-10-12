@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+	<!-- Original: shield projector (wide-area) -->
+	<!-- Vanilla style edit -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Eccentric_ShieldProjectorWide"]/label</xpath>
+        <value>
+            <label>wide area shield projector</label>
+        </value>
+    </Operation>
+	
+	<!-- Original: shield projector (3x3 wide-area) -->
+	<!-- Vanilla style edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Eccentric_ShieldProjector3x3Wide"]/label</xpath>
+		<value>
+			<label>wide area shield projector (3x3)</label>
+		</value>
+	</Operation>
+	
+</Patch>

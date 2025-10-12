@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+
+	<!-- Original: Nutrient Solution PipeSystem -->
+	<!-- Immersive rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/DesignationCategoryDef[defName="NutrientSolutionPipeSystem"]/label</xpath>
+		<value>
+			<label>Hydroponics</label>
+		</value>
+	</Operation>
+
+	<!-- Original: underground Nutrient pipe -->
+	<!-- Vanilla edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMo_NutrientPipeUnderground"]/label</xpath>
+		<value>
+			<label>hidden nutrient pipe</label>
+		</value>
+	</Operation>
+
+	<!-- Original: SurvivalNutrientPack Crate -->
+	<!-- Immersive rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SurvivalNutrientPackCrateA"]/label</xpath>
+		<value>
+			<label>nutrient paste survival crate</label>
+		</value>
+	</Operation>
+
+	<!-- Original: SurvivalNutrientPack Crate -->
+	<!-- Immersive rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SurvivalNutrientPackCrateB"]/label</xpath>
+		<value>
+			<label>nutrient paste survival crate</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Nutrient solution Crate -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="NutrientSolutionCrate"]/label</xpath>
+		<value>
+			<label>nutrient solution crate</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Cloths Crate -->
+	<!-- Capitalization, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ClothCrate"]/label</xpath>
+		<value>
+			<label>cloth crate</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Devilstrand Crate -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DevilstrandCrate"]/label</xpath>
+		<value>
+			<label>devilstrand crate</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Survival nutrient pastes pack -->
+	<!-- More readable name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SurvivalNutrientPack"]/label</xpath>
+		<value>
+			<label>nutrient paste suvival pack</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Damaged Ancient hydroponics -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DamagedHydro"]/label</xpath>
+		<value>
+			<label>damaged ancient hydroponics</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Dual HydroponicsBasin -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AncientDualHydroponicsBasin"]/label</xpath>
+		<value>
+			<label>ancient dual hydroponics basin</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Damaged Sun lamp -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DamagedSunlamp"]/label</xpath>
+		<value>
+			<label>damaged sun lamp</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Underground Pipeline that carries nutrient solution for hydroponics.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMo_NutrientPipeUnderground"]/description</xpath>
+		<value>
+			<description>Underground pipeline that carries nutrient solution for hydroponics.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An pressurized Nutrient tank meant to be used as a buffer.
+	-->
+	<!-- Capitalization, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMo_NutrientTankSmall"]/description</xpath>
+		<value>
+			<description>A pressurized nutrient tank meant to be used as a buffer.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An ancient dual artificial nutrient bath for growing plants,Its core components have long been damaged, and only the sun lamps installed inside are still emitting weak light.
+	-->
+	<!-- Grammar, consistency -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AncientDualHydroponicsBasin"]/description</xpath>
+		<value>
+			<description>An ancient dual artificial nutrient bath for growing plants. Its core components have long been damaged, but the sun lamps installed inside are still emitting a weak glow.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An ancient self-powered Sunlamp. Its internal power supply is badly depleted, but it still emits a weak glow.
+	-->
+	<!-- Consistency, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DamagedSunlamp"]/description</xpath>
+		<value>
+			<description>An ancient self-powered sun lamp. Its internal power supply is badly depleted, but it still emits a weak glow.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An ancient self-powered Sunlamp.Its shell is sturdy, and it is powered by a thermonuclear battery inside, providing a very long lifespan. Automatically turns itself off at night.
+	-->
+	<!-- Grammar, capitalization, consistency, conciseness -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AncientSunlamp"]/description</xpath>
+		<value>
+			<description>An ancient self-powered sun lamp. Its shell is sturdy, and it is powered by a thermonuclear battery inside which provides a very long lifespan. Automatically turns off at night.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	>Ancient nutrient solution feedport, It's already damaged.
+	-->
+	<!-- Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AncientNutrientSolutionFeedPort"]/description</xpath>
+		<value>
+			<description>An ancient nutrient solution feedport. It's damaged.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Ancient nutrient solution outlet, It's already damaged.
+	-->
+	<!-- Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AncientNutrientSolutionOutlet"]/description</xpath>
+		<value>
+			<description>An ancient nutrient solution outlet. It's damaged.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The boxes of survival nutrient pastes pack stacked in the Crate，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources
+	-->
+	<!-- Grammar, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SurvivalNutrientPackCrateA"]/description</xpath>
+		<value>
+			<description>Boxes of nutrient paste survival packs are stacked in the crate. They are bound by tarpaulins and rope. Perhaps breaking the crate can yield some resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	(ditto)
+	-->
+	<!--  -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SurvivalNutrientPackCrateB"]/description</xpath>
+		<value>
+			<description>Boxes of nutrient paste survival packs are stacked in the crate. They are bound by tarpaulins and rope. Perhaps breaking the crate can yield some resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	(ditto)
+	-->
+	<!--  -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="NutrientSolutionCrate"]/description</xpath>
+		<value>
+			<description>Boxes of nutrient paste survival packs are stacked in the crate. They are bound by tarpaulins and rope. Perhaps breaking the crate can yield some resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Many cloths stacked in the Crate，They are bound by tarpaulins and ropes, perhaps destroying it can obtain some resources
+	-->
+	<!-- Grammar, consistency -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName=""]/description</xpath>
+		<value>
+			<description>Bolts of cloth are stacked in the crate. They are bound by tarpaulins and rope. Perhaps breaking the crate can yield some resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Many Devilstrands stacked in the Crate，They are bound by tarpaulins and ropes, perhaps destroying it can obtain some resources
+	-->
+	<!-- Grammar, consistency -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DevilstrandCrate"]/description</xpath>
+		<value>
+			<description>Bolts of devilstrand fabric are stacked in the crate. They are bound by tarpaulins and rope. Perhaps breaking the crate can yield some resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals.Everything the body needs,It has been packaged，While it never rots,and absolutely disgusting.
+	-->
+	<!-- Grammar, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SurvivalNutrientPack"]/description</xpath>
+		<value>
+			<description>A packaged synthetic mixture of protein, carbohydrates, vitamins, amino acids, and minerals - everything the body needs. While it never rots, the meal is absolutely disgusting.</description>
+		</value>
+	</Operation>
+	
+</Patch>

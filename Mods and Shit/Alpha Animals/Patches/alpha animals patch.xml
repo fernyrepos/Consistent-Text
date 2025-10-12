@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Copy from Ferny's Anomaly Fleshbeasts or Sarg Fleshbeasts? mod: https://steamcommunity.com/sharedfiles/filedetails/?id=3234422589 -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AA_MatureFleshbeast"]/label</xpath>
+		<value>
+			<label>mature genetic horror</label>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="AA_MatureFleshbeast"]/label</xpath>
+		<value>
+			<label>mature genetic horror</label>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AA_MatureFleshbeast"]/description</xpath>
+		<value>
+			<description>The unwanted result of a genetic experiment gone wrong, genetic horrors are usually miserable, weak creatures that ooze pus and struggle to keep breathing for longer than a few days. Sometimes, however, a fleshbeast manages to survive, and even thrive. Perhaps it was foolishly released into the wild, where it managed to stabilize and grow. Or perhaps it was stronger than average, and managed to subdue and devour its imprudent creators. In any case, it has now turned into a pulsating, fleshy behemoth with a ravenous appetite.\n\nMature fleshbeasts swallow their prey whole, storing up to 5 creatures on its huge stomach for later consumption. Prey may survive for up to one day, but they'll later be consumed and expelled as skeletized remains.</description>
+		</value>
+	</Operation>
+	
+</Patch>

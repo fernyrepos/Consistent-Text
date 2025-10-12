@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+	<!-- Original: bondageBed -->
+	<!-- More functional name -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="SR_Building_BondageBed"]/label</xpath>
+        <value>
+            <label>prisoner bed</label>
+        </value>
+    </Operation>
+
+	<!-- Original: advanced bondageBed -->
+	<!-- More functional name, shorter -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_Building_AdvancedBondageBed"]/label</xpath>
+		<value>
+			<label>masochist bed</label>
+		</value>
+	</Operation>
+
+	<!-- Original: poor mattress -->
+	<!-- More specific, shorter name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_Building_Mattress"]/label</xpath>
+		<value>
+			<label>cot</label>
+		</value>
+	</Operation>
+
+	<!-- Original: double nice bed -->
+	<!-- Style edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_DoubleNiceBed"]/label</xpath>
+		<value>
+			<label>nice double bed</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Bound prisoners on it to make sure that they can't make trouble for you.
+	-->
+	<!-- Rewritten for readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_Building_BondageBed"]/description</xpath>
+		<value>
+			<description>Bind prisoners to this bed to gaurantee they do not cause trouble.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	If your colonists need some hard way to weather the storm,this can help you. Please don't worry, it is very comfortable like a common bed.
+	-->
+	<!-- Rewritten for readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_Building_AdvancedBondageBed"]/description</xpath>
+		<value>
+			<description>Some colonists may desire restraint to weather the storm. Do not worry, the bed is very comfortable.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	It is comfortable for Masochists. High voltage mode also can make prisoners die. \nIt need much power in running.Make sure you have enough power to run it.
+	-->
+	<!-- Rewritten for readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_Building_Mattress"]/description</xpath>
+		<value>
+			<description>A comfortable spot for Masochists. High voltage mode allows for executing prisoners. \nRequires power to use.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A makeshift bed, slightly uncomfortable but can save resources.
+	-->
+	<!-- Rewritten for readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_SimpleBed"]/description</xpath>
+		<value>
+			<description>A simple mattress which is slightly uncomfortable but can save on building materials.</description>
+		</value>
+	</Operation>
+	
+</Patch>

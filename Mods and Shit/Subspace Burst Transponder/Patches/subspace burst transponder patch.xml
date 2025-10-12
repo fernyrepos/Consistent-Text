@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+    <!-- Original: Subspace Burst Transponder -->
+	<!-- Vanilla rename - no FTL mention, capitalization -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Building_SubspaceBurstTransponder"]/label</xpath>
+        <value>
+            <label>burst transponder</label>
+        </value>
+    </Operation>
+
+</Patch>

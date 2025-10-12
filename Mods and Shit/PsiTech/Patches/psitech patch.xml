@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Psychic Workbench -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PTPsychicWorkbench"]/label</xpath>
+		<value>
+			<label>psychic workbench</label>
+		</value>
+	</Operation>
+
+	<!-- Psychic Trainer -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PTPsychicTraier"]/label</xpath>
+		<value>
+			<label>psychic trainer</label>
+		</value>
+	</Operation>
+
+	<!-- Psychic Suppression Field Projector -->
+	<!-- Capitalization, shorter name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PTPsychicSuppressionFieldProjector"]/label</xpath>
+		<value>
+			<label>psychic suppressor</label>
+		</value>
+	</Operation>
+	
+</Patch>

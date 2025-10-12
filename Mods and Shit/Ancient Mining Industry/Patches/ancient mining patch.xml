@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>    
+	
+	<!-- Original: Tunnel Boring Machine -->
+	<!-- Capitalization -->
+    <Operation Class="PatchOperationReplace">
+		<success>Always</success>
+        <xpath>Defs/ThingDef[defName="BreadMoAM_TunnelBoringMachine"]/label</xpath>
+        <value>
+            <label>tunnel boring machine</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Electrical Appliances -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_ElectricalEquipment"]/label</xpath>
+		<value>
+			<label>electrical appliances</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Mineral Conveyor -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_MineralConveyor"]/label</xpath>
+		<value>
+			<label>mineral conveyor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Tunnel Structural Support -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_TunnelStructuralSupport_a"]/label</xpath>
+		<value>
+			<label>tunnel structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Tunnel Structural Support -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_TunnelStructuralSupport_b"]/label</xpath>
+		<value>
+			<label>tunnel structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Mineral Outlet -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_MineralExports"]/label</xpath>
+		<value>
+			<label>mineral outlet</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ore Dressing Machine -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_OreDressingMachine"]/label</xpath>
+		<value>
+			<label>ore dressing machine</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Automatic Drilling Rig -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig"]/label</xpath>
+		<value>
+			<label>automatic drilling rig</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Mud Carriage -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMudCarriage"]/label</xpath>
+		<value>
+			<label>ancient mud carriage</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Steel Mining Car -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientSteelMiningCars"]/label</xpath>
+		<value>
+			<label>ancient steel mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Uranium Mining Car -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientUraniumMiningCars"]/label</xpath>
+		<value>
+			<label>ancient uranium mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Plasteel Mining Car -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientPlasteelMiningCars"]/label</xpath>
+		<value>
+			<label>ancient plasteel mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Empty Mining Car -->
+	<!-- Capitalization, shorter name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientEmptyMiningCar"]/label</xpath>
+		<value>
+			<label>ancient mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Rock Mining Car -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientRockMiningCar"]/label</xpath>
+		<value>
+			<label>ancient rock mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Indoor Fire Hydrants -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientIndoorFireHydrants"]/label</xpath>
+		<value>
+			<label>ancient indoor fire hydrant</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Barrier Gate -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientBarrierGate"]/label</xpath>
+		<value>
+			<label>ancient barrier gate</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Truck Compartment -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTruckCompartment"]/label</xpath>
+		<value>
+			<label>ancient truck compartment</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Semi Trailer -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientSemiTrailer"]/label</xpath>
+		<value>
+			<label>ancient semi trailer</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Rusted Truck -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientRustedTruck"]/label</xpath>
+		<value>
+			<label>ancient rusted truck</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Warning Board -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_WarningBoard"]/label</xpath>
+		<value>
+			<label>warning sign</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Discarded Radiation Suit -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_DiscardedRadiationSuit"]/label</xpath>
+		<value>
+			<label>discarded radiation suit</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Pick Axe -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_PickAxe"]/label</xpath>
+		<value>
+			<label>pick axe</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Broken Turret -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientBrokenTurret"]/label</xpath>
+		<value>
+			<label>ancient broken turret</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Mini Shotgun Turret -->
+	<!-- Capitalization, style edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurret"]/label</xpath>
+		<value>
+			<label>ancient shotgun mini turret</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Mini Shotgun Turret -->
+	<!-- Capitalization, style edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurretN"]/label</xpath>
+		<value>
+			<label>shotgun mini turret</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Large Caliber Shotgun Turret -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_LargeShotgun"]/label</xpath>
+		<value>
+			<label>large caliber shotgun turret</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Tunnel Boring Machine -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelBoringMachine"]/label</xpath>
+		<value>
+			<label>ancient tunnel boring machine</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Electrical Appliances -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientElectricalEquipment"]/label</xpath>
+		<value>
+			<label>ancient electrical appliances</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Mineral Conveyor -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMineralConveyor"]/label</xpath>
+		<value>
+			<label>ancient mineral conveyor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Structural Support -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_a"]/label</xpath>
+		<value>
+			<label>ancient structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Structural Support -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_b"]/label</xpath>
+		<value>
+			<label>ancient structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Structural Support -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_c"]/label</xpath>
+		<value>
+			<label>ancient structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Mineral Outlet -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMineralExports"]/label</xpath>
+		<value>
+			<label>ancient mineral outlet</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Ore Dressing Machine -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientOreDressingMachine"]/label</xpath>
+		<value>
+			<label>ancient ore dressing machine</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Automatic Drilling Rig -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientAutomaticDrillingRig"]/label</xpath>
+		<value>
+			<label>ancient automatic drilling rig</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Giant Rock Excavator Chassis -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientGiantRockExcavator"]/label</xpath>
+		<value>
+			<label>ancient giant rock excavator chassis</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Excavator Power System -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorPowerFacilities"]/label</xpath>
+		<value>
+			<label>ancient excavator power system</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Ancient Excavator Bucket Wheel -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorBucketWheel"]/label</xpath>
+		<value>
+			<label>ancient excavator bucket wheel</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The remains of what was an automatical drill desingned for automatic ore extraction, once supported by a multitude of infrastructures. Missing most supporting infrastructures, and, most critically, its core components, it wouldn't function as of now. Destroying it may yield some useful resources.
+	-->
+	<!-- Spelling, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientAutomaticDrillingRig"]/description</xpath>
+		<value>
+			<description>The remains of what was a drill designed for automatic ore extraction. It is missing most of its various supporting infrastructure and core components. It currently cannot function. Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The gigantic husk of what was a mountain-devouring mechanical beast, larger than most conventional buildings. Maybe the ancient human being hated their planet, so much that they built this piece of machinery to tear it down. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources.
+	-->
+	<!-- Grammar, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientGiantRockExcavator"]/description</xpath>
+		<value>
+			<description>The gigantic husk of what was a mountain-devouring mechanical beast, larger than most conventional buildings. Maybe ancient human beings hated their planet so much that they built this piece of machinery to tear it down. With its core components rusted and weathered, however, it no longer functions. Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Torn power system of the ancient giant rock excavator. Back in its hayday, this electro-hydraulic driven engine ccould easily lift giant rocks or, even better, a whole mountain with ease. With its core components gone, however, it just woudn't function as of now.Destroying it may yield some useful resources.
+	-->
+	<!-- Spelling, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorPowerFacilities"]/description</xpath>
+		<value>
+			<description>The torn power system of the ancient rock excavator. Back in its hayday, this electro-hydraulic engine could easily lift giant rocks or even a whole mountain with ease. With its core components gone, however, it no longer functions. Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A rusted bucket wheel of ancient giant rock excavator. Made of high-strength alloy, these wheels could, at one time, grind down stone chunks with ease. With its core components lost, however, it just woudn't function as of now.Destroying it may yield some useful resources.
+	-->
+	<!-- Grammar, consistency with other edits -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorBucketWheel"]/description</xpath>
+		<value>
+			<description>A rusted bucket wheel of ancient giant rock excavator. Made of high-strength alloy, these wheels could, at one time, grind down stone chunks with ease. With its core components lost, however, it no longer functions. Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An ancient ore dressing machine. Once capable of screening useable metal from slags or rubbles using water washing, sieving and magnets, with its core components gone, it just woudn't function as of now.Destroying it may yield some useful resources.
+	-->
+	<!-- Grammar, spelling -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientOreDressingMachine"]/description</xpath>
+		<value>
+			<description>An ancient ore dressing machine that was once capable of screening usable metal from slags or rubbles using water washing, sieving, and magnets. With its core components gone, it no longer functions. Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The rusted, gigantic husk of an ancient tunnel boring machine. Bearing a horrible look more like a sandworm on the outside, it was used to dig through the mountains in the mean time of building tunnels. Back into its haydays, every motion of this behemoth trembles the ground more like manmade earthquake, plus its imposing digging disk that could eat through any material with ease. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources.
+	-->
+	<!-- Grammar, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelBoringMachine"]/description</xpath>
+		<value>
+			<description>The rusted, gigantic husk of an ancient tunnel boring machine. Bearing a horrible appearance more like a sandworm, it was used to dig through the mountains for constructing tunnels. Back in its haydays, every motion of this behemoth trembled the ground almost like manmade earthquake. Plus, its imposing digging disk can eat through any material with ease. With its core components rusted and weathered, however, it no longer functions. Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Weathered electrical appliances once used in an ancient tunnel boring machines. Back in its haydays, it was capable of converting electricity into hydraulic power, thus powering up the drilling behemoth at one flick of switch. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources.
+	-->
+	<!-- Grammar, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientElectricalEquipment"]/description</xpath>
+		<value>
+			<description>Weathered electrical appliances once used in an ancient tunnel boring machine. Back in its hayday, it was capable of converting electricity into hydraulic power, thus powering up the drilling behemoth with a flick of the switch. With its core components rusted and weathered, however, it no longer functions. Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A torn ancient mineral conveyor once used for transporting minerals to beneficiation machines or any other locations of mind. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources.
+	-->
+	<!-- Grammar, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMineralConveyor"]/description</xpath>
+		<value>
+			<description>A torn ancient mineral conveyor once used for transporting minerals to beneficiation machines. With its core components rusted and weathered, however, it no longer functions. Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources.
+	-->
+	<!-- Grammar, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_a"]/description</xpath>
+		<value>
+			<description>A piece of ancient tunnel support frame used to support tunnels during construction. It is compact with a corridor for workers on top. With most of the framework well rusted and weathered, however, it can no longer support anything.	Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	ditto
+	-->
+	<!--  -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_b"]/description</xpath>
+		<value>
+			<description>A piece of ancient tunnel support frame used to support tunnels during construction. It is compact with a corridor for workers on top. With most of the framework well rusted and weathered, however, it can no longer support anything.	Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	ditto
+	-->
+	<!--  -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_c"]/description</xpath>
+		<value>
+			<description>A piece of ancient tunnel support frame used to support tunnels during construction. It is compact with a corridor for workers on top. With most of the framework well rusted and weathered, however, it can no longer support anything.	Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A piece of ancient mineral outlet. With its core components rusted and weathered, it just woudn't function as of now.Destroying it may yield some useful resources.
+	-->
+	<!-- Grammar, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMineralExports"]/description</xpath>
+		<value>
+			<description>A piece of an ancient mineral outlet. With its core components rusted and weathered, it no longer functions. Destroying it may yield some useful resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An ancient compact mini Shotgun turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.
+	-->
+	<!-- Capitalization, readability, consistency -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurret"]/description</xpath>
+		<value>
+			<description>An ancient shotgun mini turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	ditto
+	-->
+	<!--  -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurretN"]/description</xpath>
+		<value>
+			<description>An ancient shotgun mini turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A mining car loaded with mud
+	-->
+	<!-- Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMudCarriage"]/description</xpath>
+		<value>
+			<description>A mining car loaded with mud.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A mining car loaded with Steel，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources.
+	-->
+	<!-- Capitalization, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientSteelMiningCars"]/description</xpath>
+		<value>
+			<description>A mining car loaded with steel，The ore is bound by tarpaulins and ropes. Perhaps destroying it may yield some resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A mining car loaded with Uranium，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources.
+	-->
+	<!-- Capitalization, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientUraniumMiningCars"]/description</xpath>
+		<value>
+			<description>A mining car loaded with uranium，The ore is bound by tarpaulins and ropes. Perhaps destroying it may yield some resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A mining car loaded with Plasteel，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources.
+	-->
+	<!-- Capitalization, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientPlasteelMiningCars"]/description</xpath>
+		<value>
+			<description>A mining car loaded with plasteel，The plasteel is bound by tarpaulins and ropes. Perhaps destroying it may yield some resources.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An empty mine car
+	-->
+	<!-- Capitalization, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientEmptyMiningCar"]/description</xpath>
+		<value>
+			<description>An empty mine car.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A mining car loaded with Rock
+	-->
+	<!-- Capitalization, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientRockMiningCar"]/description</xpath>
+		<value>
+			<description>A mining car loaded with rock.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The large shotgun turret, badly damaged, is no longer usable.
+	-->
+	<!-- Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientBrokenTurret"]/description</xpath>
+		<value>
+			<description>A large shotgun turret. Badly damaged, is no longer usable.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A straightforward automatic drilling system built for automated mining. Mines up ores 24/7 so long as it is properly powered and placed on a tile with discovered ore deposit.
+	-->
+	<!-- Grammar, immersion: removed reference to Earth time -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig"]/description</xpath>
+		<value>
+			<description>A straightforward automatic drilling system built for automated mining. Constantly mines up ore so long as it is properly powered and placed on a tile with a discovered ore deposit.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An ore dressing machine brought back to life.Utilizing a mix of water washing, sieving and magnets, it screens useable metals from slags and blocks alike.
+	-->
+	<!-- Grammar, consistency, hopefully more understandable - TODO if not -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_OreDressingMachine"]/description</xpath>
+		<value>
+			<description>An ore dressing machine brought back to life. Utilizing a mix of water washing, sieving, and magnets, it screens useable metals from slag and chunks alike.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A reanimated tunnel boring machine. Bearing a horrible look more like a sandworm on the outside, this mountain-trembling beast can dig through the mountains and create tunnels. With its imposing digging disk in the front, this gigantic machine is ready to chew through any mountain at your choice.
+	-->
+	<!-- Style edit, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_TunnelBoringMachine"]/description</xpath>
+		<value>
+			<description>A reanimated tunnel boring machine. Bearing a horrible appearance more like a sandworm, this trembling beast can dig through mountains and create tunnels. With its imposing digging disk in the front, this gigantic machine is ready to chew through any rock of your choice.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Miscellaneous electrical appliances used to power up the tunnel boring machine of yours. They convert electricity into hydraulic power to power the tunnel boring machine.（decoration）
+	-->
+	<!-- Clearer description -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_ElectricalEquipment"]/description</xpath>
+		<value>
+			<description>Electrical appliances meant to assist a reanimated tunnel boring machine. They are purely decorative and do not function.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A rebuilt mineral conveyor. Can be used to transport minerals to beneficiation machines or other places of choice.（decoration）
+	-->
+	<!-- Clearer description -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_MineralConveyor"]/description</xpath>
+		<value>
+			<description>A rebuilt mineral conveyor meant to assist a reanimated tunnel boring machine. It is purely decorative and does not function.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A piece of tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top.
+	-->
+	<!-- Clearer description -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_TunnelStructuralSupport_a"]/description</xpath>
+		<value>
+			<description>A piece of ancient tunnel support frame used to support tunnels during construction. It is purely decorative and does not function.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	ditto
+	-->
+	<!-- Clearer description -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_TunnelStructuralSupport_b"]/description</xpath>
+		<value>
+			<description>A piece of ancient tunnel support frame used to support tunnels during construction. It is purely decorative and does not function.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A mineral outlet, nothing more, nothing less.
+	-->
+	<!-- Grammar, clearer description -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BreadMoAM_MineralExports"]/description</xpath>
+		<value>
+			<description>A mineral outlet. Nothing more, nothing less. It is purely decorative and does not function.</description>
+		</value>
+	</Operation>
+	
+</Patch>

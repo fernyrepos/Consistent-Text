@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Original: animal prosthetics and bionics table -->
+	<!-- Shorter name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AI_AnimalProstheticsTable"]/label</xpath>
+		<value>
+			<label>animal bionics table</label>
+		</value>
+	</Operation>
+
+	<!-- Original: advanced animal prosthetics and bionics table -->
+	<!-- Shorter name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AI_AdvancedAnimalProstheticsTable"]/label</xpath>
+		<value>
+			<label>advanced animal bionics table</label>
+		</value>
+	</Operation>
+	
+</Patch>

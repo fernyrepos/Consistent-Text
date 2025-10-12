@@ -13,6 +13,10 @@
 		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
+	<incompatibleWith>
+		<li>ferny.sculptingbench</li>	<!-- Redundant, patches included -->
+		<li>ferny.fleshbeasts</li>		<!-- Redundant, patches included -->
+	</incompatibleWith>
 	<loadAfter>
 <!-- CORE+DLCS -->
 		<li>Ludeon.Rimworld</li>
@@ -35,5 +39,60 @@
 		<li>vanillaexpanded.vfecore</li>
 		<li>xercaine.walltelevisions</li>
 		<li>vanillaexpanded.vfefarming</li>
+		<li>VanillaExpanded.VGeneticsE</li>
+		<li>sarg.alphaanimals</li>
+		<li>vanillaexpanded.vanillaaspirationsexpanded</li>
+		<li>cn.theresnothinghere</li>
+		<li>als.gravtech</li>
+		<li>dubwise.rimatomics</li>
+		<li>k.psitech</li>
+		<li>aelanna.eccentrictech.furniture</li>
+		<li>vat.epoeforked</li>
+		<li>sarg.alphacrafts</li>
+		<li>det.epochspottery</li>
+		<li>fox.simplelearning</li>
+		<li>vanillaexpanded.vcookehaute</li>
+		<li>vanillaexpanded.vbookse</li>
+		<li>mlie.apothecary</li>
+		<li>aoba.fortress.medieval.material</li>
+		<li>untamo.apothecary.expansion</li>
+		<li>propickelz.tinkerbench</li>
+		<li>xmb.ancienthydroponicfarmfacilities.mo</li>
+		<li>xmb.ancientminingindustry.mo</li>
+		<li>salvador143.mthings.geysers</li>
+		<li>relvl.digitalstorageunit</li>
+		<li>side1iner.possessionsplus</li>
+		<li>resurrectionem.furnitureasia</li>
+		<li>resurrectionem.furniture</li>
+		<li>mlie.bondagebedtorture</li>
+		<li>ucp.walldecorations</li>
+		<li>mrhydralisk.complementaryodyssey</li>
+		<li>sarg.alphaimplants</li>
+		<li>aelanna.eccentrictech.fusionpower</li>
+		<li>tot.celetech.sub.fbs</li>
+		<li>22.anomalyportal</li>
+		<li>mlie.temperaturegauge</li>
+		<li>zal.sbt</li>
+		<li>drilledhead.zipline</li>
+		<li>mlie.jwlatmosphericwaterprocessor</li>
+		<li>mlie.atmosphericwatercollection</li>
+		<li>sumghai.replimat</li>
+		<li>sumghai.medpod</li>
+		<li>k.glitternet</li>
+		<li>dubwise.rimefeller</li>
+		<li>dimonsever000.animaobelisk.specific</li>
+		<li>biotexpans.mythic</li>
+		<li>dubwise.dubsbadhygiene</li>
+		<li>reel.turretpipeline</li>
+		<li>mlie.drakkenlaserdrill</li>
+		<li>sbz.cryogenictank</li>
+		<li>aoba.fortress.industrial</li>
+		<li>vanillaexpanded.recycling</li>
+		<li>kyzy.shipwallenhanced</li>
+		<li>bart.wbe</li>
+		<li>aelanna.eccentrictech.defensegrid</li>
+		<li>bambaryla.vcepu</li>
+		<li>nalzurin.autoimplanter</li>
+		<li>acutus.electrofishing</li>
 	</loadAfter>
 </ModMetaData> 

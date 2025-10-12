@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Original: MMFS (small) -->
+	<!-- More functional name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Eccentric_FusionGeneratorSmall"]/label</xpath>
+		<value>
+			<label>small stellarator</label>
+		</value>
+	</Operation>
+
+	<!-- Original: MMFS -->
+	<!-- More functional name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Eccentric_FusionGenerator"]/label</xpath>
+		<value>
+			<label>stellarator</label>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Original: Rimatomics -->
+	<!-- Vanilla rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/DesignationCategoryDef[defName="Rimatomics"]/label</xpath>
+		<value>
+			<label>Nuclear</label>
+		</value>
+	</Operation>
+	
+	<!-- Original: Rimatomics machining table -->
+	<!-- Vanilla rename, specific name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableRimatomicsMachining"]/label</xpath>
+		<value>
+			<label>nuclear machining table</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Rimatomics research bench -->
+	<!-- Vanilla rename, specific name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="NuclearResearchBench"]/label</xpath>
+		<value>
+			<label>nuclear research bench</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Plutonium Processor -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PlutoniumProcessor"]/label</xpath>
+		<value>
+			<label>plutonium processor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Research Reactor -->
+	<!-- Capitalization, more specific name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ResearchReactor"]/label</xpath>
+		<value>
+			<label>nuclear research reactor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Weapons Research Bench -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="WeaponsBench"]/label</xpath>
+		<value>
+			<label>weapons research bench</label>
+		</value>
+	</Operation>
+
+	<!-- Original: coolant pipe (hidden) -->
+	<!-- Vanilla style -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="coolingPipeHidden"]/label</xpath>
+		<value>
+			<label>hidden coolant pipe</label>
+		</value>
+	</Operation>
+
+	<!-- Original: steam water pipe (hidden) -->
+	<!-- Vanilla style -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="steamPipeHidden"]/label</xpath>
+		<value>
+			<label>hidden steam pipe</label>
+		</value>
+	</Operation>
+
+	<!-- Original: cold water pipe (hidden) -->
+	<!-- Vanilla style -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="waterPipeHidden"]/label</xpath>
+		<value>
+			<label>hidden cold water pipe</label>
+		</value>
+	</Operation>
+
+	<!-- Original: High Voltage -->
+	<!-- Capitalization, complete name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="HighVoltage"]/label</xpath>
+		<value>
+			<label>high voltage cable</label>
+		</value>
+	</Operation>
+
+	<!-- Original: high voltage (hidden) -->
+	<!-- Vanilla style -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="HighVoltageHidden"]/label</xpath>
+		<value>
+			<label>hidden high voltage cable</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Console Loom -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="controllerLoom"]/label</xpath>
+		<value>
+			<label>console loom</label>
+		</value>
+	</Operation>
+
+	<!-- Original: console loom (hidden) -->
+	<!-- Vanilla style -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="controllerLoomHidden"]/label</xpath>
+		<value>
+			<label>hidden console loom</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Reactor Type A -->
+	<!-- More specific name, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReactorCoreA"]/label</xpath>
+		<value>
+			<label>Type A fission reactor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Reactor Type X -->
+	<!-- More specific name, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReactorCoreB"]/label</xpath>
+		<value>
+			<label>Type X fission reactor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Reactor Type V -->
+	<!-- More specific name, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReactorCoreC"]/label</xpath>
+		<value>
+			<label>Type V fission reactor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Thor Turbine -->
+	<!-- Capitalization, vanilla rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Turbine"]/label</xpath>
+		<value>
+			<label>Thor turbine generator</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Zeus Turbine -->
+	<!-- Capitalization, vanilla rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BigTurbine"]/label</xpath>
+		<value>
+			<label>Zeus turbine generator</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Water Cooling -->
+	<!-- Capitalization, complete and purposeful rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CoolingWater"]/label</xpath>
+		<value>
+			<label>water exchanger</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Cooling Tower -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CoolingTower"]/label</xpath>
+		<value>
+			<label>cooling tower</label>
+		</value>
+	</Operation>
+
+	<!-- Original: High Voltage Transformer -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Transformer"]/label</xpath>
+		<value>
+			<label>high voltage transformer</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Storage Pool -->
+	<!-- Capitalization, more specific name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="storagePool"]/label</xpath>
+		<value>
+			<label>fuel storage pool</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Radiation Detector -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RadiationDetector"]/label</xpath>
+		<value>
+			<label>radiation detector</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Sarcophagus Type A -->
+	<!-- Readability, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReactorSacrophagus"]/label</xpath>
+		<value>
+			<label>Type A sarcophagus</label>
+		</value>
+	</Operation>
+	
+	<!-- Original: Sarcophagus Type X -->
+	<!-- Readability, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReactorSacrophagusB"]/label</xpath>
+		<value>
+			<label>Type X sarcophagus</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Sarcophagus Type V -->
+	<!-- Readability, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReactorSacrophagusC"]/label</xpath>
+		<value>
+			<label>Type V sarcophagus</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Reinforced DU Wall -->
+	<!-- More functional name, collides less with mods adding DU -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RadiationShielding"]/label</xpath>
+		<value>
+			<label>shielding wall</label>
+		</value>
+	</Operation>
+
+	<!-- Original: DU Blast door -->
+	<!-- More functional name, collides less with mods adding DU -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DU_Blastdoor"]/label</xpath>
+		<value>
+			<label>shielding door</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Contains Rimatomics research projects. Requires power.
+	-->
+	<!-- Vanillafication, purpose edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="NuclearResearchBench"]/description</xpath>
+		<value>
+			<description>A workbench for completing nuclear and weapons research projects. Requires power.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A work station for assembling Rimatomics technologies
+	-->
+	<!-- Vanillafication, grammar, common spelling edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableRimatomicsMachining"]/description</xpath>
+		<value>
+			<description>A workstation for assembling nuclear and weapons technologies.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Research reactor.
+	-->
+	<!-- Fill out description -->
+	<!-- Not completely sure this description is accurate. Maybe TODO -pillbug2 -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ResearchReactor"]/description</xpath>
+		<value>
+			<description>A small nuclear reactor. Must be built near a nuclear research bench.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Weapons research bench.
+	-->
+	<!-- Fill out description -->
+	<!-- Not completely sure this description is accurate. Maybe TODO -pillbug2 -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="WeaponsBench"]/description</xpath>
+		<value>
+			<description>Peripheral weapons research station. Must be built near a nuclear research bench.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where nuclear reactions take place and heat is generated
+	-->
+	<!-- Grammar, vanillafication, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReactorCoreA"]/description</xpath>
+		<value>
+			<description>A thermal reactor core a capacity for twenty one fuel rods. A reactor core contains the components where nuclear reactions take place and heat is generated.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited.\n25kW cooling capacity
+	-->
+	<!-- Grammar, conciseness, awareness of advanced radiator mods, units formatting -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CoolingRadiator"]/description</xpath>
+		<value>
+			<description>A compact, passive solution for cooling small nuclear reactors when resources or space is limited.\n25 kilowatt cooling capacity.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans.\n250 kW cooling capacity
+	-->
+	<!-- grammar, conciseness, units formatting -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CoolingWater"]/description</xpath>
+		<value>
+			<description>Provides a large amount of cooling capacity to nuclear reactors by exchanging heat with local bodies of water.\n250 kilowatt cooling capacity.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts
+	-->
+	<!-- grammar, units formatting -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Turbine"]/description</xpath>
+		<value>
+			<description>A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 kilowatts.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt
+	-->
+	<!-- grammar, units formatting -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BigTurbine"]/description</xpath>
+		<value>
+			<description>A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 megawatt.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available.\n250kW cooling capacity
+	-->
+	<!-- grammar, units formatting, conciseness -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CoolingTower"]/description</xpath>
+		<value>
+			<description>Massive air cooler for providing a large cooling capacity to nuclear reactors where no bodies of water are present.\n250 kilwatt cooling capacity.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Provides the final voltage transformation from Turbine Generators, stepping down the voltage used in high voltage lines to the level used by power conduits
+	-->
+	<!-- Grammar, capitalization, less passive wording -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Transformer"]/description</xpath>
+		<value>
+			<description>Performs the final voltage transformation for turbine generators, stepping down high voltages used for distribution to voltages safe for power conduits.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time
+	-->
+	<!-- Grammar, readability, and immersion edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReactorControl"]/description</xpath>
+		<value>
+			<description>Computer system designed to control nuclear reactors. A colonist must man the station to access the controls. Multiple controls can be accessed at the same time.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A storage pool for safely storing spent nuclear fuel rods, water in the pool absorbs radiation, fuel must be manually removed from the pool before it can be used
+	-->
+	<!-- Grammar, readability edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="storagePool"]/description</xpath>
+		<value>
+			<description>A storage pool for safely storing spent nuclear fuel rods. The water in the pool safely absorbs radiation. Fuel must be manually removed from the pool before it can be used again.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Radiation detector, can be placed near reactors to detect radiation leaks
+	-->
+	<!-- Grammar, more specific -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RadiationDetector"]/description</xpath>
+		<value>
+			<description>A radiation detector which can be placed near nuclear reactors to detect radiation leaks.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation
+	-->
+	<!-- Grammar, DU mention removed to not collide with mods adding DU as a stuffable -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RadiationShielding"]/description</xpath>
+		<value>
+			<description>Very dense wall which provides full shielding against radiation exposure.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Very strong blast doors that are reinforced with depleted uranium, providing full shielding against radiation.
+	-->
+	<!-- DU mention removed to not collide with mods adding DU as a stuffable -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DU_Blastdoor"]/description</xpath>
+		<value>
+			<description>Very dense doors which provide full shielding against radiation exposure.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-P3 Pulsed Power Capacitor, stores large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons
+	-->
+	<!-- Grammar, vanillafication, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PPC"]/description</xpath>
+		<value>
+			<description>The RA-P3 Pulsed Power Capacitor bank stores lethal amounts of energy which can be rapidly discharged in a single pulse by compatible energy weapons.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-c85 Semi Automated Command Station, is required by all Rimatomics energy weapons, may require manning for certain weapons to function fully.
+	-->
+	<!-- Vanillafication, readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PPCWeaponsConsole"]/description</xpath>
+		<value>
+			<description>The RA-c85 Semi Automated Command Station is required to use compatible energy weapons. The SACS may be manned by a colonist for certain weapons to fully function.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-92 Target Acquisition and Communication System, uses a combination of technologies to track land and air based targets and communicate with weapon systems.
+	-->
+	<!-- Grammar, more specific -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RadarDish"]/description</xpath>
+		<value>
+			<description>The RA-92 Target Acquisition and Communication System uses a combination of technologies to track land and air targets and coordinate with compatible weapon systems.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial and crowd control. It heats the skin of targeted human subjects causing them to break rank and flee. Does not require line of sight. Requires a manned SACS.
+	-->
+	<!-- Style edit, common spelling edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PPCADS"]/description</xpath>
+		<value>
+			<description>The RA-22 Active Denial System is a non-lethal directed energy weapon designed for area denial and crowd control. It heats the skin of targeted human subjects, causing them to break rank and flee. Does not require line of sight. Requires a manned SACS.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-42T Tesla Coil delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing. Manned SACS required for manual targeting.
+	-->
+	<!-- Grammar, consistency -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PPCTeslaCoil"]/description</xpath>
+		<value>
+			<description>The RA-42T Tesla Coil delivers a huge electrical arc discharge to its targets, resulting in severe burns or death. 100% accurate, medium range, and sets targets on fire. Includes automatic targeting and firing. Requires a manned SACS for manual targeting.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, and attempt to track the target and fire once it is in range.
+	-->
+	<!-- Style edit, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PPCHEL"]/description</xpath>
+		<value>
+			<description>The RA-702 High Energy Laser destroys enemy airborne projectiles such as mortar shells. When a mortar is fired, the system will check if the shell will pass through the range of a HEL and attempt to intercept the target once it is in range.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Requires line of sight. Fire mission does not require line of sight. Manned SACS required for manual targeting. Requires a manned SACS.
+	-->
+	<!-- Grammar, readability, cleanup -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PPCRailgun"]/description</xpath>
+		<value>
+			<description>The RA-1802D Punisher is a twenty five-round magazine fed railgun platform which uses a strong electromagnetic pulse to launch a sabot at extreme velocity and range. Requires line of sight to the target. Fire missions do not require line of sight. Requires a manned SACS for manual targeting.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power. Automatic targeting and firing. Manned SACS required for manual targeting
+	-->
+	<!-- Grammar, consistency -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PPCObelisk"]/description</xpath>
+		<value>
+			<description>The RA-2152-X Obelisk is a directed energy weapon which uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power. Includes automatic targeting and firing. Requires a manned SACS for manual targeting.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, large electromagnetic pulses fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Requires a manned SACS.
+	-->
+	<!-- Readability edit, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PPCMarauder"]/description</xpath>
+		<value>
+			<description>The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform from which strong electromagnetic pulses accelerate a burst of accelerated plasma toroids to extreme velocities. Impacts expose targets to radiation. Requires a manned SACS.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	The RA-S4 Sentinel is an energy shield that uses a combination of lasers, microwaves and arc discharges to create plasma fields which can intercept physical or energy based projectile weapons. A sensor detects a shockwave-producing event, determining a direction and distance of the shockwave relative to a defended target and calculates a firing plan, the device then attenuates the shockwave event using reflection, refraction, dispersion, absorption and momentum transfer.
+	-->
+	<!-- More readable, lifelike edit. Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RimatomicsShieldGenerator"]/description</xpath>
+		<value>
+			<description>The RA-S4 Sentinel is a multi-mode energy shield emitter which uses a combination of lasers, microwaves, and arc emissions to create a defensive barrier. This barrier intercepts physical or energy based projectile weapons. Sensors detect shockwave-producing events, ascertain their pose, and calculate a firing plan. The device then attenuates the event using reflection, refraction, dispersion, absorption and/or momentum transfer.</description>
+		</value>
+	</Operation>
+
+</Patch>

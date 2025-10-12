@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+	
+	<!-- Original: Zipline -->
+	<!-- More functional name, 'hub' is used in other mods for connective buildings and used in description -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Zipline"]/label</xpath>
+        <value>
+            <label>zipline hub</label>
+        </value>
+    </Operation>
+
+	<!--
+	Original:
+	A rapid transportation link for your colony. Connects two Zipline hubs to allow colonists to quickly travel across your base. Ideal for moving resources or personnel with unmatched speed.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Zipline"]/description</xpath>
+		<value>
+			<description>A rapid transportation link for your colony. Connects two zipline hubs to allow colonists to quickly travel across your base. Ideal for moving resources or personnel with unmatched speed.</description>
+		</value>
+	</Operation>
+	
+</Patch>

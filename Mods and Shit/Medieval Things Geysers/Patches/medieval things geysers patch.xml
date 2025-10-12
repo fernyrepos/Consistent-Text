@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>   
+	
+	<!-- Original: Geyser Core -->
+	<!-- Capitalization -->
+    <Operation Class="PatchOperationReplace">
+		<success>Always</success>
+        <xpath>Defs/ThingDef[defName="MThingsGeysersCore"]/label</xpath>
+        <value>
+            <label>geyser core</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Magicyte Harvester -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MThingsGeysersMagicyteHarvester"]/label</xpath>
+		<value>
+			<label>magicyte harvester</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A masterwork of stonecraft and steam ingenuity, the Geyser Core must be built atop an active geyser to function. It channels the earth's heat to adjacent workstations, granting significant work speed bonuses and automatically fueling connected benches. Made entirely from fireproof stone, it also emits a soft, steady glow and gently regulates indoor temperature, making it a vital fixture for any workshop.
+	-->
+	<!-- Use rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MThingsGeysersCore"]/description</xpath>
+		<value>
+			<description>A masterwork of stonecraft and steam ingenuity, the geyser core must be built atop an active geyser to function. It channels the earth's heat to adjacent workstations, granting significant work speed bonuses and automatically fueling connected benches. Made entirely from fireproof stone, it also emits a soft, steady glow and gently regulates indoor temperature, making it a vital fixture for any workshop.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A stone-crafted workbench designed to endure intense heat. It functions well on its own, but when connected to a Geyser Core, it benefits from enhanced work speed. Built entirely from stone, the Stonekettle is immune to fire.
+	-->
+	<!-- Use rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MThingsGeysersStonekettle"]/description</xpath>
+		<value>
+			<description>A stone-crafted workbench designed to endure intense heat. It functions well on its own, but when connected to a geyser core, it benefits from enhanced work speed. Built entirely from stone, the Stonekettle is immune to fire.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A self-contained stone forge built for medieval smithing. It includes an integrated furnace and a solid block of iron that replaces the need for a traditional anvil. Though fully functional on its own, the Smokeforge receives a significant work speed bonus when connected to a Geyser Core. Constructed entirely from stone, it is immune to fire. Ideal for colonies that value speed—and don't mind the heat.
+	-->
+	<!-- Use rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MThingsGeysersSmokeforge"]/description</xpath>
+		<value>
+			<description>A self-contained stone forge built for medieval smithing. It includes an integrated furnace and a solid block of iron that replaces the need for a traditional anvil. Though fully functional on its own, the Smokeforge receives a significant work speed bonus when connected to a geyser core. Constructed entirely from stone, it is immune to fire. Ideal for colonies that value speed—and don't mind the heat.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A compact, fireproof forge built from stone, designed to break down metal objects and dispose of corpses through controlled incineration. Though it functions independently, the Charforge gains a work speed bonus when connected to a Geyser Core. Its small footprint and integrated design make it ideal for tight workshops and frontier keeps. Warning: Do not feed colonists.
+	-->
+	<!-- Use rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MThingsGeysersCharforge"]/description</xpath>
+		<value>
+			<description>A compact, fireproof forge built from stone, designed to break down metal objects and dispose of corpses through controlled incineration. Though it functions independently, the Charforge gains a work speed bonus when connected to a geyser core. Its small footprint and integrated design make it ideal for tight workshops and frontier keeps. Warning: Do not feed colonists.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A heavy stone brewery built for medieval brewing methods. It features an integrated cauldron and requires fuel to operate, though it can also connect to a Geyser Core for enhanced brewing speed. Built entirely from fireproof stone, the Stonebrewery is a durable and efficient centerpiece for any alehouse. A favorite haunt for both colonists and heat-loving microbes.
+	-->
+	<!-- Use rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MThingsGeysersStonebrewery"]/description</xpath>
+		<value>
+			<description>A heavy stone brewery built for medieval brewing methods. It features an integrated cauldron and requires fuel to operate, though it can also connect to a geyser core for enhanced brewing speed. Built entirely from fireproof stone, the Stonebrewery is a durable and efficient centerpiece for any alehouse. A favorite haunt for both colonists and heat-loving microbes.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A colossal stone shrine hewn atop a steam geyser and inlaid with glowing psionic runes. By channeling raw geothermal fury and crystal-channeled mind-fire, this temple amplifies every style of meditation—Artistic, Dignified, Flame, Minimal, Morbid, Natural, and even the Void. Colonists who meditate here tap into a primal nexus of earth and mind, gaining an exceptional boost to focus no matter their discipline.
+	-->
+	<!-- Vanillafication - remove magic references -->
+	<Operation Class="MThingsGeysersPsyfocusBooster">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MThingsGeysersStonebrewery"]/description</xpath>
+		<value>
+			<description>A colossal stone shrine hewn atop a steam geyser and inlaid with illuminated psionic runes. By communing with distant archotechnology under the world's crust, this temple amplifies every style of meditation - artistic, dignified, flame, minimal, morbid, natural, and even the void. Colonists who meditate here tap into an intimate connection with an archotech, gaining an exceptional boost to focus no matter their discipline.</description>
+		</value>
+	</Operation>
+	
+</Patch>

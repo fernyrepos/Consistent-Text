@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Original: ammo injector -->
+	<!-- Less esoteric name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Reel_AmmoDrain"]/label</xpath>
+		<value>
+			<label>ammo hopper</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An essential component for any automated defense system, the Ammo Injector feeds munitions directly into the pipe network, ensuring a steady supply to connected turrets. With its precision-engineered intake system, it keeps your colony's defenses armed and ready to respond to any threat.
+	-->
+	<!-- Use rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Reel_AmmoDrain"]/description</xpath>
+		<value>
+			<description>An essential component for any automated defense system, the ammo hopper feeds munitions directly into the pipe network, ensuring a steady supply to connected turrets. With its precision-engineered intake system, it keeps your colony's defenses armed and ready to respond to any threat.</description>
+		</value>
+	</Operation>
+
+</Patch>

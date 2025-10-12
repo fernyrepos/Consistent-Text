@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Original: vac double door -->
+	<!-- Style edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CO_VacDoorDouble"]/label</xpath>
+		<value>
+			<label>double vac door</label>
+		</value>
+	</Operation>
+
+	<!-- Original: vac triple door -->
+	<!-- Style edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CO_VacDoorTriple"]/label</xpath>
+		<value>
+			<label>triple vac door</label>
+		</value>
+	</Operation>
+
+	<!-- Original: vac barrier projector on wall -->
+	<!-- Style edit, shorter -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CO_VacBarrierProjectorWall"]/label</xpath>
+		<value>
+			<label>wall vac barrier projector</label>
+		</value>
+	</Operation>
+
+	<!-- Original: terrain scanner -->
+	<!-- More specific and descriptive name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CO_TerrainScanner"]/label</xpath>
+		<value>
+			<label>local terrain scanner</label>
+		</value>
+	</Operation>
+	
+</Patch>

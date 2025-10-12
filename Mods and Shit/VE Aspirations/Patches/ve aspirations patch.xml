@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Genetics Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_NuzzleWithTheFleshling"]/label</xpath>
+					<value>
+						<label>nuzzle with minor genetic horror</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_NuzzleWithTheFleshling"]/description</xpath>
+					<value>
+						<description>{0} would like to nuzzle with a minor genetic horror.</description>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

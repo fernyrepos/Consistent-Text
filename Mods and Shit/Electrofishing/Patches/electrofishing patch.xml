@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+	<!-- Original: High Voltage Electrofisher -->
+	<!-- Capitalization, more concise -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="HighVoltageFisher"]/label</xpath>
+        <value>
+            <label>electrofisher</label>
+        </value>
+    </Operation>
+
+	<!--
+	Original:
+	A specialized device used for electrofishing, contains a transformer and large capacitance that create a strong temporal electrical field that stun fish nearby in water bodies. Can only be set in shallow water.
+	-->
+	<!-- More concise, readable, lifelike -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="HighVoltageFisher"]/description</xpath>
+		<value>
+			<description>A specialized electrofishing device housing a large capacitor bank which stuns fish in nearby water. Can only be set in shallow water.</description>
+		</value>
+	</Operation>
+
+</Patch>

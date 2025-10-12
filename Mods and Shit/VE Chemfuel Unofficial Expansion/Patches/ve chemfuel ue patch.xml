@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+	<!-- Original: Raw Plasteel Refinery -->
+	<!-- Capitalization -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="VCEUE_RawPlasteelRefinery"]/label</xpath>
+        <value>
+            <label>raw plasteel refinery</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Advanced Automatic Weavery -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_AdvancedAutoWeavery"]/label</xpath>
+		<value>
+			<label>advanced automatic weavery</label>
+		</value>
+	</Operation>
+
+	<!-- Original: subterranean Dye pipe -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_UndergroundDyePipe"]/label</xpath>
+		<value>
+			<label>subterranean dye pipe</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Steel pipes designed to transport usable Dye to Dye tanks for storage or to Dye-consuming structures for automatic refilling.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_DyePipe"]/description</xpath>
+		<value>
+			<description>Steel pipes designed to transport usable dye to dye tanks for storage or to dye-consuming structures for automatic refilling.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Subterranean steel pipes designed to transport usable Dye to Dye tanks for storage or to Dye-consuming structures for automatic refilling.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_UndergroundDyePipe"]/description</xpath>
+		<value>
+			<description>Subterranean steel pipes designed to transport usable dye to dye tanks for storage or to dye-consuming structures for automatic refilling.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Switches Dye flow on/off.
+	-->
+	<!-- Capitalization, style edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_DyeValve"]/description</xpath>
+		<value>
+			<description>Switches dye flow on or off.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	An industrial liquid storage tank meant for storing Dye delivered via Dye pipe network. Tanks can be designated to be siphoned for usable Dye as needed. If damaged even lightly the escaping fumes will very swiftly create a gaseous fireball, the size of the resulting explosion will depend on the amount stored within.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_DyeTank"]/description</xpath>
+		<value>
+			<description>An industrial liquid storage tank meant for storing Dye delivered via dye pipe network. Tanks can be designated to be siphoned for usable dye as needed. If damaged even lightly the escaping fumes will very swiftly create a gaseous fireball, the size of the resulting explosion will depend on the amount stored within.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A hopper-like storage basin meant to hold dispensed Dye from tanks periodically for use later.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_DyeTap"]/description</xpath>
+		<value>
+			<description>A hopper-like storage basin meant to hold dispensed dye from tanks periodically for use later.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A hopper-like storage basin meant to input Dye into the network, filling up connected tanks.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_DyeDrain"]/description</xpath>
+		<value>
+			<description>A hopper-like storage basin meant to input dye into the network, filling up connected tanks.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A complex machine capable of refining Dye from neutroamine and other chemicals; the finished product will be transported as such for storage or dispensing.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_DyeRefinery"]/description</xpath>
+		<value>
+			<description>A complex machine capable of refining dye from neutroamine and other chemicals; the finished product will be transported as such for storage or dispensing.</description>
+		</value>
+	</Operation>
+	
+</Patch>

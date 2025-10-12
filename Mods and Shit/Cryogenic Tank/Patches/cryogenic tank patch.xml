@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Original: small cryogenic tank -->
+	<!-- Immersive rename: it is baseliner size -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_SmallCryogenicTank"]/label</xpath>
+		<value>
+			<label>cryogenic tank</label>
+		</value>
+	</Operation>
+
+	<!-- Original: medium cryogenic tank -->
+	<!-- Size renamed -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_MediumCryogenicTank"]/label</xpath>
+		<value>
+			<label>large cryogenic tank</label>
+		</value>
+	</Operation>
+
+	<!-- Original: large cryogenic tank -->
+	<!-- Size renamed -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_LargeCryogenicTank"]/label</xpath>
+		<value>
+			<label>giant cryogenic tank</label>
+		</value>
+	</Operation>
+
+	<!-- Original: extra large cryogenic tank -->
+	<!-- Size renamed, shorter name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_ExtraLargeCryogenicTank"]/label</xpath>
+		<value>
+			<label>massive cryogenic tank</label>
+		</value>
+	</Operation>
+
+</Patch>

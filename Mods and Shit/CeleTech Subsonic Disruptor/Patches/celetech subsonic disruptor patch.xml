@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+    <!-- Original: LRSD-30 Subsonic Disruptor -->
+	<!-- Vanilla rename, capitalization -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="CMC_FB.Building_FBS"]/label</xpath>
+        <value>
+            <label>subsonic disruptor</label>
+        </value>
+    </Operation>
+
+	<!--
+	Original:
+	Developed by IRA's Extraterrestrial Biohazard Division under CAG commission. This geological resonance system provides early-stage biological countermeasures for frontier colonies. Emits 19Hz low-frequency waves into subterranean strata, inducing skeletal resonance in flesh beasts or insects and disrupting their burrowing neural signals. Effectively paralyzes all underground excavation activities within 52-tile radius.
+	-->
+	<!-- Moved old name to description to keep any Celetech lore intact. -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CMC_FB.Building_FBS"]/description</xpath>
+		<value>
+			<description>The LRSD-30 subsonic disruptor was developed by IRA's Extraterrestrial Biohazard Division under CAG commission. This geological resonance system provides early-stage biological countermeasures for frontier colonies. Emits 19Hz low-frequency waves into subterranean strata, inducing skeletal resonance in flesh beasts or insects and disrupting their burrowing neural signals. Effectively paralyzes all underground excavation activities within 52-tile radius.</description>
+		</value>
+	</Operation>
+
+</Patch>

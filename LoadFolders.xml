@@ -1,7 +1,8 @@
 <loadFolders>
-  <v1.6>
+	<v1.6>
+		<li>/</li>																											<!-- Includes Ferny's Sculpting Bench patch -->
 <!-- MODS -->
-    <li IfModActive="mf.ahm">Mods and Shit/Advance Incubator</li>
+		<li IfModActive="mf.ahm">Mods and Shit/Advance Incubator</li>
     <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
     <li IfModActive="bart.bioformmatrix">Mods and Shit/Bioform Matrix</li>
     <li IfModActive="krkr.rule56">Mods and Shit/CAI</li>
@@ -13,5 +14,62 @@
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
     <li IfModActive="xercaine.walltelevisions">Mods and Shit/Wall Televisions</li>
     <li IfModActive="vanillaexpanded.vfefarming">Mods and Shit/VFE Farming</li>
+  
+		<li IfModActive="VanillaExpanded.VGeneticsE">Mods and Shit/VE Genetics</li>											<!-- Includes Ferny's Anomaly Fleshbeasts or Sarg Fleshbeasts? patch -->
+		<li IfModActive="sarg.alphaanimals">Mods and Shit/Alpha Animals</li>												<!-- Ditto -->
+		<li IfModActive="vanillaexpanded.vanillaaspirationsexpanded">Mods and Shit/VE Aspirations</li>						<!-- Ditto -->
+		<li IfModActive="cn.theresnothinghere">Mods and Shit/There's Nothing Here</li>										<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="als.gravtech">Mods and Shit/GravTech</li>															<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="k.psitech">Mods and Shit/PsiTech</li>																<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="vat.epoeforked">Mods and Shit/EPOE Forked</li>														<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="det.epochspottery">Mods and Shit/Epochs Pottery</li>												<!-- ThingDef building labels -->
+		<li IfModActive="vanillaexpanded.vbookse">Mods and Shit/VE Books</li>												<!-- ThingDef building labels -->
+		<li IfModActive="vanillaexpanded.vcookehaute">Mods and Shit/VE Cooking Haute</li>									<!-- ThingDef building labels -->
+		<li IfModActive="side1iner.possessionsplus">Mods and Shit/Possessions Plus</li>										<!-- ThingDef building labels -->
+		<li IfModActive="salvador143.mthings.geysers">Mods and Shit/Medieval Things Geysers</li>							<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="relvl.digitalstorageunit">Mods and Shit/Digital Storage Unit</li>									<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="mrhydralisk.complementaryodyssey">Mods and Shit/Complementary Odyssey</li>							<!-- ThingDef building labels -->
+		
+		<li IfModActive="sarg.alphaimplants">Mods and Shit/Alpha Implants</li>												<!-- ThingDef building labels -->
+		<li IfModActive="22.anomalyportal">Mods and Shit/Anomaly Portal</li>												<!-- ThingDef building labels, descriptions -->	<!-- Fixes mod errors -->
+		<li IfModActive="mlie.temperaturegauge">Mods and Shit/Temperature Gauge</li>										<!-- ThingDef building labels -->
+		<li IfModActive="mlie.bondagebedtorture">Mods and Shit/BondageBed Torture</li>										<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="tot.celetech.sub.fbs">Mods and Shit/CeleTech Subsonic Disruptor</li>								<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="drilledhead.zipline">Mods and Shit/ZiplineMod</li>													<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="aelanna.eccentrictech.fusionpower">Mods and Shit/Eccentric Tech Fusion Power</li>					<!-- ThingDef building labels -->
+		<li IfModActive="zal.sbt">Mods and Shit/Subspace Burst Transponder</li>												<!-- ThingDef building, descriptions labels -->
+		<li IfModActive="mlie.jwlatmosphericwaterprocessor">Mods and Shit/Atmospheric Water Processor</li>					<!-- ThingDef building labels -->
+		<li IfModActive="mlie.atmosphericwatercollection">Mods and Shit/Atmospheric Water Collection</li>					<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="bart.wbe">Mods and Shit/Aquatic Repopulation</li>													<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="vanillaexpanded.recycling">Mods and Shit/VE Recycling</li>											<!-- ThingDef building labels -->
+		<li IfModActive="kyzy.shipwallenhanced">Mods and Shit/Ship Wall Enhanced</li>										<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="mlie.drakkenlaserdrill">Mods and Shit/Drakken Laser Drill</li>										<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="dimonsever000.animaobelisk.specific">Mods and Shit/Cybranian Anima Obelisk</li>					<!-- ThingDef building labels -->
+
+		<li IfModActive="reel.turretpipeline">Mods and Shit/Reel's Turret Pipeline</li>										<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="dubwise.dubsbadhygiene">Mods and Shit/Dubs Bad Hygiene</li>										<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="ucp.walldecorations">Mods and Shit/Wall Decorations</li>											<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="sumghai.replimat">Mods and Shit/Replimat</li>														<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="k.glitternet">Mods and Shit/GlitterNet</li>														<!-- ThingDef building labels -->
+		<li IfModActive="dubwise.rimefeller">Mods and Shit/Dubs Rimefeller</li>												<!-- ThingDef building, DesignationCategoryDef labels, descriptions -->
+		<li IfModActive="dubwise.rimatomics">Mods and Shit/Dubs Rimatomics</li>												<!-- ThingDef building, DesignationCategoryDef labels, descriptions -->
+		<li IfModActive="aelanna.eccentrictech.furniture">Mods and Shit/Eccentric Tech Spacer Furniture</li>				<!-- ThingDef building labels -->
+		<li IfModActive="sarg.alphacrafts">Mods and Shit/Alpha Crafts</li>													<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="fox.simplelearning">Mods and Shit/Simple Learning</li>												<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="mlie.apothecary">Mods and Shit/Apothecary</li>														<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="aoba.fortress.medieval.material">Mods and Shit/Fortifications Medieval Material</li>				<!-- ThingDef building labels -->
+		<li IfModActive="untamo.apothecary.expansion">Mods and Shit/Apothecary Expansion</li>								<!-- ThingDef building labels -->
+		<li IfModActive="propickelz.tinkerbench">Mods and Shit/Tinkering Bench and Biohacking Station</li>					<!-- ThingDef building labels -->
+		<li IfModActive="sbz.cryogenictank">Mods and Shit/Cryogenic Tank</li>												<!-- ThingDef building labels -->
+		<li IfModActive="resurrectionem.furnitureasia">Mods and Shit/RR Furniture Longyun</li>								<!-- ThingDef building labels -->
+		<li IfModActive="resurrectionem.furniture">Mods and Shit/RR Furniture Rapture</li>									<!-- ThingDef building labels -->	<!-- Fixes mod errors -->
+		<li IfModActive="xmb.ancienthydroponicfarmfacilities.mo">Mods and Shit/Ancient Hydroponic Farm Facilities</li>		<!-- ThingDef building, some item labels, descriptions -->
+		<li IfModActive="xmb.ancientminingindustry.mo">Mods and Shit/Ancient Mining Industry</li>							<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="aoba.fortress.industrial">Mods and Shit/Fortification Industrial</li>								<!-- ThingDef building, TerrainDef labels -->
+		<li IfModActive="aelanna.eccentrictech.defensegrid">Mods and Shit/Eccentric Tech Defense Grid</li>					<!-- ThingDef building labels -->
+		<li IfModActive="bambaryla.vcepu">Mods and Shit/VE Chemfuel Unofficial Expansion</li>								<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="nalzurin.autoimplanter">Mods and Shit/Bionix Automator</li>										<!-- ThingDef building labels, descriptions -->
+		<li IfModActive="acutus.electrofishing">Mods and Shit/Electrofishing</li>											<!-- ThingDef building labels, descriptions -->
+	
   </v1.6>
 </loadFolders>

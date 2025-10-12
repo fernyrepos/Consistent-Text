@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Original: Rimefeller -->
+	<!-- Vanilla rename -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/DesignationCategoryDef[defName="Rimefeller"]/label</xpath>
+		<value>
+			<label>Petrochem</label>
+		</value>
+	</Operation>
+	
+	<!-- Original: FSX Refiner -->
+	<!-- Capitalization, common name edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CombatExtendedFsxRefiner"]/label</xpath>
+		<value>
+			<label>FSX refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Synthylene Refiner -->
+	<!-- Capitalization, common name edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SynthyleneRefiner"]/label</xpath>
+		<value>
+			<label>synthylene refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Napalm Refiner -->
+	<!-- Capitalization, common name edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="NapalmRefiner"]/label</xpath>
+		<value>
+			<label>napalm refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Synthread Refiner -->
+	<!-- Capitalization, common name edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SynthreadRefiner"]/label</xpath>
+		<value>
+			<label>synthread refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Synthamide Refiner -->
+	<!-- Capitalization, common name edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SynthamideRefiner"]/label</xpath>
+		<value>
+			<label>synthamide refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Hyperweave Refiner -->
+	<!-- Capitalization, common name edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="HyperweaveRefiner"]/label</xpath>
+		<value>
+			<label>hyperweave refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Neutroamine Refiner -->
+	<!-- Capitalization, common name edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="NeutroamineRefiner"]/label</xpath>
+		<value>
+			<label>neutroamine refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Original: chemfuel powerplant -->
+	<!-- Common name edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FuelPowerplant"]/label</xpath>
+		<value>
+			<label>chemfuel power plant</label>
+		</value>
+	</Operation>
+
+	<!-- Original: large chemfuel powerplant -->
+	<!-- Common name edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="LargeFuelPowerplant"]/label</xpath>
+		<value>
+			<label>large chemfuel power plant</label>
+		</value>
+	</Operation>
+
+	<!-- Original: oil pipeline (hidden) -->
+	<!-- Vanilla edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="OilPipelineHidden"]/label</xpath>
+		<value>
+			<label>hidden oil pipeline</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Plumbing for connecting oil-related structures. Invisible when built.
+	-->
+	<!-- Style edit, shorter -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="OilPipelineHidden"]/description</xpath>
+		<value>
+			<description>Hidden plumbing for connecting oil-related structures.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Cracks crude oil into chemfuel which must be stored on connected chemfuel tanks, chemfuel can be pumped to connected chemfuel hoppers.
+	-->
+	<!-- Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CrudeCracker"]/description</xpath>
+		<value>
+			<description>Cracks crude oil into chemfuel which must be stored in connected chemfuel tanks or pumped to connected chemfuel hoppers.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Pumps chemfuel from chemfuel storage tanks into usable/sellable cans.
+	-->
+	<!-- Style edit -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ChemfuelHopper"]/description</xpath>
+		<value>
+			<description>Pumps chemfuel from chemfuel storage tanks into cans which can be used or sold.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Processes chemfuel into Synthamide weave, a high strength synthetic fibre.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SynthamideRefiner"]/description</xpath>
+		<value>
+			<description>Processes chemfuel into synthamide weave, a high strength synthetic fibre.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Processes chemfuel into Hyperweave, a high strength synthetic fibre.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="HyperweaveRefiner"]/description</xpath>
+		<value>
+			<description>Processes chemfuel into hyperweave, a high strength synthetic fibre.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Processes chemfuel into Neutroamine for making medicine.
+	-->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="NeutroamineRefiner"]/description</xpath>
+		<value>
+			<description>Processes chemfuel into neutroamine for making medicine.</description>
+		</value>
+	</Operation>
+
+</Patch>

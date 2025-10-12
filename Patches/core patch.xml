@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Copied from Ferny's Sculpting Bench patch: -->
+
+	<!-- Original: art bench -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="TableSculpting"]/label</xpath>
+		<value>
+			<label>sculpting bench</label>
+		</value>
+	</Operation>
+	
+<!-- Rename vanilla ship items to be more specific in a modded game. -->
+
+	<!-- Original: ship structural beam -->
+	<!-- Renaming the vanilla 'ship' to 'spaceship' to be more specific after the existance of gravships and modded ships (e.g. boats) -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_Beam"]/label</xpath>
+		<value>
+			<label>spaceship structural beam</label>
+		</value>
+	</Operation>
+
+	<!-- Original: ship reactor -->
+	<!-- ditto -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_Reactor"]/label</xpath>
+		<value>
+			<label>spaceship reactor</label>
+		</value>
+	</Operation>
+
+	<!-- Original: ship engine -->
+	<!-- ditto -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_Engine"]/label</xpath>
+		<value>
+			<label>spaceship engine</label>
+		</value>
+	</Operation>
+
+	<!-- Original: ship computer core -->
+	<!-- ditto -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_ComputerCore"]/label</xpath>
+		<value>
+			<label>spaceship computer core</label>
+		</value>
+	</Operation>
+
+	<!-- Original: ship cryptosleep casket -->
+	<!-- ditto -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_CryptosleepCasket"]/label</xpath>
+		<value>
+			<label>spaceship cryptosleep casket</label>
+		</value>
+	</Operation>
+
+	<!-- Original: sensor cluster -->
+	<!-- ditto -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_SensorCluster"]/label</xpath>
+		<value>
+			<label>spaceship sensor cluster</label>
+		</value>
+	</Operation>
+	
+</Patch>

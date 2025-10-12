@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+
+	<!-- Original: Atmospheric Water Processor -->
+	<!-- Capitalization, more functional name, avoid collision with Atmospheric Water Collection mod -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="JWL_AtmoCollector"]/label</xpath>
+		<value>
+			<label>atmospheric water extractor</label>
+		</value>
+	</Operation>
+	
+</Patch>

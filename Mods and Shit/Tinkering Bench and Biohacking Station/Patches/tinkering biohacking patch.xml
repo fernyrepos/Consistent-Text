@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>    
+	
+	<!-- Original: Tinkering Bench -->
+	<!-- Capitalization -->
+    <Operation Class="PatchOperationReplace">
+		<success>Always</success>
+        <xpath>Defs/ThingDef[defName="TM_Tinkerbench"]/label</xpath>
+        <value>
+            <label>tinkering bench</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Biohacking Station -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TM_Biohacker"]/label</xpath>
+		<value>
+			<label>biohacking station</label>
+		</value>
+	</Operation>
+	
+</Patch>

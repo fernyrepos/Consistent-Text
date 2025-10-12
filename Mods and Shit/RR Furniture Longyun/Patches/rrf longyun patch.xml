@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+    <!-- Original: Lincang Dresser -->
+	<!-- Capitalization -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="RRLincangDresser"]/label</xpath>
+        <value>
+            <label>Lincang dresser</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Dalian Wardrobe -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRDalianWardrobe"]/label</xpath>
+		<value>
+			<label>Dalian wardrobe</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Shanghai Couch -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRShanghaiSofaLong"]/label</xpath>
+		<value>
+			<label>Shanghai couch</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Nanjing Sofa -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRNanjingSofa"]/label</xpath>
+		<value>
+			<label>Nanjing sofa</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Jinan Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRJinanCupboard"]/label</xpath>
+		<value>
+			<label>Jinan bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Lixia Bookshelf -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRLixiaCupboard"]/label</xpath>
+		<value>
+			<label>Lixia bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Suzhou Desk -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRSuzhouDesk"]/label</xpath>
+		<value>
+			<label>Suzhou desk</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Anqing Desk -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRAnqingDesk"]/label</xpath>
+		<value>
+			<label>Anqing desk</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Go game table -->
+	<!-- Common term rename, vanilla rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRGoTable"]/label</xpath>
+		<value>
+			<label>Go board</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Dandong Desk Lamp -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRDandongLamp"]/label</xpath>
+		<value>
+			<label>Dandong desk lamp</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Jinzhou Desk Lamp -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRJinzhouLamp"]/label</xpath>
+		<value>
+			<label>Jinzhou desk lamp</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Qujing Screen -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRQujingScreen"]/label</xpath>
+		<value>
+			<label>Qujing screen</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Baoshan Screen -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRBaoshanScreen"]/label</xpath>
+		<value>
+			<label>Baoshan screen</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Pingxiang Dining Table(1x2) -->
+	<!-- Capitalization, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRPingxiangDiningTable"]/label</xpath>
+		<value>
+			<label>Pingxiang dining table (1x2)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Pingxiang Dining Table(2x2) -->
+	<!-- Capitalization, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRPingxiangDiningTableTwo"]/label</xpath>
+		<value>
+			<label>Pingxiang dining table (2x2)</label>
+		</value>
+	</Operation>
+
+	<!-- Original: Nanchang Dining Table(2x2) -->
+	<!-- Capitalization, grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRNanchangDiningTable"]/label</xpath>
+		<value>
+			<label>Nanchang dining table (2x2)</label>
+		</value>
+	</Operation>
+	
+</Patch>

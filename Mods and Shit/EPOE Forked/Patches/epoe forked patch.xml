@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Original: synthetic nano printer -->
+	<!-- Grammar -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableOrgans"]/label</xpath>
+		<value>
+			<label>synthetic nanoprinter</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	A fabrication workstation, equipped with a 3D printer to craft organs and complicated implants. This advanced workbench is capable of assisting certain workstations by sharing some of its specialized fabrication system when placed near them.\n\nWhen placed near a prosthetic workbench, bionics table or fabrication bench, this workbench is able to increase their production speed. They can connect to a maximum of one synthetic nano printer.
+	-->
+	<!-- Use rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableOrgans"]/description</xpath>
+		<value>
+			<description>A fabrication workstation, equipped with a 3D printer to craft organs and complicated implants. This advanced workbench is capable of assisting certain workstations by sharing some of its specialized fabrication system when placed near them.\n\nWhen placed near a prosthetic workbench, bionics table or fabrication bench, this workbench is able to increase their production speed. They can connect to a maximum of one synthetic nanoprinter.</description>
+		</value>
+	</Operation>
+	
+</Patch>

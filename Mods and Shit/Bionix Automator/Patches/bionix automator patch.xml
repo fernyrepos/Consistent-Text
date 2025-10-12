@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Original: bionix automator -->
+	<!-- More purposeful name -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AutoImplanter"]/label</xpath>
+		<value>
+			<label>bionics implanter</label>
+		</value>
+	</Operation>
+
+	<!--
+	Description:
+	In the advanced Glitterworlds where human technology is at its highest, the Bionix Automator stands as a pinnacle of medical innovation. This advanced device automates the complex and delicate process of installing bionic parts into human bodies. Developed by a coalition of humanity’s brightest minds, the Bionix Automator ensures that every procedure is precise, efficient, and safe.\n\nThe Bionix Automator is a sleek, multi-functional unit housed in a reinforced alloy casing. It features a sophisticated array of robotic arms, each equipped with a variety of surgical tools, sensors, and sterile applicators to ensure perfect surgery with no chance of failure.\n\nThe implanter consumes 1000W of power while working, but only 50W on standby.
+	-->
+	<!-- Use rename, grammar, conciseness -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AutoImplanter"]/description</xpath>
+		<value>
+			<description>On glitterworlds where human technology is at its peak, the bionics implanter stands as a pinnacle of medical innovation. This advanced device automates the complex and delicate process of installing bionic parts into human bodies. Developed by a coalition of humanity’s brightest minds, the device ensures that every procedure is precise, efficient, and safe.\n\nThe device is a sleek, multi-functional unit housed in a reinforced alloy casing. It features a sophisticated array of robotic arms, each equipped with a variety of surgical tools, sensors, and sterile applicators to ensure perfect surgery with no chance of failure.\n\nThe device consumes 1000W of power while working, but only 50W on standby.</description>
+		</value>
+	</Operation>
+
+</Patch>

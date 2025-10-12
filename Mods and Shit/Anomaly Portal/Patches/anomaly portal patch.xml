@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Fix error that AP_TeleportSpike has no label. -->
+	<!-- TODO tell dev to pls fix ;-; -->
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/AbilityDef[defName="AP_TeleportSpike"]</xpath>
+		<value>
+			<label>teleport spike</label>
+		</value>
+	</Operation>  
+
+    <!-- Original: ShardPortal -->
+	<!-- Capitalization, style edit -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AP_Portal"]/label</xpath>
+        <value>
+            <label>shard portal</label>
+        </value>
+    </Operation>
+
+	<!--
+	Original:
+	A portal with precise folding leaps through the Void node, which can teleport items/creatures/buildings to another portal or signal location at any distance. This device consumes a certain amount of Bioferrite each time it is used.
+	-->
+	<!-- Rewritten for readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AP_Portal"]/description</xpath>
+		<value>
+			<description>A portal demonstrating precision space folding leaps into the Void, allowing for the teleportation of items, creatures, or buildings to another portal or signal location at any distance. This device consumes a certain amount of bioferrite with each use.</description>
+		</value>
+	</Operation>
+
+</Patch>
