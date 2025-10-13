@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <PatientsTab>Guest patients</PatientsTab>
+    <MapSettings>Guest hospital policies...</MapSettings>
+    <HospitalSettings>Guest hospital policies</HospitalSettings>
+    <AcceptPatients>Accept guest patients</AcceptPatients>
+    <AcceptPatientsTooltip>Uncheck this if you want to stop patients from visiting.</AcceptPatientsTooltip>
+    <AcceptSurgery>Accept guest surgeries</AcceptSurgery>
+    <AcceptSurgeryTooltip>Uncheck this if you do not want to get surgery events.</AcceptSurgeryTooltip>
+    <AcceptDanger>Allow guest patients during danger</AcceptDanger>
+    <AcceptDangerTooltip>Check this if you want to override the check if the map if safe for patients to arrive</AcceptDangerTooltip>
+    <!-- button -->
+    <CommandBedSetAsHospitalLabel>Guest hospital bed</CommandBedSetAsHospitalLabel>
+    <CommandBedSetAsHospitalDesc>Whether this bed is for guest patients.</CommandBedSetAsHospitalDesc>
+    <CommandBedSetAsSurgeryLabel>Guest surgery Bed</CommandBedSetAsSurgeryLabel>
+    <CommandBedSetAsSurgeryDesc>Whether this bed is for guest surgery patients.</CommandBedSetAsSurgeryDesc>
+</LanguageData>
