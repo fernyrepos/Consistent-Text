@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+holo dancer base
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="ucp_holodancerbase"]/label</xpath>
+                    <value>
+                        <label>holo-dancer projector</label>
+                    </value>
+                </Operation>
+
+<!-- ORIGINAL
+The base for a holographic moving display of a dancer doing their routine.
+-->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="ucp_holodancerbase"]/description</xpath>
+                    <value>
+                        <description>The base for a holographic moving display of a beautiful dancer doing their routine, lighting up the area and charming those who pass by.</description>
+                    </value>
+                </Operation>
+
+
+<!-- ORIGINAL
+holo dancer
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="ucp_holodancer"]/label</xpath>
+                    <value>
+                        <label>holo-dancer</label>
+                    </value>
+                </Operation>
+
+<!-- ORIGINAL
+A holographic moving display of a dancer doing their routine.
+-->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="ucp_holodancer"]/description</xpath>
+                    <value>
+                        <description>A beautiful holographic dancer doing their routine, lighting up the area and charming those who pass by.</description>
+                    </value>
+                </Operation>
+
+</Patch>

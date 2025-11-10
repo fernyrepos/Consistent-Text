@@ -15,5 +15,6 @@
     <li IfModActive="vanillaexpanded.vfefarming">Mods and Shit/VFE Farming</li>
     <li IfModActive="gondragon.mechanoidwaiter">Mods and Shit/Mechanoid Waiter</li>
     <li IfModActive="adamas.hospital">Mods and Shit/Hospital</li>
+    <li IfModActive="ucp.holodancers">Mods and Shit/Holo Dancers</li>
   </v1.6>
 </loadFolders>
