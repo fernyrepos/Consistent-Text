@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+
+<!-- ferny's note: none of this is working for some reason. gave up on integrating the mod anyway. -->
+
+
+
+
+
+
+
+
+
+<!-- ORIGINAL
+Preservation sarcophagus
+ -->
+                <!-- <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="PreservationSarcophagus"]/label</xpath>
+                    <value>
+                        <label>preservation sarcophagus</label>
+                    </value>
+                </Operation> -->
+
+<!-- ORIGINAL
+Preservation sarcophagus (s)
+ -->
+                <!-- <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="PreservationSarcophagus"]/label</xpath>
+                    <value>
+                        <label>small preservation sarcophagus</label>
+                    </value>
+                </Operation> -->
+
+
+</Patch>

@@ -2,7 +2,7 @@
 <LanguageData>
     <PatientsTab>Guest patients</PatientsTab>
     <MapSettings>Guest hospital policies...</MapSettings>
-    <HospitalSettings>Guest hospital policies</HospitalSettings>
+    <!-- <HospitalSettings>Guest hospital policies</HospitalSettings> -->
     <AcceptPatients>Accept guest patients</AcceptPatients>
     <AcceptPatientsTooltip>Uncheck this if you want to stop patients from visiting.</AcceptPatientsTooltip>
     <AcceptSurgery>Accept guest surgeries</AcceptSurgery>

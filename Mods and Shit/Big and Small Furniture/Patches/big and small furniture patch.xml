@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+smol bed
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="BS_SmolBed"]/label</xpath>
+                    <value>
+                        <label>small bed</label>
+                    </value>
+                </Operation>
+
+<!-- ORIGINAL
+smol hospital bed
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="BS_SmolHospitalBed"]/label</xpath>
+                    <value>
+                        <label>small hospital bed</label>
+                    </value>
+                </Operation>
+
+<!-- ORIGINAL
+smol primitive bed
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="BS_SmolTribalBed"]/label</xpath>
+                    <value>
+                        <label>small primitive bed</label>
+                    </value>
+                </Operation>
+
+<!-- ORIGINAL
+smol bedroll
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="BS_SmolBedroll"]/label</xpath>
+                    <value>
+                        <label>small bedroll</label>
+                    </value>
+                </Operation>
+
+<!-- ORIGINAL
+smol royal bed
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="BS_SmolRoyalBed"]/label</xpath>
+                    <value>
+                        <label>small royal bed</label>
+                    </value>
+                </Operation>
+
+
+</Patch>
