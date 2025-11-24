@@ -15,7 +15,7 @@
     <li IfModActive="vanillaexpanded.vfefarming">Mods and Shit/VFE Farming</li>
     <li IfModActive="gondragon.mechanoidwaiter">Mods and Shit/Mechanoid Waiter</li>
     <li IfModActive="adamas.hospital">Mods and Shit/Hospital</li>
-    <li IfModActive="ucp.holodancers">Mods and Shit/Holo Dancers</li>
+    <!-- <li IfModActive="ucp.holodancers">Mods and Shit/Holo Dancers</li> -->
     <!-- <li IfModActive="drilledhead.preservationsarcophagus">Mods and Shit/Preservation Sarcophagus</li> -->
     <li IfModActive="redmattis.bsfurniture">Mods and Shit/Big and Small Furniture</li>
   </v1.6>

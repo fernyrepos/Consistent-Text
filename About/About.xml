@@ -37,7 +37,7 @@
 		<li>vanillaexpanded.vfefarming</li>
 		<li>gondragon.mechanoidwaiter</li>
 		<li>adamas.hospital</li>
-		<li>ucp.holodancers</li>
+		<!-- <li>ucp.holodancers</li> -->
 		<!-- <li>drilledhead.preservationsarcophagus</li> -->
 		<li>redmattis.bsfurniture</li>
 	</loadAfter>
