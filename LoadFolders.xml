@@ -18,5 +18,6 @@
     <!-- <li IfModActive="ucp.holodancers">Mods and Shit/Holo Dancers</li> -->
     <!-- <li IfModActive="drilledhead.preservationsarcophagus">Mods and Shit/Preservation Sarcophagus</li> -->
     <li IfModActive="redmattis.bsfurniture">Mods and Shit/Big and Small Furniture</li>
+    <li IfModActive="echotidefish.cryptocoffinsforked">Mods and Shit/Crypto Coffin</li>
   </v1.6>
 </loadFolders>

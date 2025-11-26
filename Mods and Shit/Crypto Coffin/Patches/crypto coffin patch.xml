@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- original:
+Crypto Coffin
+ -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="CryptoCoffin"]/label</xpath>
+            <value>
+                <label>crypto coffin</label>
+            </value>
+        </Operation>
+
+
+</Patch>
