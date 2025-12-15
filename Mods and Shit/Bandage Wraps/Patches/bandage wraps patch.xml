@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- >Body wrap -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Bandagewraps_Bodywrap"]/label</xpath>
+            <value>
+                <label>body bandage</label>
+            </value>
+        </Operation>
+
+<!-- Asceptized body wrap -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Bandagewraps_BodywrapA"]/label</xpath>
+            <value>
+                <label>sterile body bandage</label>
+            </value>
+        </Operation>
+
+
+<!-- >Head bandage -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Bandagewraps_HeadBandage"]/label</xpath>
+            <value>
+                <label>head bandage</label>
+            </value>
+        </Operation>
+
+<!-- Asceptized head bandage -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Bandagewraps_HeadBandageA"]/label</xpath>
+            <value>
+                <label>sterile head bandage</label>
+            </value>
+        </Operation>
+
+
+</Patch>

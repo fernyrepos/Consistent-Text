@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+(space)disruptor torch
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="T_DisruptorTorch"]/label</xpath>
+                    <value>
+                        <label>disruptor torch</label>
+                    </value>
+                </Operation>
+
+</Patch>

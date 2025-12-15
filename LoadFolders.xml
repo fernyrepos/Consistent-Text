@@ -19,5 +19,9 @@
     <!-- <li IfModActive="drilledhead.preservationsarcophagus">Mods and Shit/Preservation Sarcophagus</li> -->
     <li IfModActive="redmattis.bsfurniture">Mods and Shit/Big and Small Furniture</li>
     <li IfModActive="echotidefish.cryptocoffinsforked">Mods and Shit/Crypto Coffin</li>
+    <li IfModActive="brrainz.achtung">Mods and Shit/Achtung</li>
+    <li IfModActive="veterano.mythicages.megafaunabestiary">Mods and Shit/Mythic Ages Megafauna Bestiary</li>
+    <li IfModActive="sk.bandagewrap">Mods and Shit/Bandage Wraps</li>
+    <li IfModActive="trickity.seal.spirits">Mods and Shit/T's Seal The Spirits</li>
   </v1.6>
 </loadFolders>

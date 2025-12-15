@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+        <!-- A dense, horn harvested from the colossal Sivatherium. Centuries of exposure to RimWorld’s reactive soils and dormant technogenic residues have fused bone and mineral into a single bioactive structure.\n\nWhen ground and refined, it releases microscopic compounds that interact with organic tissue, forming the base for calming agents and ritual mixtures. In its raw form, it remains a highly durable and valuable exotic crafting material. -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="MA_SivatheriumHorn"]/description</xpath>
+            <value>
+                <description>A dense, horn harvested from the colossal sivatherium. Centuries of exposure to reactive soils and dormant technogenic residues have fused bone and mineral into a single bioactive structure.\n\nWhen ground and refined, it releases microscopic compounds that interact with organic tissue, forming the base for calming agents and ritual mixtures. In its raw form, it remains a highly durable and valuable exotic crafting material.</description>
+            </value>
+        </Operation>
+
+        <!-- Fix: "Mossmire Draught" -> "mossmire draught" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MA_FermentingMossmireMilk"]/description</xpath>
+        <value>
+            <description>Fermenting mossmire milk and herbal mix, waiting to become mossmire draught.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Scarodon's" -> "scarodon's" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThoughtDef[defName="MA_AteEmberheartSlice"]/stages</xpath>
+        <value>
+            <stages>
+            <li>
+                <label>ate scarodon heart slices</label>
+                <description>I chewed on the scarodon's heart. It pulsed with raw power, igniting a fire in my chest. I feel stronger, faster, as if I could tear someone apart with my bare hands.</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+            </stages>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Scarodon" -> "scarodon" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MA_Prepare_EmberheartSlices"]/description</xpath>
+        <value>
+            <description>Slice the still-warm scarodon heart into thin, chewy cuts used in tribal rituals.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Scarodon's" -> "scarodon's" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MA_UnfinishedEmberheartSlices"]/description</xpath>
+        <value>
+            <description>Partially prepared slices of scarodon's heart. Still warm and awaiting final processing.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Scarodon's" -> "scarodon's" (hediff description only; leaving non-creature capitalization intact) -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="MA_EmberRage"]/description</xpath>
+        <value>
+            <description>Your body surges with primal energy as the scarodon's essence takes hold. Muscles tighten, instincts sharpen but the fury is fleeting, burning hot before fading. For a brief moment, you are the beast.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Hellboar" -> "hellboar" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MA_HellboarLiverSlice"]/description</xpath>
+        <value>
+            <description>Thin slices from the toxin-drenched liver of a hellboar. Used in desperate tribal rites to purge disease and pain at great personal cost. Only the strong survive the purge. The weak may fall before the poison is cleansed.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Hellboar’s" -> "hellboar’s" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThoughtDef[defName="MA_AteHellboarLiverSlice"]/stages</xpath>
+        <value>
+            <stages>
+            <li>
+                <label>liver purge crash</label>
+                <description>The aftertaste of the hellboar’s liver won’t leave my mouth. My stomach churns, and my mind swims.</description>
+                <baseMoodEffect>-15</baseMoodEffect>
+            </li>
+            </stages>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Hellboar's" -> "hellboar's" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MA_Prepare_HellboarLiverSlices"]/description</xpath>
+        <value>
+            <description>Slice and purge the toxins of a hellboar's liver to create ritual medicine used by tribal hunters and warriors.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Hellboar’s" -> "hellboar’s" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="MA_Hellboardraught"]/description</xpath>
+        <value>
+            <description>Your gut churns with toxins from the hellboar’s liver. Infection burns away, but your body pays the price. The potent essence floods the bloodstream, dulling pain and forcing the immune system into overdrive but clarity slips away, and the trance leaves the body vulnerable.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Harpeagle" -> "harpeagle" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MA_SkyfeatherPipe"]/description</xpath>
+        <value>
+            <description>A hand-carved pipe packed with the oiled feathers of the legendary harpeagle. The smoke sharpens sight, steadies aim, and extends awareness far beyond the horizon. Tribes speak of hunters who never missed their mark under its haze.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Harpeagle’s" -> "harpeagle’s" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThoughtDef[defName="MA_SkyfeatherHighThought"]/stages</xpath>
+        <value>
+            <stages>
+            <li>
+                <label>skyfeather clarity</label>
+                <description>The harpeagle’s spirit flows within me my eyes are sharp, my hands steady, and the prey cannot hide.</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+            </stages>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Harpeagle" -> "harpeagle" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MA_Prepare_SkyfeatherPipe"]/description</xpath>
+        <value>
+            <description>Pack the oiled feathers of the harpeagle into a carved pipe, creating a smoke that sharpens the senses.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Harpeagle" -> "harpeagle" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="MA_SkyfeatherVision"]/description</xpath>
+        <value>
+            <description>The oils from harpeagle feathers sharpen your senses, steady your aim, and let you see farther than the horizon.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Sivatherium" -> "sivatherium" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MA_SivaDustIvory"]/description</xpath>
+        <value>
+            <description>A refined powder made from the ossified horn of the sivatherium, once used as a stabilizer for ancient hibernation chambers. When ingested in small doses, it slows the mind and heart, easing tension and bringing a gentle sense of euphoria.\n\nIts composition carries traces of bio-synthetic matter from forgotten technologies, making it a coveted substance among tribes and collectors who believe it links mortals to the lost knowledge of the ancients.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: "Sivatherium" -> "sivatherium" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MA_Refine_SivaDustIvory"]/description</xpath>
+        <value>
+            <description>Crush and refine sivatherium horn into a fine, bio-reactive powder used in rituals and Ancient power systems.</description>
+        </value>
+        </Operation>
+
+        <!-- Fix: jobString "sivatherium" -->
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MA_Refine_SivaDustIvory"]/jobString</xpath>
+        <value>
+            <jobString>refining sivatherium horn into sivadust ivory...</jobString>
+        </value>
+        </Operation>
+
+        <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MA_SivaDustIvory"]/label</xpath>
+        <value>
+            <label>sivadust ivory</label>
+        </value>
+        </Operation>
+
+</Patch>
