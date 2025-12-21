@@ -23,5 +23,8 @@
     <li IfModActive="veterano.mythicages.megafaunabestiary">Mods and Shit/Mythic Ages Megafauna Bestiary</li>
     <li IfModActive="sk.bandagewrap">Mods and Shit/Bandage Wraps</li>
     <li IfModActive="trickity.seal.spirits">Mods and Shit/T's Seal The Spirits</li>
+    <li IfModActive="oskarpotocki.vanillavehiclesexpanded">Mods and Shit/VE Vehicles</li>
+    <li IfModActive="nuanki.garagedoorsexpanded">Mods and Shit/Garage Doors Expanded</li>
+    <li IfModActive="nuanki.boathouse">Mods and Shit/Boathouse Doors</li>
   </v1.6>
 </loadFolders>

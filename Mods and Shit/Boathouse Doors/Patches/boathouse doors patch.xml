@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- AUTO -> REMOTE -->
+
+	<!-- BoatHouse 1x1 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_BoatHouseDoorAI"]/label</xpath>
+		<value>
+			<label>remote boathouse door (1x1)</label>
+		</value>
+	</Operation>
+
+	<!-- BoatHouse 1x2 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_BoatHouseDoorAII"]/label</xpath>
+		<value>
+			<label>remote boathouse door (1x2)</label>
+		</value>
+	</Operation>
+
+	<!-- BoatHouse 1x3 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_BoatHouseDoorAIII"]/label</xpath>
+		<value>
+			<label>remote boathouse door (1x3)</label>
+		</value>
+	</Operation>
+
+	<!-- BoatHouse 1x4 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_BoatHouseDoorAIV"]/label</xpath>
+		<value>
+			<label>remote boathouse door (1x4)</label>
+		</value>
+	</Operation>
+
+	<!-- BoatHouse 1x5 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_BoatHouseDoorAV"]/label</xpath>
+		<value>
+			<label>remote boathouse door (1x5)</label>
+		</value>
+	</Operation>
+
+	<!-- BoatHouse 1x6 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_BoatHouseDoorAVI"]/label</xpath>
+		<value>
+			<label>remote boathouse door (1x6)</label>
+		</value>
+	</Operation>
+
+	<!-- BoatHouse 1x7 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_BoatHouseDoorAVII"]/label</xpath>
+		<value>
+			<label>remote boathouse door (1x7)</label>
+		</value>
+	</Operation>
+
+
+	<!-- Armored BoatHouse 1x1 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_ArmoredBoatHouseDoorAI"]/label</xpath>
+		<value>
+			<label>remote armored boathouse door (1x1)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored BoatHouse 1x2 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_ArmoredBoatHouseDoorAII"]/label</xpath>
+		<value>
+			<label>remote armored boathouse door (1x2)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored BoatHouse 1x3 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_ArmoredBoatHouseDoorAIII"]/label</xpath>
+		<value>
+			<label>remote armored boathouse door (1x3)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored BoatHouse 1x4 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_ArmoredBoatHouseDoorAIV"]/label</xpath>
+		<value>
+			<label>remote armored boathouse door (1x4)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored BoatHouse 1x5 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_ArmoredBoatHouseDoorAV"]/label</xpath>
+		<value>
+			<label>remote armored boathouse door (1x5)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored BoatHouse 1x6 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_ArmoredBoatHouseDoorAVI"]/label</xpath>
+		<value>
+			<label>remote armored boathouse door (1x6)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored BoatHouse 1x7 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BHD_ArmoredBoatHouseDoorAVII"]/label</xpath>
+		<value>
+			<label>remote armored boathouse door (1x7)</label>
+		</value>
+	</Operation>
+
+</Patch>

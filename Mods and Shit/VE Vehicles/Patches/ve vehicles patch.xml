@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- AUTO -> REMOTE -->
+
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VVE_GarageAutoDoor"]/label</xpath>
+                    <value>
+                        <label>remote garage door (1x4)</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Table_Counter"]/label</xpath>
+                    <value>
+                        <label>remote garage door (1x5)</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFE_LongPlantPot"]/label</xpath>
+                    <value>
+                    <label>modular plant decoration</label>
+                    </value>
+                </Operation>
+
+
+</Patch>

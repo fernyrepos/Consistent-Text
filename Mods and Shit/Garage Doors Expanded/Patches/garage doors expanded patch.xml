@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- AUTO -> REMOTE -->
+
+
+
+	<!-- 1x1 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorS"]/label</xpath>
+		<value>
+			<label>remote garage door (1x1)</label>
+		</value>
+	</Operation>
+
+	<!-- 1x2 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorM"]/label</xpath>
+		<value>
+			<label>remote garage door (1x2)</label>
+		</value>
+	</Operation>
+
+	<!-- 1x3 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorL"]/label</xpath>
+		<value>
+			<label>remote garage door (1x3)</label>
+		</value>
+	</Operation>
+
+	<!-- 1x6 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorXL"]/label</xpath>
+		<value>
+			<label>remote garage door (1x6)</label>
+		</value>
+	</Operation>
+
+	<!-- 1x7 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorXXL"]/label</xpath>
+		<value>
+			<label>remote garage door (1x7)</label>
+		</value>
+	</Operation>
+
+	<!-- 1x8 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorXXXL"]/label</xpath>
+		<value>
+			<label>remote garage door (1x8)</label>
+		</value>
+	</Operation>
+
+	<!-- 1x9 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorXXXXL"]/label</xpath>
+		<value>
+			<label>remote garage door (1x9)</label>
+		</value>
+	</Operation>
+
+
+	<!-- Armored 1x1 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorAS"]/label</xpath>
+		<value>
+			<label>remote armored garage door (1x1)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored 1x2 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorAM"]/label</xpath>
+		<value>
+			<label>remote armored garage door (1x2)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored 1x3 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorAL"]/label</xpath>
+		<value>
+			<label>remote armored garage door (1x3)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored 1x4 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorVAL"]/label</xpath>
+		<value>
+			<label>remote armored garage door (1x4)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored 1x5 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorVAXL"]/label</xpath>
+		<value>
+			<label>remote armored garage door (1x5)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored 1x6 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorAXL"]/label</xpath>
+		<value>
+			<label>remote armored garage door (1x6)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored 1x7 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorAXXL"]/label</xpath>
+		<value>
+			<label>remote armored garage door (1x7)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored 1x8 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorAXXXL"]/label</xpath>
+		<value>
+			<label>remote armored garage door (1x8)</label>
+		</value>
+	</Operation>
+
+	<!-- Armored 1x9 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GDE_GarageAutoDoorAXXXXL"]/label</xpath>
+		<value>
+			<label>remote armored garage door (1x9)</label>
+		</value>
+	</Operation>
+
+
+</Patch>
