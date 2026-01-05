@@ -27,5 +27,6 @@
     <li IfModActive="nuanki.garagedoorsexpanded">Mods and Shit/Garage Doors Expanded</li>
     <li IfModActive="nuanki.boathouse">Mods and Shit/Boathouse Doors</li>
     <li IfModActive="zarii.whitenoise">Mods and Shit/White Noise</li>
+    <li IfModActive="freemapa.groundclear">Mods and Shit/GroundClear</li>
   </v1.6>
 </loadFolders>
