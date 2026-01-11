@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <DoTheRitualsYourselves.UI.Ideo.Tip>Configure rituals for a specific ideology. Only rituals available in the colony will be shown.</DoTheRitualsYourselves.UI.Ideo.Tip>
+    <DoTheRitualsYourselves.UI.StartNow>Start ritual</DoTheRitualsYourselves.UI.StartNow>
+    <DoTheRitualsYourselves.UI.StartNow.Tip>Starts the ritual immediately. Ignores ritual policy except for participant requirements.</DoTheRitualsYourselves.UI.StartNow.Tip>
+    <DoTheRitualsYourselves.UI.AutoStart>Auto-start</DoTheRitualsYourselves.UI.AutoStart>
+    <DoTheRitualsYourselves.UI.AutoStart.Tip>Colonists will start the ritual according to its policy.</DoTheRitualsYourselves.UI.AutoStart.Tip>
+    <DoTheRitualsYourselves.UI.RitualPolicy>Policy</DoTheRitualsYourselves.UI.RitualPolicy>
+    <DoTheRitualsYourselves.UI.RitualPolicy.Tip>Configure participants and start conditions for the ritual.</DoTheRitualsYourselves.UI.RitualPolicy.Tip>
+    <DoTheRitualsYourselves.UI.RitualSpot>Designated spot</DoTheRitualsYourselves.UI.RitualSpot>
+    <DoTheRitualsYourselves.UI.RitualSpot.Tip>Assign a preferred location for the ritual. If none is set, the highest expected quality location will be used.</DoTheRitualsYourselves.UI.RitualSpot.Tip>
+    <DoTheRitualsYourselves.UI.RitualRole>Roles</DoTheRitualsYourselves.UI.RitualRole>
+    <DoTheRitualsYourselves.UI.RitualRole.Tip>Set participants to be assigned to each role first. If assignment is not possible, they may be replaced by other participants.</DoTheRitualsYourselves.UI.RitualRole.Tip>
+    <DoTheRitualsYourselves.UI.Start>Start</DoTheRitualsYourselves.UI.Start>
+    <DoTheRitualsYourselves.UI.CannotStart>Unavailable</DoTheRitualsYourselves.UI.CannotStart>
+    <DoTheRitualsYourselves.UI.Cancel>Cancel</DoTheRitualsYourselves.UI.Cancel>
+    <DoTheRitualsYourselves.UI.Cancel.Tip>Immediately cancel the ongoing ritual.</DoTheRitualsYourselves.UI.Cancel.Tip>
+    <DoTheRitualsYourselves.UI.StartTooltip>Start the ritual immediately with proper preparation.</DoTheRitualsYourselves.UI.StartTooltip>
+    <DoTheRitualsYourselves.UI.RepeatPenaltyStartTooltip>The ritual was performed recently, so the quality may be low.</DoTheRitualsYourselves.UI.RepeatPenaltyStartTooltip>
+    <DoTheRitualsYourselves.UI.Edit>Edit...</DoTheRitualsYourselves.UI.Edit>
+    <DoTheRitualsYourselves.UI.Assign>Assign</DoTheRitualsYourselves.UI.Assign>
+    
+    <DoTheRitualsYourselves.UI.RitualSpot.None>Auto</DoTheRitualsYourselves.UI.RitualSpot.None>
+    <DoTheRitualsYourselves.UI.RitualSpot.Assign>Assign</DoTheRitualsYourselves.UI.RitualSpot.Assign>
+    <DoTheRitualsYourselves.UI.RitualSpot.Clear>Clear</DoTheRitualsYourselves.UI.RitualSpot.Clear>
+    <DoTheRitualsYourselves.UI.RitualSpot.JumpTo>Jump To</DoTheRitualsYourselves.UI.RitualSpot.JumpTo>
+    <DoTheRitualsYourselves.UI.RitualSpot.AssignComplete>Ritual spot has been assigned.</DoTheRitualsYourselves.UI.RitualSpot.AssignComplete>
+
+    <DoTheRitualsYourselves.UI.Policy.Title>Ritual Policy</DoTheRitualsYourselves.UI.Policy.Title>
+    <DoTheRitualsYourselves.UI.Policy.Participants>Participants</DoTheRitualsYourselves.UI.Policy.Participants>
+    <DoTheRitualsYourselves.UI.Policy.Desc>Create and manage rules for automatic ritual initiation and conditions for participant eligibility.</DoTheRitualsYourselves.UI.Policy.Desc>
+    <DoTheRitualsYourselves.UI.Policy.MinPawnCount>Min Participants</DoTheRitualsYourselves.UI.Policy.MinPawnCount>
+    <DoTheRitualsYourselves.UI.Policy.MinPawnCount.Tip>Set the minimum number of participants required to start the ritual.</DoTheRitualsYourselves.UI.Policy.MinPawnCount.Tip>
+    <DoTheRitualsYourselves.UI.Policy.MaxNonRoleCount>Max Non-role</DoTheRitualsYourselves.UI.Policy.MaxNonRoleCount>
+    <DoTheRitualsYourselves.UI.Policy.MaxNonRoleCount.Tip>Limits the maximum number of participants without assigned roles.</DoTheRitualsYourselves.UI.Policy.MaxNonRoleCount.Tip>
+    <DoTheRitualsYourselves.UI.Policy.AvgMood>Average Mood</DoTheRitualsYourselves.UI.Policy.AvgMood>
+    <DoTheRitualsYourselves.UI.Policy.AvgMood.Tip>Set the average mood of participants required to start the ritual.</DoTheRitualsYourselves.UI.Policy.AvgMood.Tip>
+    <DoTheRitualsYourselves.UI.Policy.Time>Time</DoTheRitualsYourselves.UI.Policy.Time>
+    <DoTheRitualsYourselves.UI.Policy.Time.Tip>Set the time range during which the ritual may start.</DoTheRitualsYourselves.UI.Policy.Time.Tip>
+    <DoTheRitualsYourselves.UI.Policy.InvertTime>Invert Time</DoTheRitualsYourselves.UI.Policy.InvertTime>
+    <DoTheRitualsYourselves.UI.Policy.InvertTime.Tip>When enabled, prevents rituals from starting during the specified time range.</DoTheRitualsYourselves.UI.Policy.InvertTime.Tip>
+    <DoTheRitualsYourselves.UI.Policy.PawnHealth>Participant Health</DoTheRitualsYourselves.UI.Policy.PawnHealth>
+    <DoTheRitualsYourselves.UI.Policy.PawnHealth.Tip>Set the required health condition of participants eligible for the ritual.</DoTheRitualsYourselves.UI.Policy.PawnHealth.Tip>
+    <DoTheRitualsYourselves.UI.Policy.PawnMood>Participant Mood</DoTheRitualsYourselves.UI.Policy.PawnMood>
+    <DoTheRitualsYourselves.UI.Policy.PawnMood.Tip>Set the required mood level of participants eligible for the ritual.</DoTheRitualsYourselves.UI.Policy.PawnMood.Tip>
+    <DoTheRitualsYourselves.UI.Policy.ExceptRestring>Exclude Resting</DoTheRitualsYourselves.UI.Policy.ExceptRestring>
+    <DoTheRitualsYourselves.UI.Policy.ExceptRestring.Tip>When enabled, excludes pawns who are resting from the ritual.</DoTheRitualsYourselves.UI.Policy.ExceptRestring.Tip>
+    <DoTheRitualsYourselves.UI.Policy.RespectAllowedArea>Allowed Area</DoTheRitualsYourselves.UI.Policy.RespectAllowedArea>
+    <DoTheRitualsYourselves.UI.Policy.RespectAllowedArea.Tip>When enabled, colonists will only join rituals if the ritual spot is within their allowed area.</DoTheRitualsYourselves.UI.Policy.RespectAllowedArea.Tip>
+    <DoTheRitualsYourselves.UI.Policy.AllowColonist>Colonists</DoTheRitualsYourselves.UI.Policy.AllowColonist>
+    <DoTheRitualsYourselves.UI.Policy.AllowColonist.Tip>When enabled, colonists can participate in the ritual.</DoTheRitualsYourselves.UI.Policy.AllowColonist.Tip>
+    <DoTheRitualsYourselves.UI.Policy.AllowSlave>Slaves</DoTheRitualsYourselves.UI.Policy.AllowSlave>
+    <DoTheRitualsYourselves.UI.Policy.AllowSlave.Tip>When enabled, slaves can participate in the ritual.</DoTheRitualsYourselves.UI.Policy.AllowSlave.Tip>
+    <DoTheRitualsYourselves.UI.Policy.AllowOtherIdeo>Other Ideoligions</DoTheRitualsYourselves.UI.Policy.AllowOtherIdeo>
+    <DoTheRitualsYourselves.UI.Policy.AllowOtherIdeo.Tip>When enabled, members of other ideoligions can also participate in the ritual.</DoTheRitualsYourselves.UI.Policy.AllowOtherIdeo.Tip>
+
+    <DoTheRitualsYourselves.NewPolicy>New Ritual Policy</DoTheRitualsYourselves.NewPolicy>
+
+    <DoTheRitualsYourselves.UI.NotEditable>Not Editable</DoTheRitualsYourselves.UI.NotEditable>
+    <DoTheRitualsYourselves.UI.Rename>Rename</DoTheRitualsYourselves.UI.Rename>
+    <DoTheRitualsYourselves.UI.Delete>Delete</DoTheRitualsYourselves.UI.Delete>
+    <DoTheRitualsYourselves.UI.Add>Add</DoTheRitualsYourselves.UI.Add>
+    <DoTheRitualsYourselves.UI.DeleteConfirm>Are you sure you want to delete this ritual policy?</DoTheRitualsYourselves.UI.DeleteConfirm>
+
+    <DoTheRitualsYourselves.UI.AssignRole.Label>Assign Roles</DoTheRitualsYourselves.UI.AssignRole.Label>
+    <DoTheRitualsYourselves.UI.AssignRole.Desc>Set participant priority for each role from top to bottom. [No Role] will not be assigned to other roles, and [Unassigned] will fill empty roles and spectators.</DoTheRitualsYourselves.UI.AssignRole.Desc>
+    <DoTheRitualsYourselves.UI.AssignRole.Unassigned>Unassigned</DoTheRitualsYourselves.UI.AssignRole.Unassigned>
+    <DoTheRitualsYourselves.UI.AssignRole.Unassigned.Tip>This is the list of participants without assigned role priorities. If preferred assignment fails, participants will be chosen from the unassigned list.</DoTheRitualsYourselves.UI.AssignRole.Unassigned.Tip>
+    <DoTheRitualsYourselves.UI.AssignRole.None>No Role</DoTheRitualsYourselves.UI.AssignRole.None>
+</LanguageData>

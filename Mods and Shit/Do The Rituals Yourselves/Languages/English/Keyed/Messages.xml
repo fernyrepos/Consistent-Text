@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <DoTheRitualsYourselves.Message.DeleteRitualPolicy>Deleted ritual policy {0}.</DoTheRitualsYourselves.Message.DeleteRitualPolicy>
+    <DoTheRitualsYourselves.Message.NewRitualPolicy>Created a new ritual policy.</DoTheRitualsYourselves.Message.NewRitualPolicy>
+    <DoTheRitualsYourselves.Message.RenameRitualPolicy>Renamed ritual policy to {0}.</DoTheRitualsYourselves.Message.RenameRitualPolicy>
+
+    <DoTheRitualsYourselves.Message.CantStart>Cannot start the ritual.</DoTheRitualsYourselves.Message.CantStart>
+</LanguageData>

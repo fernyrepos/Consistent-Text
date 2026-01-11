@@ -28,5 +28,8 @@
     <li IfModActive="nuanki.boathouse">Mods and Shit/Boathouse Doors</li>
     <li IfModActive="zarii.whitenoise">Mods and Shit/White Noise</li>
     <li IfModActive="freemapa.groundclear">Mods and Shit/GroundClear</li>
+    <li IfModActive="memegoddess.runandgun">Mods and Shit/Run and Gun</li>  
+    <li IfModActive="memegoddess.searchanddestroy">Mods and Shit/Search and Destroy</li>
+    <li IfModActive="woolyung.dotheritualsyourselves">Mods and Shit/Do The Rituals Yourselves</li>
   </v1.6>
 </loadFolders>

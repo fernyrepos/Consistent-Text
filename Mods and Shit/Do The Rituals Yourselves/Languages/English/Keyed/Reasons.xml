@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <DoTheRitualsYourselves.Reason.RitualNoObligation>The conditions to start the ritual are not met.</DoTheRitualsYourselves.Reason.RitualNoObligation>
+    <DoTheRitualsYourselves.Reason.RitualNoSpotOrObligation>No suitable location is available to start the ritual, or The conditions to start the ritual are not met.</DoTheRitualsYourselves.Reason.RitualNoSpotOrObligation>
+    <DoTheRitualsYourselves.Reason.WrongTime>It is not within the time range specified by the ritual policy.</DoTheRitualsYourselves.Reason.WrongTime>
+    <DoTheRitualsYourselves.Reason.WrongMood>The average mood does not meet the requirement of the ritual policy.</DoTheRitualsYourselves.Reason.WrongMood>
+    <DoTheRitualsYourselves.Reason.RepeatPenaltyActive>The ritual was recently held.</DoTheRitualsYourselves.Reason.RepeatPenaltyActive>
+    <DoTheRitualsYourselves.Reason.Danger>There is danger present, so the ritual cannot start.</DoTheRitualsYourselves.Reason.Danger>
+    <DoTheRitualsYourselves.Reason.Nobody>No one is available to participate in the ritual.</DoTheRitualsYourselves.Reason.Nobody>
+    <DoTheRitualsYourselves.Reason.CantUnknown>The ritual cannot be started for an unknown reason.</DoTheRitualsYourselves.Reason.CantUnknown>
+</LanguageData>
