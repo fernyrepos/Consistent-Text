@@ -31,5 +31,7 @@
     <li IfModActive="memegoddess.runandgun">Mods and Shit/Run and Gun</li>  
     <li IfModActive="memegoddess.searchanddestroy">Mods and Shit/Search and Destroy</li>
     <li IfModActive="woolyung.dotheritualsyourselves">Mods and Shit/Do The Rituals Yourselves</li>
+    <li IfModActive="goji.thesimstraits">Mods and Shit/The Sims Teaits</li>
+    <li IfModActive="vanillaexpanded.vanillatraitsexpanded">Mods and Shit/VE Traits</li>
   </v1.6>
 </loadFolders>
