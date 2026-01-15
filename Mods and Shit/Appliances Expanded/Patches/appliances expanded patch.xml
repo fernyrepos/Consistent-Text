@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+wood-fired turbine
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="CA_WoodFiredTurbine"]/label</xpath>
+                    <value>
+                        <label>fueled turbine</label>
+                    </value>
+                </Operation>
+
+</Patch>

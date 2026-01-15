@@ -1,5 +1,6 @@
 <loadFolders>
   <v1.6>
+    <li>/</li>
 <!-- MODS -->
     <li IfModActive="mf.ahm">Mods and Shit/Advance Incubator</li>
     <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
@@ -31,5 +32,7 @@
     <li IfModActive="memegoddess.runandgun">Mods and Shit/Run and Gun</li>  
     <li IfModActive="memegoddess.searchanddestroy">Mods and Shit/Search and Destroy</li>
     <li IfModActive="woolyung.dotheritualsyourselves">Mods and Shit/Do The Rituals Yourselves</li>
+    <li IfModActive="vanillaexpanded.vfepower">Mods and Shit/VFE Power</li>
+    <li IfModActive="scpchemfuel.appliances">Mods and Shit/Appliances Expanded</li>
   </v1.6>
 </loadFolders>
