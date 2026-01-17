@@ -34,5 +34,6 @@
     <li IfModActive="woolyung.dotheritualsyourselves">Mods and Shit/Do The Rituals Yourselves</li>
     <li IfModActive="vanillaexpanded.vfepower">Mods and Shit/VFE Power</li>
     <li IfModActive="scpchemfuel.appliances">Mods and Shit/Appliances Expanded</li>
+    <li IfModActive="flestal.mig">Mods and Shit/Metalhorror Immunity Gene</li>
   </v1.6>
 </loadFolders>

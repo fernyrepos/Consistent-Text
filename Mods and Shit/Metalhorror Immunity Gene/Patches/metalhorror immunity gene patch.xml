@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+Metalhorror Immunity
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/GeneDef[defName="MetalhorrorImmune"]/label</xpath>
+                    <value>
+                        <label>Metalhorror impervious</label>
+                    </value>
+                </Operation>
+
+<!-- ORIGINAL
+Metalhorror cannot parasitize Gene Owner.
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/GeneDef[defName="MetalhorrorImmune"]/description</xpath>
+                    <value>
+                        <description>Carriers of this gene are immune to the parasitic influence of the rumored metal creatures of the void.</description>
+                    </value>
+                </Operation>
+
+</Patch>
