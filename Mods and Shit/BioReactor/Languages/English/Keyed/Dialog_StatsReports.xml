@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BR.ModVersion>Installed mod-version: {0}</BR.ModVersion>
+  <BR.SelectItems>What should be dropped when a pawn enters a reactor</BR.SelectItems>
+  <!-- <BR.ShowPawnInfo>Pawn Info</BR.ShowPawnInfo> -->
+  <BR.ShowPawnInfo>Pawn info</BR.ShowPawnInfo>
+  <!-- <BR.ShowPawnInfoDesc>Show info panel for the contained pawn</BR.ShowPawnInfoDesc> -->
+  <BR.ShowPawnInfoDesc>Show info panel for the contained pawn.</BR.ShowPawnInfoDesc>
+  <BR.Carried>Carried weapon</BR.Carried>
+  <BR.Apparel>Worn apparel</BR.Apparel>
+  <BR.Inventory>Inventory</BR.Inventory>
+  <!-- <NoBioReactor>No valid BioReactor</NoBioReactor> -->
+  <NoBioReactor>No valid bioreactor</NoBioReactor>
+  <!-- <EnterBioReactor>Enter BioReactor</EnterBioReactor> -->
+  <EnterBioReactor>Enter bioreactor</EnterBioReactor>
+  <!-- <Histolysis>Histolysis</Histolysis> -->
+  <Histolysis>Initiate histolysis</Histolysis>
+  <HistolysisDesc>The living objects are melted in the reactor and replaced to biofuel.</HistolysisDesc>
+  <!-- <CarryToBioReactor>Carry {1_label} to BioReactor</CarryToBioReactor> -->
+  <CarryToBioReactor>Carry {1_label} to bioreactor</CarryToBioReactor>
+  <!-- <CarryToBioReactorNew>Carry {0} to BioReactor</CarryToBioReactorNew> -->
+  <CarryToBioReactorNew>Carry {0} to bioreactor</CarryToBioReactorNew>
+  <!-- <CannotCarryToBioReactor>Cannot carry to BioReactor</CannotCarryToBioReactor> -->
+  <CannotCarryToBioReactor>Cannot carry to bioreactor</CannotCarryToBioReactor>
+  <!-- <CannotCarryThemToBioReactor>Cannot carry {0} to BioReactor</CannotCarryThemToBioReactor> -->
+  <CannotCarryThemToBioReactor>Cannot carry {0} to bioreactor</CannotCarryThemToBioReactor>
+  <!-- <TheyCannotCarryToBioReactor>{0} cannot carry to BioReactor</TheyCannotCarryToBioReactor> -->
+  <TheyCannotCarryToBioReactor>{0} cannot carry to bioreactor</TheyCannotCarryToBioReactor>
+  <!-- <RefuelTitle>Refuel Filter</RefuelTitle> -->
+  <RefuelTitle>Nutrients filter</RefuelTitle>
+  <!-- <RefuelTab>Filter Tab</RefuelTab> -->
+  <RefuelTab>Nutrients</RefuelTab>
+  <CommandCopyBioReactorSettingsLabel>Copy settings</CommandCopyBioReactorSettingsLabel>
+  <!-- <CommandCopyBioReactorSettingsDesc>Copy this BioReactor's settings to the clipboard so you can paste them onto another BioReactor.</CommandCopyBioReactorSettingsDesc> -->
+  <CommandCopyBioReactorSettingsDesc>Copy this bioreactor's settings to the clipboard so you can paste them onto another bioreactor.</CommandCopyBioReactorSettingsDesc>
+  <CommandPasteBioReactorSettingsLabel>Paste settings</CommandPasteBioReactorSettingsLabel>
+  <!-- <CommandPasteBioReactorSettingsDesc>Overwrite this BioReactor's settings with those previously copied to the clipboard.</CommandPasteBioReactorSettingsDesc> -->
+  <CommandPasteBioReactorSettingsDesc>Overwrite this bioreactor's settings with those previously copied to the clipboard.</CommandPasteBioReactorSettingsDesc>
+</LanguageData>

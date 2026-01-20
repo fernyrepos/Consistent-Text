@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- <CommandMassGraveDestroyCorpsesLabel>Destroy Corpses</CommandMassGraveDestroyCorpsesLabel>
+  <CommandMassGraveDestroyCorpsesDesc>Empty the grave by destroying corpses inside</CommandMassGraveDestroyCorpsesDesc>
+  <CommandMassGraveInsufficientCount>Not enough corpses to empty the grave</CommandMassGraveInsufficientCount> -->
+
+  <CommandMassGraveDestroyCorpsesLabel>Destroy corpses</CommandMassGraveDestroyCorpsesLabel>
+  <CommandMassGraveDestroyCorpsesDesc>Empty the grave by destroying corpses inside.</CommandMassGraveDestroyCorpsesDesc>
+  <CommandMassGraveInsufficientCount>Not enough corpses inside to empty the grave.</CommandMassGraveInsufficientCount>
+</LanguageData>

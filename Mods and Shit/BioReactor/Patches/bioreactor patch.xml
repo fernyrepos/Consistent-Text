@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+
+<!-- <description>It is a bioreactor. It draws energy from living life. Power output is proportional to body size of the creature contained. The amount of Nutrio to be injected into the living body is necessary.</description> -->
+
+
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="BioReactorBase"]/description</xpath>
+            <value>
+                <description>A chamber capable of harnessing energy from the active metabolic processes of a living creature. Power output is proportional to the size of the entombed creature.</description>
+            </value>
+        </Operation>
+
+<!-- BioReactor -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="BioReactorBase"]/label</xpath>
+            <value>
+                <label>bioreactor</label>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="BioReactor"]/label</xpath>
+            <value>
+                <label>bioreactor (2x2)</label>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="BioReactorCircleLarge"]/label</xpath>
+            <value>
+                <label>bioreactor (3x3)</label>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="BioReactorCircleEX"]/label</xpath>
+            <value>
+                <label>bioreactor (4x4)</label>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="BioReactorBig"]/label</xpath>
+            <value>
+                <label>bioreactor (3X3)</label>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="BioReactorEx"]/label</xpath>
+            <value>
+                <label>bioreactor (4X4)</label>
+            </value>
+        </Operation>
+
+
+</Patch>

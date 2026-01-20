@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+
+
+
+                <!-- smart toilets -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="AdvancedToilets"]/label</xpath>
+                    <value>
+                        <label>smart toilet</label>
+                    </value>
+                </Operation>
+
+                <!-- deep wells -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="DeepWells"]/label</xpath>
+                    <value>
+                        <label>deep well</label>
+                    </value>
+                </Operation>
+    
+                <!-- washing machines -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="WashingMachines"]/label</xpath>
+                    <value>
+                    <label>washing machine</label>
+                    </value>
+                </Operation>
+
+                <!-- septic tanks -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="SepticTanks"]/label</xpath>
+                    <value>
+                    <label>septic tank</label>
+                    </value>
+                </Operation>
+
+                <!-- swimming pools -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="SwimmingPools"]/label</xpath>
+                    <value>
+                    <label>swimming pool</label>
+                    </value>
+                </Operation>
+
+                <!-- hot tubs -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="HotTubs"]/label</xpath>
+                    <value>
+                    <label>hot tub</label>
+                    </value>
+                </Operation>
+
+                <!-- hot tubs -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="HotTubs"]/label</xpath>
+                    <value>
+                    <label>hot tub</label>
+                    </value>
+                </Operation>
+
+                <!-- power showers -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="AdvancedShowers"]/label</xpath>
+                    <value>
+                    <label>power shower</label>
+                    </value>
+                </Operation>
+
+                <!-- Hygiene Bionics -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="HygieneBionics"]/label</xpath>
+                    <value>
+                    <label>hygiene bionics</label>
+                    </value>
+                </Operation>
+
+</Patch>

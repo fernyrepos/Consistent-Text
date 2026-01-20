@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+  <!-- Shuttle dock -->
+  <!-- <MThings_5x5ShuttleDock.label>5x5 Shuttle Dock</MThings_5x5ShuttleDock.label> -->
+  <MThings_5x5ShuttleDock.label>transport dock (5x5)</MThings_5x5ShuttleDock.label>
+  <!-- <MThings_5x5ShuttleDock.label>7x7 Shuttle Dock</MThings_5x5ShuttleDock.label> -->
+  <MThings_7x7ShuttleDock.label>transport dock (7x7)</MThings_7x7ShuttleDock.label>
+  <!-- <MThings_5x5ShuttleDock.label>9x9 Shuttle Dock</MThings_5x5ShuttleDock.label> -->
+  <MThings_9x9ShuttleDock.label>transport dock (9x9)</MThings_9x9ShuttleDock.label>
+
+  <MThings_5x5ShuttleDock.description>A remote-operated armored roof system built for launching and landing aerial vehicles. Can be linked to wall lamps for color effects.</MThings_5x5ShuttleDock.description>
+  <MThings_5x5ShuttleDock.description>A remote-operated armored roof system built for launching and landing aerial vehicles. Can be linked to wall lamps for color effects.</MThings_5x5ShuttleDock.description>
+  <MThings_7x7ShuttleDock.description>A remote-operated armored roof system built for launching and landing aerial vehicles. Can be linked to wall lamps for color effects.</MThings_7x7ShuttleDock.description>
+  <MThings_9x9ShuttleDock.description>A remote-operated armored roof system built for launching and landing aerial vehicles. Can be linked to wall lamps for color effects.</MThings_9x9ShuttleDock.description>
+</LanguageData>

@@ -1,7 +1,7 @@
 <loadFolders>
   <v1.6>
     <li>/</li>
-<!-- MODS -->
+    <!-- MODS -->
     <li IfModActive="mf.ahm">Mods and Shit/Advance Incubator</li>
     <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
     <li IfModActive="bart.bioformmatrix">Mods and Shit/Bioform Matrix</li>
@@ -35,5 +35,9 @@
     <li IfModActive="vanillaexpanded.vfepower">Mods and Shit/VFE Power</li>
     <li IfModActive="scpchemfuel.appliances">Mods and Shit/Appliances Expanded</li>
     <li IfModActive="flestal.mig">Mods and Shit/Metalhorror Immunity Gene</li>
+    <li IfModActive="Mlie.BioReactor">Mods and Shit/Bioreactor</li>
+    <li IfModActive="Salvador143.ShuttleDock">Mods and Shit/Shuttle Dock</li>
+    <li IfModActive="Dubwise.DubsBadHygiene">Mods and Shit/Dubs Bad Hygiene</li>
+    <li IfModActive="pyrce.mass.graves.continued">Mods and Shit/Mass Graves</li>
   </v1.6>
 </loadFolders>

@@ -6,7 +6,7 @@ mass grave
  -->
                 <Operation Class="PatchOperationReplace">
                     <success>Always</success>
-                    <xpath>Defs/ThingDef[defName="MassGrave"]/label</xpath>
+                    <xpath>Defs/ThingDef[@Name="MassGraveBase"]/label</xpath>
                     <value>
                         <label>mass grave (3x3)</label>
                     </value>
@@ -15,9 +15,9 @@ mass grave
 <!-- ORIGINAL
 mass grave
  -->
-                <Operation Class="PatchOperationReplace">
+                <Operation Class="PatchOperationAdd">
                     <success>Always</success>
-                    <xpath>Defs/ThingDef[defName="MassGraveAlt"]/label</xpath>
+                    <xpath>Defs/ThingDef[defName="MassGraveAlt"]</xpath>
                     <value>
                         <label>mass grave (5x2)</label>
                     </value>

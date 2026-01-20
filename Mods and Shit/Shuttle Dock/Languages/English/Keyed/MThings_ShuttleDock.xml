@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- <MThings_ShuttleDock_ConnectLabel>Connect to nearby dock</MThings_ShuttleDock_ConnectLabel> -->
+  <MThings_ShuttleDock_ConnectLabel>Link to transport dock</MThings_ShuttleDock_ConnectLabel>
+
+  <!-- <MThings_ShuttleDock_DisconnectLabel>Disconnect from dock</MThings_ShuttleDock_DisconnectLabel> -->
+  <MThings_ShuttleDock_DisconnectLabel>Unlink from transport dock</MThings_ShuttleDock_DisconnectLabel>
+
+
+
+  <!-- <MThings_ShuttleDock_OpenRoofLabel>Open dock</MThings_ShuttleDock_OpenRoofLabel> -->
+  <MThings_ShuttleDock_OpenRoofLabel>Open roof</MThings_ShuttleDock_OpenRoofLabel>
+  <!-- <MThings_ShuttleDock_CloseRoofLabel>Close dock</MThings_ShuttleDock_CloseRoofLabel> -->
+  <MThings_ShuttleDock_CloseRoofLabel>Close roof</MThings_ShuttleDock_CloseRoofLabel>
+
+
+
+  <!-- <MThings_ShuttleDock_OpenRoofDesc>Add the reinforced roof back over the dock.</MThings_ShuttleDock_OpenRoofDesc> -->
+  <MThings_ShuttleDock_OpenRoofDesc>Close the reinforced roof over the dock.</MThings_ShuttleDock_OpenRoofDesc>
+  <!-- <MThings_ShuttleDock_CloseRoofDesc>Remove the reinforced roof so transport can land.</MThings_ShuttleDock_CloseRoofDesc> -->
+  <MThings_ShuttleDock_CloseRoofDesc>Open the reinforced roof so transport can land.</MThings_ShuttleDock_CloseRoofDesc>
+
+  <!-- <MThings_ShuttleDock_ConnectDesc>Connect this wall lamp to the nearest shuttle dock within range.</MThings_ShuttleDock_ConnectDesc> -->
+  <MThings_ShuttleDock_ConnectDesc>Connect this wall lamp to the nearest transport dock within range.</MThings_ShuttleDock_ConnectDesc>
+
+  <!-- <MThings_ShuttleDock_ReconnectDesc>Reconnect this wall lamp to a nearby shuttle dock.</MThings_ShuttleDock_ReconnectDesc> -->
+  <MThings_ShuttleDock_ReconnectDesc>Reconnect this wall lamp to a nearby transport dock.</MThings_ShuttleDock_ReconnectDesc>
+
+  <!-- <MThings_ShuttleDock_DisconnectDesc>Disconnect this lamp from its shuttle dock.</MThings_ShuttleDock_DisconnectDesc> -->
+  <MThings_ShuttleDock_DisconnectDesc>Disconnect this lamp from its transport dock.</MThings_ShuttleDock_DisconnectDesc>
+
+  <!-- <MThings_ShuttleDock_NoAvailableDock>No available shuttle dock found nearby.</MThings_ShuttleDock_NoAvailableDock> -->
+  <MThings_ShuttleDock_NoAvailableDock>No available transport dock found nearby.</MThings_ShuttleDock_NoAvailableDock>
+
+  <!-- <MThings_ShuttleDock_Disconnected>Disconnected from shuttle dock.</MThings_ShuttleDock_Disconnected> -->
+  <MThings_ShuttleDock_Disconnected>Disconnected from transport dock.</MThings_ShuttleDock_Disconnected>
+
+
+
+
+
+  <!-- <MThings_ShuttleDock_SetOpenColorLabel>Set dock OPEN color</MThings_ShuttleDock_SetOpenColorLabel>
+  <MThings_ShuttleDock_SetClosedColorLabel>Set dock CLOSED color</MThings_ShuttleDock_SetClosedColorLabel> -->
+
+
+
+
+</LanguageData>
