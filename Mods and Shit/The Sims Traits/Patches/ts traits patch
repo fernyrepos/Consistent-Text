@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/TraitDef[defName="ST_Gambler"]/degreeDatas/li/description</xpath>
+    <value>
+      <description>{PAWN_nameDef} believes in {PAWN_possessive} own luck and rides it on the card table and on the battlefield. {PAWN_pronoun} needs to regularly play at a poker table. Without access to one, {PAWN_pronoun} grows unhappy.</description>
+    </value>
+  
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/TraitDef[defName="ST_Procrastinator"]/degreeDatas/li/description</xpath>
+    <value>
+      <description>{PAWN_nameDef} puts things off until the last minute. {PAWN_pronoun} only manages to get to work when explicitly scheduled, and even then, the results are usually lacklustre.</description>
+    </value>
+  </Operation>
+
+    <Operation Class="PatchOperationReplace">
+    <xpath>Defs/TraitDef[defName="ST_Devout"]/degreeDatas/li/description</xpath>
+    <value>
+				<description>{PAWN_nameDef} devotes {PAWN_possessive} body and soul to what {PAWN_pronoun} believes. {PAWN_pronoun} will stubbornly cling onto {PAWN_possessive} ideology at all costs.</description>
+    </value>
+  </Operation>
+
+</Patch>
