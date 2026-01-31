@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- shuttle -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Shuttles"]/label</xpath>
+                    <value>
+                        <label>passenger shuttle</label>
+                    </value>
+                </Operation>
+
+</Patch>

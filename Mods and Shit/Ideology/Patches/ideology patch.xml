@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- biosculpting -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Biosculpting"]/label</xpath>
+                    <value>
+                        <label>biosculpter pod</label>
+                    </value>
+                </Operation>
+
+</Patch>

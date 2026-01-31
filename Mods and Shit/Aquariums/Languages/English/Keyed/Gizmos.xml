@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- <Aqua_InstallInTankLabel>Install in fish tank</Aqua_InstallInTankLabel>
+  <Aqua_RemoveFromTankLabel>Remove fish</Aqua_RemoveFromTankLabel>
+  <Aqua_SelectFishTank>Select fish tank</Aqua_SelectFishTank> -->
+
+  <!-- <Aqua_OpenEditor>Open decoration editor</Aqua_OpenEditor> -->
+  <Aqua_OpenEditor>Decorate tank</Aqua_OpenEditor>
+
+  <!-- <Aqua_EnableCleaning>Cleaning</Aqua_EnableCleaning>
+  <Aqua_EnableCleaning_Tip>Whether or not this building should check the connected tanks hygiene and consume power to reduce it below a certain threshold.</Aqua_EnableCleaning_Tip>
+  <Aqua_CleaningRange_Tip>When the tanks hygiene drops below the lower level, the cleaning cycle will start until it hits the upper level.</Aqua_CleaningRange_Tip>
+
+  <Aqua_OpenFishInfo>Fish Info</Aqua_OpenFishInfo> -->
+  <!-- <Aqua_OpenFishOverview>Open fish overview</Aqua_OpenFishOverview> -->
+  <Aqua_OpenFishOverview>View fish overview</Aqua_OpenFishOverview>
+
+  <!-- <Aqua_CannotInstall_NotTamed>Must be tamed</Aqua_CannotInstall_NotTamed> -->
+</LanguageData>

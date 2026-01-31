@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- growth vats -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="GrowthVats"]/label</xpath>
+                    <value>
+                        <label>growth vat</label>
+                    </value>
+                </Operation>
+
+</Patch>

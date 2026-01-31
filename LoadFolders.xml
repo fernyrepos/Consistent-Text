@@ -39,5 +39,23 @@
     <li IfModActive="Salvador143.ShuttleDock">Mods and Shit/Shuttle Dock</li>
     <li IfModActive="Dubwise.DubsBadHygiene">Mods and Shit/Dubs Bad Hygiene</li>
     <li IfModActive="pyrce.mass.graves.continued">Mods and Shit/Mass Graves</li>
+    <li IfModActive="oels.nanamewalls">Mods and Shit/Naname Walls</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="heremeus.medicaldissection">Mods and Shit/Medical Dissection</li>
+    <li IfModActive="fort.firefighter">Mods and Shit/Forts Firefighter Gadget</li>
+    <li IfModActive="mlie.barnstall">Mods and Shit/Barn Stall</li>
+    <li IfModActive="mlie.temperaturegauge">Mods and Shit/Temperature Gauge</li>
+    <li IfModActive="nightmare.aquariums">Mods and Shit/Aquariums</li>
+    <li IfModActive="oskarpotocki.vfe.empire">Mods and Shit/VFE Empire</li>
+    <li IfModActive="ratys.rtfuse">Mods and Shit/RT Fuse</li>
+    <li IfModActive="oskarpotocki.vfe.pirates">Mods and Shit/VFE Pirates</li>
+    <li IfModActive="ludeon.rimworld.ideology">Mods and Shit/Ideology</li>
+    <li IfModActive="vanillaexpanded.helixiengas">Mods and Shit/VE Helixien</li>
+    <li IfModActive="cixwow.advancedmoisturepump">Mods and Shit/Advanced Moisture Pump</li>
+    <li IfModActive="mersid.wce2updated.core">Mods and Shit/War Crimes Expanded 2 Core</li>
+    <li IfModActive="ludeon.rimworld.biotech">Mods and Shit/Biotech</li>
+    <li IfModActive="ludeon.rimworld.odyssey">Mods and Shit/Odyssey</li>
+    <li IfModActive="ninagoblin.enhancedvatlearning">Mods and Shit/Enhanced Vat Learning</li>
+    <li IfModActive="mlie.prisoncommons">Mods and Shit/Prison Commons</li>
   </v1.6>
 </loadFolders>

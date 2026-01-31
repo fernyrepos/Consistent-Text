@@ -37,4 +37,22 @@ tilable planter box
 
 
 
+
+
+<!-- Sprinklers -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Sprinkler"]/label</xpath>
+                    <value>
+                        <label>Sprinkler</label>
+                    </value>
+                </Operation>
+
+
+
+
+
+
+
+
 </Patch>

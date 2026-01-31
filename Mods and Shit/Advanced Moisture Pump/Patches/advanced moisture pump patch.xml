@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- advanced moisture pumping -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="AMP_AdvancedMoisturePumping"]/label</xpath>
+                    <value>
+                        <label>advanced moisture pump</label>
+                    </value>
+                </Operation>
+
+</Patch>

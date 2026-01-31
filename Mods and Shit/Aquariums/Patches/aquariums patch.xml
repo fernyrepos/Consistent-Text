@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- basic fish tank -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Aqua_FishTank"]/label</xpath>
+                    <value>
+                        <label>fish tank</label>
+                    </value>
+                </Operation>
+
+                <!-- Aquarium compact nutrition control -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Aqua_CompactNutritionControl"]/label</xpath>
+                    <value>
+                        <label>automatic fish feeder</label>
+                    </value>
+                </Operation>
+
+                <!-- Auto fish feeder -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Aqua_NutritionControl"]/label</xpath>
+                    <value>
+                        <label>automatic fish feeder</label>
+                    </value>
+                </Operation>
+
+
+                <!-- Aquarium nutrition control -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Aqua_NutritionControl"]/label</xpath>
+                    <value>
+                        <label>automatic aquarium feeder</label>
+                    </value>
+                </Operation>
+
+                <!-- Advanced auto fish feeder-->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Aqua_AdvancedNutritionControl"]/label</xpath>
+                    <value>
+                        <label>automatic aquarium feeder</label>
+                    </value>
+                </Operation>
+
+
+
+                <!-- Aquarium compact temperature control -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Aqua_CompactTemperatureControl"]/label</xpath>
+                    <value>
+                        <label>fish tank thermoregulator</label>
+                    </value>
+                </Operation>
+
+                <!-- Aquarium temperature control -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Aqua_TemperatureControl"]/label</xpath>
+                    <value>
+                        <label>fish tank thermoregulator</label>
+                    </value>
+                </Operation>
+
+
+
+                <!-- Aquarium temperature control -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Aqua_TemperatureControl"]/label</xpath>
+                    <value>
+                        <label>aquarium thermoregulator</label>
+                    </value>
+                </Operation>
+
+                <!-- Aquarium temperature control -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Aqua_AdvancedTemperatureControl"]/label</xpath>
+                    <value>
+                        <label>aquarium thermoregulator</label>
+                    </value>
+                </Operation>
+
+
+                <!-- Aquarium filter -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Aqua_Filter"]/label</xpath>
+                    <value>
+                        <label>tank water filter</label>
+                    </value>
+                </Operation>
+
+                <!-- Aquarium water filter -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Aqua_Filter"]/label</xpath>
+                    <value>
+                        <label>tank water filter</label>
+                    </value>
+                </Operation>
+
+
+                <!-- Aquarium auto cleaner -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Aqua_AutoCleaner"]/label</xpath>
+                    <value>
+                        <label>aquarium water filter</label>
+                    </value>
+                </Operation>
+
+                <!-- Aquarium auto cleaner < -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Aqua_AutoCleaner"]/label</xpath>
+                    <value>
+                        <label>aquarium water filter</label>
+                    </value>
+                </Operation>
+
+
+</Patch>

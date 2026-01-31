@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- sweat fermentation -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFEP_SweatFermentation"]/label</xpath>
+                    <value>
+                        <label>rumsuit</label>
+                    </value>
+                </Operation>
+
+
+<!-- warcaskets -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFEP_Warcaskets"]/label</xpath>
+                    <value>
+                        <label>warcasket foundry</label>
+                    </value>
+                </Operation>
+
+
+
+</Patch>

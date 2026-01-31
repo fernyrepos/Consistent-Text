@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- silk -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="DankPyon_Silk"]/label</xpath>
+                    <value>
+                        <label>Silk bed</label>
+                    </value>
+                </Operation>
+
+</Patch>

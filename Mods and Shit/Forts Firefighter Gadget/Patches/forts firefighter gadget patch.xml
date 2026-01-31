@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+Crowbar
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Crowbar"]/label</xpath>
+                    <value>
+                        <label>crowbar</label>
+                    </value>
+                </Operation>
+
+
+<!-- a straight piece of iron with a wedge-shaped end. was developed to open wooden crates, doors, and boxes. It may have been called a “crowbar” because it looked like a crow's beak or feet. -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Crowbar"]/description</xpath>
+                    <value>
+                        <description>A straight piece of iron with a wedge-shaped end, originally developed to open wooden crates, doors, and boxes. It is said to have been named a “crowbar” because it looked like a crow's beak or feet.</description>
+                    </value>
+                </Operation>
+
+<!-- Halligan bar -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Halligan_Bar"]/label</xpath>
+                    <value>
+                        <label>halligan bar</label>
+                    </value>
+                </Operation>
+
+<!-- A Hulligan Bar based on the earlier Kelly tool which is multipurpose tool for prying, twisting or punching. the first prototype of the Halligan bar was made by blacksmith Peter Clarke. -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Halligan_Bar"]/description</xpath>
+                    <value>
+                        <description>A multipurpose tool for prying, twisting or impacting. In ancient times it was used to break down walls and open the hoods of cars.</description>
+                    </value>
+                </Operation>
+
+<!-- Boltcutter -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Boltcutter"]/label</xpath>
+                    <value>
+                        <label>bolt cutter</label>
+                    </value>
+                </Operation>
+
+<!-- A tool with typically long handles and short blades. used for cutting bolts, chains, padlocks, rebar and wire mesh. or you can just cut some bushes. -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Boltcutter"]/description</xpath>
+                    <value>
+                        <description>A tool with long handles and short blades often used for cutting bolts, chains, padlocks, rebar and wire mesh. It also works great for cutting plants.</description>
+                    </value>
+                </Operation>
+
+
+<!-- Sledge Hammer -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Sledgehammer"]/label</xpath>
+                    <value>
+                        <label>sledgehammer</label>
+                    </value>
+                </Operation>
+
+<!-- A sledgehammer is a tool with a large, flat, often metal head, attached to a long handle. heavy head allows the sledgehammer to gather momentum during a swing and apply a large force. -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Sledgehammer"]/description</xpath>
+                    <value>
+                        <description>A tool with a large flat head attached to a long handle. Its heavy end allows the hammer to gather incredible momentum during a swing and apply large force.</description>
+                    </value>
+                </Operation>
+
+<!-- FireAxe -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_FireAxe"]/label</xpath>
+                    <value>
+                        <label>fire axe</label>
+                    </value>
+                </Operation>
+
+<!-- The flathead axe can be used to chop and smash through areas when checking for fire extension into walls and ceilings to prevent a fire that had been extinguished from rekindling. -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_FireAxe"]/description</xpath>
+                    <value>
+                        <description>A tool once used by firefighters to chop and smash through walls while searching for active fire threats.</description>
+                    </value>
+                </Operation>
+
+
+<!-- Hydraulic Rescue Tool -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_HydraulicRescueTool"]/label</xpath>
+                    <value>
+                        <label>hydraulic ram</label>
+                    </value>
+                </Operation>
+
+<!-- Hydraulic rescue tools are used by emergency rescue personnel to assist in the extrication of victims involved in vehicle accidents, as well as other rescues in small spaces. Now its going to break those walls and doors for own goods. -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_HydraulicRescueTool"]/description</xpath>
+                    <value>
+                        <description>A heavy-duty tool once used by emergency rescue personnel to assist in the extrication of victims involved in vehicle accidents. Can administer a large amount of force, but with long cooldowns.</description>
+                    </value>
+                </Operation>
+
+
+</Patch>

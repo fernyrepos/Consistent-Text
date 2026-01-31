@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- neurostimulators -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="EVL_Neurostimulators"]/label</xpath>
+                    <value>
+                        <label>Neurostimulator</label>
+                    </value>
+                </Operation>
+
+</Patch>

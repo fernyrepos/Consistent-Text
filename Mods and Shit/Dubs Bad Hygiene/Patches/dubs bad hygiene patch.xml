@@ -58,15 +58,6 @@
                     </value>
                 </Operation>
 
-                <!-- hot tubs -->
-                <Operation Class="PatchOperationReplace">
-                    <success>Always</success>
-                    <xpath>Defs/ResearchProjectDef[defName="HotTubs"]/label</xpath>
-                    <value>
-                    <label>hot tub</label>
-                    </value>
-                </Operation>
-
                 <!-- power showers -->
                 <Operation Class="PatchOperationReplace">
                     <success>Always</success>
@@ -84,5 +75,35 @@
                     <label>hygiene bionics</label>
                     </value>
                 </Operation>
+
+                <!-- saunas -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Saunas"]/label</xpath>
+                    <value>
+                    <label>sauna</label>
+                    </value>
+                </Operation>
+
+                <!-- fire supression -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="FireSuppression"]/label</xpath>
+                    <value>
+                    <label>fire sprinkler</label>
+                    </value>
+                </Operation>
+
+                <!-- sewage sludge composting -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="SewageSludgeComposting"]/label</xpath>
+                    <value>
+                    <label>biosolids composter</label>
+                    </value>
+                </Operation>
+
+
+
 
 </Patch>

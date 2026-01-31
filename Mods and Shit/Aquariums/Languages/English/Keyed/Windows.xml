@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- <Aqua_Editor_NoTankSelectedNotification>Select a fish tank to display decoration options</Aqua_Editor_NoTankSelectedNotification> -->
+
+
+
+
+  <!-- <Aqua_Editor_CurrentFloor>Current floor</Aqua_Editor_CurrentFloor> -->
+  <Aqua_Editor_CurrentFloor>Tank flooring</Aqua_Editor_CurrentFloor>
+
+  <!-- <Aqua_Editor_NoFloor>None</Aqua_Editor_NoFloor>
+  <Aqua_Editor_ApplyToAll>Apply to all tanks in network</Aqua_Editor_ApplyToAll>
+  <Aqua_Editor_AddDecoration>Add decoration</Aqua_Editor_AddDecoration>
+  <Aqua_Editor_DecorationMetaReadout>Position: {X},{Y}, Scale: {SCALE}, Rotation: {ROTATION}°</Aqua_Editor_DecorationMetaReadout>
+  <Aqua_Editor_Reset>Reset</Aqua_Editor_Reset>
+  <Aqua_Editor_Remove>Remove</Aqua_Editor_Remove>
+  <Aqua_Editor_MoveUp>Move up</Aqua_Editor_MoveUp>
+  <Aqua_Editor_MoveDown>Move down</Aqua_Editor_MoveDown>
+  <Aqua_Editor_Rotation>Rotation</Aqua_Editor_Rotation>
+  <Aqua_Editor_MoveToBackground>Decoration is curently in the foreground. Fish will swim behind it.\nClick to move to background.</Aqua_Editor_MoveToBackground>
+  <Aqua_Editor_MoveToForeground>Decoration is curently in the background. Fish will swim in front of it.\nClick to move to foreground.</Aqua_Editor_MoveToForeground> -->
+
+
+  <!-- <Aqua_Editor_RandomizePlacement>Randomize new decoration</Aqua_Editor_RandomizePlacement> -->
+  <Aqua_Editor_RandomizePlacement>Randomize new decorations</Aqua_Editor_RandomizePlacement>
+
+
+  <!-- <Aqua_Editor_RandomizePlacement_Tip>Applies a random offset for newly added decorations. Decorations are placed in the center when this is turned off.</Aqua_Editor_RandomizePlacement_Tip> -->
+
+
+  <!-- <Aqua_Editor_Randomize>Clear and Randomize</Aqua_Editor_Randomize> -->
+    <Aqua_Editor_Randomize>Reset and randomize</Aqua_Editor_Randomize>
+
+  <!-- <Aqua_Editor_OpenPresets>Open Presets</Aqua_Editor_OpenPresets> -->
+  <Aqua_Editor_OpenPresets>View presets</Aqua_Editor_OpenPresets>
+
+  <!-- <Aqua_Editor_PresetsTitle>Presets</Aqua_Editor_PresetsTitle>
+  <Aqua_Editor_DecorationsTitle>Decorations</Aqua_Editor_DecorationsTitle> -->
+
+  <Aqua_Editor_Multi_Info>Multiple fish tanks selected. Actions will be applied to all selected fish tanks.</Aqua_Editor_Multi_Info>
+  <!-- <Aqua_Editor_Multi_SetFloor>Set floor</Aqua_Editor_Multi_SetFloor> -->
+  <Aqua_Editor_Multi_SetFloor>Set floors</Aqua_Editor_Multi_SetFloor>
+
+  <Aqua_Editor_Multi_SetFloor_Info>The selected floor will be only applied to tanks that are compatible with the floor</Aqua_Editor_Multi_SetFloor_Info>
+  <!-- <Aqua_Editor_Multi_Randomize>Randomize</Aqua_Editor_Multi_Randomize> -->
+  <Aqua_Editor_Multi_Randomize>Randomize decorations</Aqua_Editor_Multi_Randomize>
+
+
+
+
+
+
+  <!-- <Aqua_Editor_Multi_Clear>Remove all decorations</Aqua_Editor_Multi_Clear>
+
+  <Aqua_FishInfoCard_Size>Size</Aqua_FishInfoCard_Size>
+  <Aqua_FishInfoCard_Size_Tip>When a tank network runs out of nutrition, the smaller fish will die before larger ones.</Aqua_FishInfoCard_Size_Tip>
+  <Aqua_FishInfoCard_FoodConsumption>Food Consumption</Aqua_FishInfoCard_FoodConsumption>
+  <Aqua_FishInfoCard_FoodConsumption_Details>{CONSUMPTION} nutrition per day</Aqua_FishInfoCard_FoodConsumption_Details>
+  <Aqua_FishInfoCard_HighFoodWarning>This animal consumes a very high amount of food. It may not be the best addition to your aquarium unless you can accomodate its needs.</Aqua_FishInfoCard_HighFoodWarning>
+  <Aqua_FishInfoCard_TemperatureRange>Temperature Range</Aqua_FishInfoCard_TemperatureRange>
+  <Aqua_FishInfoCard_TemperatureRange_Details>{MIN} - {MAX}</Aqua_FishInfoCard_TemperatureRange_Details>
+
+  <Aqua_FishOverview_Header_Name>Name</Aqua_FishOverview_Header_Name>
+  <Aqua_FishOverview_CurrentTemperature>Current temperature: {TEMPERATURE}</Aqua_FishOverview_CurrentTemperature>
+  <Aqua_FishOverview_ShowDetailCard>Show fish info card</Aqua_FishOverview_ShowDetailCard>
+
+  <Aqua_ModValidation_NoFishModsLoaded>You have Aquariums! installed, but appear to have no mods that add fish. Your aquariums will be rather bland, I recommend installing some mods that add fish. Refer to the Aquariums! workshop page to find some.</Aqua_ModValidation_NoFishModsLoaded> -->
+</LanguageData>

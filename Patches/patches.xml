@@ -12,4 +12,86 @@ wood-fired generator
                     </value>
                 </Operation>
 
+<!-- psychoid brewing -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="PsychoidBrewing"]/label</xpath>
+                    <value>
+                        <label>Psychite tea</label>
+                    </value>
+                </Operation>
+
+<!-- wake-up production -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="WakeUpProduction"]/label</xpath>
+                    <value>
+                        <label>Wake-up</label>
+                    </value>
+                </Operation>
+
+<!-- go-juice production -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="GoJuiceProduction"]/label</xpath>
+                    <value>
+                        <label>Go-juice</label>
+                    </value>
+                </Operation>
+
+<!-- Penoxycyline production -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="PenoxycylineProduction"]/label</xpath>
+                    <value>
+                        <label>Penoxycyline</label>
+                    </value>
+                </Operation>
+
+<!-- Smokepop packs -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="SmokepopBelt"]/label</xpath>
+                    <value>
+                        <label>Smokepop pack</label>
+                    </value>
+                </Operation>
+
+<!-- Autodoor -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Autodoors"]/label</xpath>
+                    <value>
+                        <label>Autodoors</label>
+                    </value>
+                </Operation>
+
+<!-- Hydroponics -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="Hydroponics"]/label</xpath>
+                    <value>
+                        <label>Hydroponics basin</label>
+                    </value>
+                </Operation>
+
+<!-- Geothermal power -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="GeothermalPower"]/label</xpath>
+                    <value>
+                        <label>Geothermal generator</label>
+                    </value>
+                </Operation>
+
+<!-- Deep drilling -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="DeepDrilling"]/label</xpath>
+                    <value>
+                        <label>Deep drill</label>
+                    </value>
+                </Operation>
+
+
 </Patch>

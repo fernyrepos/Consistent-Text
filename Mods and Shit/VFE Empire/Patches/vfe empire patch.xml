@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- pipe organs -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFEE_PipeOrgans"]/label</xpath>
+                    <value>
+                        <label>organ</label>
+                    </value>
+                </Operation>
+
+</Patch>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>          
 
-<!-- ORIGINAL
-portable wood-fired generator
- -->
+<!-- portable wood-fired generator -->
                 <Operation Class="PatchOperationReplace">
                     <success>Always</success>
                     <xpath>Defs/ThingDef[defName="VFE_PortableWoodFiredGenerator"]/label</xpath>
@@ -12,14 +10,30 @@ portable wood-fired generator
                     </value>
                 </Operation>
 
-<!-- ORIGINAL
-industrial wood-fired generator
- -->
+<!-- industrial wood-fired generator -->
                 <Operation Class="PatchOperationReplace">
                     <success>Always</success>
                     <xpath>Defs/ThingDef[defName="VFE_IndustrialWoodFiredGenerator"]/label</xpath>
                     <value>
                         <label>industrial fueled generator</label>
+                    </value>
+                </Operation>
+
+<!-- tidal power -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFE_TidalPower"]/label</xpath>
+                    <value>
+                        <label>tidal generator</label>
+                    </value>
+                </Operation>
+
+<!-- nuclear power -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFE_NuclearPower"]/label</xpath>
+                    <value>
+                        <label>nuclear reactor</label>
                     </value>
                 </Operation>
 
