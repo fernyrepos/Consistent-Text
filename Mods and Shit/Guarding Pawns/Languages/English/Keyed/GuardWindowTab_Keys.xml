@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+
+    <!-- <GuardingP_GuardingSpotCheckBox>Show Guarding Spot</GuardingP_GuardingSpotCheckBox> -->
+    <GuardingP_GuardingSpotCheckBox>Show guarding spots</GuardingP_GuardingSpotCheckBox>
+    <!-- <GuardingP_PatrollingSpotCheckBox>Show Patrolling Spot</GuardingP_PatrollingSpotCheckBox> -->
+    <GuardingP_PatrollingSpotCheckBox>Show patrolling spots</GuardingP_PatrollingSpotCheckBox>
+    <!-- <GuardingP_GuardingAreaCheckBox>Show Guarding Area</GuardingP_GuardingAreaCheckBox> -->
+    <GuardingP_GuardingAreaCheckBox>Show guarding area</GuardingP_GuardingAreaCheckBox>
+
+    <!-- <GuardingP_GuardSpot>Guard Spot</GuardingP_GuardSpot> -->
+    <GuardingP_GuardSpot>Stand guard</GuardingP_GuardSpot>
+    <!-- <GuardingP_GuardArea>Guard Area</GuardingP_GuardArea> -->
+    <GuardingP_GuardArea>Guard area</GuardingP_GuardArea>
+    <!-- <GuardingP_GuardPawn>Protect Pawn</GuardingP_GuardPawn> -->
+    <GuardingP_GuardPawn>Bodyguard</GuardingP_GuardPawn>
+
+    <!-- <Thek_GuardingPawns.GuardJobs_GuardSpot>Guard Spot</Thek_GuardingPawns.GuardJobs_GuardSpot> -->
+    <Thek_GuardingPawns.GuardJobs_GuardSpot>Stand guard</Thek_GuardingPawns.GuardJobs_GuardSpot>
+    <!-- <Thek_GuardingPawns.GuardJobs_GuardArea>Guard Area</Thek_GuardingPawns.GuardJobs_GuardArea> -->
+    <Thek_GuardingPawns.GuardJobs_GuardArea>Guard area</Thek_GuardingPawns.GuardJobs_GuardArea>
+    <!-- <Thek_GuardingPawns.GuardJobs_GuardPawn>Protect Pawn</Thek_GuardingPawns.GuardJobs_GuardPawn> -->
+    <Thek_GuardingPawns.GuardJobs_GuardPawn>Bodyguard</Thek_GuardingPawns.GuardJobs_GuardPawn>
+    <Thek_GuardingPawns.GuardJobs_GuardPath>Patrol</Thek_GuardingPawns.GuardJobs_GuardPath>
+
+    <!-- <GuardingP_redSpot>Guard at the red spots</GuardingP_redSpot> -->
+    <GuardingP_redSpot>Guard at red spots</GuardingP_redSpot>
+    <!-- <GuardingP_orangeSpot>Guard at the orange spots</GuardingP_orangeSpot> -->
+    <GuardingP_orangeSpot>Guard at orange spots</GuardingP_orangeSpot>
+    <!-- <GuardingP_yellowSpot>Guard at the yellow spots</GuardingP_yellowSpot> -->
+    <GuardingP_yellowSpot>Guard at yellow spots</GuardingP_yellowSpot>
+    <!-- <GuardingP_greenSpot>Guard at the green spots</GuardingP_greenSpot> -->
+    <GuardingP_greenSpot>Guard at green spots</GuardingP_greenSpot>
+    <!-- <GuardingP_blueSpot>Guard at the blue spots</GuardingP_blueSpot> -->
+    <GuardingP_blueSpot>Guard at blue spots</GuardingP_blueSpot>
+    <!-- <GuardingP_purpleSpot>Guard at the purple spots</GuardingP_purpleSpot> -->
+    <GuardingP_purpleSpot>Guard at purple spots</GuardingP_purpleSpot>
+
+    <!-- <GuardingP_redPath>Patrol the red route</GuardingP_redPath> -->
+    <GuardingP_redPath>Patrol red route</GuardingP_redPath>
+    <!-- <GuardingP_orangePath>Patrol the orange route</GuardingP_orangePath> -->
+    <GuardingP_orangePath>Patrol orange route</GuardingP_orangePath>
+    <!-- <GuardingP_yellowPath>Patrol the yellow route</GuardingP_yellowPath> -->
+    <GuardingP_yellowPath>Patrol yellow route</GuardingP_yellowPath>
+    <!-- <GuardingP_greenPath>Patrol the green route</GuardingP_greenPath> -->
+    <GuardingP_greenPath>Patrol green route</GuardingP_greenPath>
+    <!-- <GuardingP_bluePath>Patrol the blue route</GuardingP_bluePath> -->
+    <GuardingP_bluePath>Patrol blue route</GuardingP_bluePath>
+    <!-- <GuardingP_purplePath>Patrol the purple route</GuardingP_purplePath> -->
+    <GuardingP_purplePath>Patrol purple route</GuardingP_purplePath>
+
+    <!-- <GuardingP_ProtectPawn>Bodyguard {0_nameDef}</GuardingP_ProtectPawn> -->
+    <GuardingP_ProtectPawn>Protect {0_nameDef}</GuardingP_ProtectPawn>
+
+
+
+
+
+
+<!-- This was already commmented out, not sure whats going on -->
+    <!--
+    <GuardingP_SightHeader>sight</GuardingP_SightHeader>
+    <GuardingP_ConsciousnessHeader>cons.</GuardingP_ConsciousnessHeader>
+    <GuardingP_ManipulationHeader>man.</GuardingP_ManipulationHeader>
+    <GuardingP_MovementHeader>mov.</GuardingP_MovementHeader>
+    <GuardingP_ShootingHeader>shoot</GuardingP_ShootingHeader>
+    <GuardingP_MeleeHeader>melee</GuardingP_MeleeHeader>
+    <GuardingP_SelectJobHeader>select job</GuardingP_SelectJobHeader>
+    <GuardingP_SelectExtraJobHeader>Extra options for the selected job</GuardingP_SelectExtraJobHeader>
+    -->
+
+
+
+<!-- Unused/unchanged -->
+
+    <!-- <GuardingP_OverrideAllowedAreaCheckBox>Ignore allowed area</GuardingP_OverrideAllowedAreaCheckBox>
+    <GuardingP_Undefined>Unassigned</GuardingP_Undefined>
+    <GuardingP_SightColumn>{0_nameDef}'s sight</GuardingP_SightColumn>
+    <GuardingP_ConsciousnessColumn>{0_nameDef}'s consciousness</GuardingP_ConsciousnessColumn>
+    <GuardingP_ManipulationColumn>{0_nameDef}'s manipulation</GuardingP_ManipulationColumn>
+    <GuardingP_MovementColumn>{0_nameDef}'s movement</GuardingP_MovementColumn>
+    <GuardingP_ShootingColumn>{0_nameDef}'s shooting skill</GuardingP_ShootingColumn>
+    <GuardingP_MeleeColumn>{0_nameDef}'s melee skill</GuardingP_MeleeColumn>
+    <GuardingP_GuardPath>Patrol</GuardingP_GuardPath>
+    <GuardingP_ChangeOrderGizmo>Change order</GuardingP_ChangeOrderGizmo>
+    <ShouldLoop>Should loop?</ShouldLoop>
+    <SpotGUIexplanation>This is the order pawns follow when patrolling patrol across the spots, starting at the highest one.
+Using the buttons you can change the order of the spots on the list, which will change the route the pawns will take.
+    </SpotGUIexplanation>
+    <SpotGUIbutton>Done</SpotGUIbutton> -->
+
+
+
+
+</LanguageData>

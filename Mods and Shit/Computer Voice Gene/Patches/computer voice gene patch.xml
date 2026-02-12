@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- original:
+Computer Voice
+ -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="BAH_BEEPVoice"]/label</xpath>
+            <value>
+                <label>Computer voice</label>
+            </value>
+        </Operation>
+
+</Patch>

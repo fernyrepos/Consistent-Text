@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- original:
+Clown Voice
+ -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="BAH_ClownVoice"]/label</xpath>
+            <value>
+                <label>Clown voice</label>
+            </value>
+        </Operation>
+
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="BAH_ClownVoice"]/description</xpath>
+            <value>
+                <description>Carriers have a silly voice that sounds like a clown's squeaky nose.</description>
+            </value>
+        </Operation>
+
+</Patch>

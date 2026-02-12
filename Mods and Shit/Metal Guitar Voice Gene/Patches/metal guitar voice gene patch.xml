@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- original:
+Metal Guitar Voice
+ -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="Metalguitar_voice"]/label</xpath>
+            <value>
+                <label>Metal guitar voice</label>
+            </value>
+        </Operation>
+
+</Patch>

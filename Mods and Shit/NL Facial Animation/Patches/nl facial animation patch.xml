@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+
+                <!-- NLFaceSelectTab -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="NLFaceSelectTab"]/label</xpath>
+                    <value>
+                        <label>Face editor</label>
+                    </value>
+                </Operation>
+
+
+                <!-- [NL]Facial Animation -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="NLFaceSelectTab"]/description</xpath>
+                    <value>
+                        <description>Edit the selected colonist's mouth, eyebrows, eye styles, and head shapes.</description>
+                    </value>
+                </Operation>
+
+
+</Patch>

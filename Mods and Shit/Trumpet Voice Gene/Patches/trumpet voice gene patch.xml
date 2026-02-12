@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- original:
+Trumpet Voice
+ -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="Trumpet_voice"]/label</xpath>
+            <value>
+                <label>Trumpet voice</label>
+            </value>
+        </Operation>
+
+</Patch>

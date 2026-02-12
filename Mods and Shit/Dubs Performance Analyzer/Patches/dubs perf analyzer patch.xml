@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+
+                <!-- Dubs Performance Analyzer -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="DubsOptimizer"]/label</xpath>
+                    <value>
+                        <label>Performance</label>
+                    </value>
+                </Operation>
+
+
+                <!-- Open Analyzer.-->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="DubsOptimizer"]/description</xpath>
+                    <value>
+                        <description>Review how your game is impacted by processer-heavy tasks.</description>
+                    </value>
+                </Operation>
+
+
+</Patch>

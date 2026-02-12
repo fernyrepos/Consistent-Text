@@ -57,5 +57,17 @@
     <li IfModActive="ludeon.rimworld.odyssey">Mods and Shit/Odyssey</li>
     <li IfModActive="ninagoblin.enhancedvatlearning">Mods and Shit/Enhanced Vat Learning</li>
     <li IfModActive="mlie.prisoncommons">Mods and Shit/Prison Commons</li>
+    <li IfModActive="shyguyspirit.outpostmanager">Mods and Shit/Outpost Manager</li>
+    <li IfModActive="yokai.todolist">Mods and Shit/To-Do list</li>
+    <li IfModActive="dubwise.dubsperformanceanalyzer.steam">Mods and Shit/Dubs Performance Analyzer</li>
+    <li IfModActive="nals.facialanimation">Mods and Shit/NL Facial Animation</li>
+    <li IfModActive="dubwise.dubsmintmenus">Mods and Shit/Dubs Mint Menus</li>
+    <li IfModActive="officer.drawit">Mods and Shit/Draw It</li>
+    <li IfModActive="thek.guardingp">Mods and Shit/Guarding Pawns</li>
+    <li IfModActive="trumpet.voice.gene">Mods and Shit/Trumpet Voice Gene</li>
+    <li IfModActive="bahlivern.clownvoicegene">Mods and Shit/Clown Voice Gene</li>
+    <li IfModActive="metalguitar.voice.gene">Mods and Shit/Metal Guitar Voice Gene</li>
+    <li IfModActive="bahlivern.beepvoicegene">Mods and Shit/Computer Voice Gene</li>
+    <li IfModActive="Lakuna.PrepareModerately">Mods and Shit/Prepare Moderately</li>
   </v1.6>
 </loadFolders>

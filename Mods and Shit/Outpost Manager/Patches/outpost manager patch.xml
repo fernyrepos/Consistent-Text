@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+
+                <!-- Outpost Manager -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="OutpostManager"]/label</xpath>
+                    <value>
+                        <label>Outposts</label>
+                    </value>
+                </Operation>
+
+
+                <!-- Open up the Outpost Manager Menu -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="OutpostManager"]/description</xpath>
+                    <value>
+                        <description>Manage your faction's established world map outposts.</description>
+                    </value>
+                </Operation>
+
+
+</Patch>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+
+                <!-- To-Do list -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="ToDoListButton"]/label</xpath>
+                    <value>
+                        <label>To-do lists</label>
+                    </value>
+                </Operation>
+
+
+                <!-- Opens the To-do Lists window. -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="ToDoListButton"]/description</xpath>
+                    <value>
+                        <description>View and log your future tasks in various lists.</description>
+                    </value>
+                </Operation>
+
+
+</Patch>

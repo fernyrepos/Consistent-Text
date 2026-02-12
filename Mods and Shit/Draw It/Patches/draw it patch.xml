@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- Draw It -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="DrawIt_Tab"]/label</xpath>
+                    <value>
+                        <label>Whiteboard</label>
+                    </value>
+                </Operation>
+                <!-- Open the drawing board. -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="DrawIt_Tab"]/description</xpath>
+                    <value>
+                        <description>A free space for drawing art, whether it be for colony planning or to pass the time.</description>
+                    </value>
+                </Operation>
+
+</Patch>

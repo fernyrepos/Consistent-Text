@@ -27,4 +27,25 @@ bench
                 </Operation>
 
 
+
+
+<!-- old computer -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Joy_InudstrialComputer"]/label</xpath>
+                    <value>
+                    <label>personal computer</label>
+                    </value>
+                </Operation>
+<!-- A bulky, outdated computer standing on a small desk. The screen flickers, the keys stick, and it hums with age, but it still runs simple programs. There's always some archaic software waiting to be used. -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Joy_InudstrialComputer"]/description</xpath>
+                    <value>
+                    <description>A bulky computer standing on a small desk for personal use. The screen flickers, the keys stick, and it hums loudly. It can run basic software which can entertain and slowly train colonist intellectual skills.</description>
+                    </value>
+                </Operation>
+
+
+
 </Patch>

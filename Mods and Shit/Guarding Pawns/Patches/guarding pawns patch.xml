@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+
+                <!-- Guards -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="GuardingP_GuardTab"]/label</xpath>
+                    <value>
+                        <label>Guarding</label>
+                    </value>
+                </Operation>
+
+
+                <!-- Manage your guards.-->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="DubsOptimizer"]/description</xpath>
+                    <value>
+                        <description>Designate colonists to guard speciifc points, patrol areas, or guard each other.</description>
+                    </value>
+                </Operation>
+
+
+</Patch>
