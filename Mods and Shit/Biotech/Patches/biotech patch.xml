@@ -10,4 +10,14 @@
                     </value>
                 </Operation>
 
+
+                <!-- mechs -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="Mechs"]/label</xpath>
+                    <value>
+                        <label>mechanoids</label>
+                    </value>
+                </Operation>
+
 </Patch>

@@ -30,7 +30,7 @@
                     <success>Always</success>
                     <xpath>Defs/MainButtonDef[defName="MintGearMenu"]/label</xpath>
                     <value>
-                        <label>Gear</label>
+                        <label>Equip</label>
                     </value>
                 </Operation>
 

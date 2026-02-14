@@ -69,5 +69,6 @@
     <li IfModActive="metalguitar.voice.gene">Mods and Shit/Metal Guitar Voice Gene</li>
     <li IfModActive="bahlivern.beepvoicegene">Mods and Shit/Computer Voice Gene</li>
     <li IfModActive="Lakuna.PrepareModerately">Mods and Shit/Prepare Moderately</li>
+    <li IfModActive="spacemoth.mechtab">Mods and Shit/Mech Work Tab</li>
   </v1.6>
 </loadFolders>
