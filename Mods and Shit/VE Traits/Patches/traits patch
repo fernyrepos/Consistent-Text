@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+  <!-- ORIGINAL
+Smokeleaf is a way of life for {PAWN_nameDef}. {PAWN_pronoun} adores it and would rather die than give it up. -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/TraitDef[defName="VTE_Stoner"]/degreeDatas/li/description</xpath>
     <value>
-<description>Smokeleaf is a way of life for {PAWN_nameDef}. {PAWN_pronoun} is permanently dependent on it, and would rather die than give it up.</description>
+      <description>Smokeleaf is a way of life for {PAWN_nameDef}. {PAWN_pronoun} is permanently dependent on it, and would rather die than give it up.</description>
     </value>
   </Operation>
 
-    <Operation Class="PatchOperationReplace">
+  <!-- ORIGINAL
+Alcohol is a way of life for {PAWN_nameDef}. {PAWN_pronoun} adores drinking and would rather die than give it up. -->
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/TraitDef[defName="VTE_Lush"]/degreeDatas/li/description</xpath>
     <value>
-  <description>Alcohol is a way of life for {PAWN_nameDef}. {PAWN_pronoun} is permanently dependent on it, and would rather die than give it up.</description>
+      <description>Alcohol is a way of life for {PAWN_nameDef}. {PAWN_pronoun} is permanently dependent on it, and would rather die than give it up.</description>
     </value>
   </Operation>
 
