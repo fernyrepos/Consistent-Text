@@ -70,5 +70,8 @@
     <li IfModActive="bahlivern.beepvoicegene">Mods and Shit/Computer Voice Gene</li>
     <li IfModActive="Lakuna.PrepareModerately">Mods and Shit/Prepare Moderately</li>
     <li IfModActive="spacemoth.mechtab">Mods and Shit/Mech Work Tab</li>
+    <li IfModActive="vanillaexpanded.vanillatraitsexpanded">Mods and Shit/VE Traits</li>
+    <li IfModActive="goji.thesimstraits">Mods and Shit/The Sims Traits</li>
+    <li IfModActive="farxmai2.dbh.expanded">Mods and Shit/DBH Addon</li>
   </v1.6>
 </loadFolders>
