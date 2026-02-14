@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+  <!-- ORIGINAL
+{PAWN_nameDef} believes in {PAWN_possessive} own luck. Despite the crippling addiction, {PAWN_possessive} luck certainly tips in a different direction on the battlefield. -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/TraitDef[defName="ST_Gambler"]/degreeDatas/li/description</xpath>
     <value>
       <description>{PAWN_nameDef} believes in {PAWN_possessive} own luck and rides it on the card table and on the battlefield. {PAWN_pronoun} needs to regularly play at a poker table. Without access to one, {PAWN_pronoun} grows unhappy.</description>
     </value>
-  
   </Operation>
+
+  <!-- ORIGINAL
+{PAWN_nameDef} likes to put things off until the last minute. {PAWN_pronoun} still manages to get those tasks done but the results are usually lacklustre. -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/TraitDef[defName="ST_Procrastinator"]/degreeDatas/li/description</xpath>
     <value>
@@ -15,10 +19,12 @@
     </value>
   </Operation>
 
-    <Operation Class="PatchOperationReplace">
+  <!-- ORIGINAL
+{PAWN_nameDef} devotes {PAWN_possessive} body and soul to what {PAWN_pronoun} believes. Somehow, {PAWN_possessive} prayers get answered. -->
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/TraitDef[defName="ST_Devout"]/degreeDatas/li/description</xpath>
     <value>
-				<description>{PAWN_nameDef} devotes {PAWN_possessive} body and soul to what {PAWN_pronoun} believes. {PAWN_pronoun} will stubbornly cling onto {PAWN_possessive} ideology at all costs.</description>
+      <description>{PAWN_nameDef} devotes {PAWN_possessive} body and soul to what {PAWN_pronoun} believes. {PAWN_pronoun} will stubbornly cling onto {PAWN_possessive} ideology at all costs.</description>
     </value>
   </Operation>
 
