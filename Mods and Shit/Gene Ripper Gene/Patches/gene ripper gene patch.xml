@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- original:
+a.
+ -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="GeneRipToEndogenes_GeneRip"]/description</xpath>
+            <value>
+                <description>Carriers can steal genes directly from downed or imprisoned targets, killing their target instantly and adding the effected gene to the endogenic geneline.</description>
+            </value>
+        </Operation>
+
+<!-- rip a gene from a victim, claiming it for yourself. -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/AbilityDef[defName="GeneRipToEndogenes_AbilityRip"]/description</xpath>
+            <value>
+                <description>Steal a gene directly from a downed or imprisoned target. This ability kills the target instantly, and adds the effected gene to the user's endogenic geneline.</description>
+            </value>
+        </Operation>
+
+</Patch>

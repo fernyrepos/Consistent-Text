@@ -73,5 +73,8 @@
     <li IfModActive="vanillaexpanded.vanillatraitsexpanded">Mods and Shit/VE Traits</li>
     <li IfModActive="goji.thesimstraits">Mods and Shit/The Sims Traits</li>
     <li IfModActive="farxmai2.dbh.expanded">Mods and Shit/DBH Addon</li>
+    <li IfModActive="gogatio.mechanoidupgrades">Mods and Shit/Mechanoid Upgrades</li>
+    <li IfModActive="hailuan.iwbb">Mods and Shit/I Will Be Back</li>
+    <li IfModActive="jaeger972.generippergene">Mods and Shit/Gene Ripper Gene</li>
   </v1.6>
 </loadFolders>

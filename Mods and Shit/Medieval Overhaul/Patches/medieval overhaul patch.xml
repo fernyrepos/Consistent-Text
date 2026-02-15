@@ -10,4 +10,14 @@
                     </value>
                 </Operation>
 
+
+                <!-- cotton -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="DankPyon_RawCotton"]/description</xpath>
+                    <value>
+                        <label>Harvested soft fluffy cotton, which can be spun into cloth.</label>
+                    </value>
+                </Operation>
+
 </Patch>

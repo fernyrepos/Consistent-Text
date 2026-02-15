@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- jump launcher -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="MU_JumpLauncher"]/label</xpath>
+                    <value>
+                        <description>mechanoid jump launcher</description>
+                    </value>
+                </Operation>
+
+                <!-- Create sipmle jump launchers for mechanoids. -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="MU_JumpLauncher"]/description</xpath>
+                    <value>
+                        <description>Create simple jump launchers for mechanoids.</description>
+                    </value>
+                </Operation>
+
+</Patch>
