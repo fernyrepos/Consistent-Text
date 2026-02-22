@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+companion come back
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThoughtDef[defName="CBC_HappyWithComing"]/label</xpath>
+                    <value>
+                        <label>faction member returned</label>
+                    </value>
+                </Operation>
+
+<!-- our companion came back,ho happy it is! -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThoughtDef[defName="CBC_HappyWithComing"]/description</xpath>
+                    <value>
+                        <description>We got one over on those kidnappers. A faction member has returned to the colony.</description>
+                    </value>
+                </Operation>
+
+</Patch>

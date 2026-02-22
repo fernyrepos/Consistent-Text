@@ -3,5 +3,5 @@
   <!-- <PauseSettlementTab.label>Pause</PauseSettlementTab.label> -->
   <PauseSettlementTab.label>Time</PauseSettlementTab.label>
   <!-- <PauseSettlementTab.description>Opens a tab to configure which settlements to pause.</PauseSettlementTab.description> -->
-  <PauseSettlementTab.description>Manage the flow of time on other settlements your faction own.</PauseSettlementTab.description>
+  <PauseSettlementTab.description>Manage the flow of time on the various settlements your faction owns.</PauseSettlementTab.description>
 </LanguageData> 

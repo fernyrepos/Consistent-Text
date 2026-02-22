@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- stairs -->
+	<MF_GoToLevel>Go to {0}</MF_GoToLevel>
+
+	<!-- <MF_PrioritizeWorkOnLevel>Proirtize works on {0}</MF_PrioritizeWorkOnLevel> -->
+	<MF_PrioritizeWorkOnLevel>Prioritize works on {0}</MF_PrioritizeWorkOnLevel>
+
+	<!-- haul across level designator -->
+	<MF_DesignatorHaulTo>Haul to {0}</MF_DesignatorHaulTo>
+	<MF_DesignatorHaulToDestMapLabel>Haul to</MF_DesignatorHaulToDestMapLabel>
+	<MF_DesignatorHaulToDestMapDesc>Mark items to be hauled to a specific level.</MF_DesignatorHaulToDestMapDesc>
+	<MF_MustSelectTargetViaRightClickFirst>Must select destination through right click options first.</MF_MustSelectTargetViaRightClickFirst>
+	
+	<!-- pawns -->
+	<MF_TransferEntityTo>Transfer {1_label} to {2}</MF_TransferEntityTo>
+	<MF_RescueTo>Rescue {1_labelShort} to ...</MF_RescueTo>
+	<MF_ReturnToSlaveBed>Return slave {1_labelShort} to ...</MF_ReturnToSlaveBed>
+	<MF_CaptureTo>Capture {1_labelShort} to ...</MF_CaptureTo>
+	<MF_ArrestTo>Arrest {1_labelShort} to ...</MF_ArrestTo>
+	<MF_RescueToLevel>Rescue {1_labelShort} to {2}</MF_RescueToLevel>
+	<MF_ReturnToSlaveBedOnLevel>Return slave {1_labelShort} to {2}</MF_ReturnToSlaveBedOnLevel>
+	<MF_CaptureToLevel>Capture {1_labelShort} to {2}</MF_CaptureToLevel>
+	<MF_ArrestToLevel>Arrest {1_labelShort} to {2}</MF_ArrestToLevel>
+	<MF_BedOwners>Owners: {0}</MF_BedOwners>
+	<MF_BedNoOwners>No owner</MF_BedNoOwners>
+	<MF_NoAppropriateBedOnCurrentLevel>No appropriate bed on this level.</MF_NoAppropriateBedOnCurrentLevel>
+</LanguageData>
