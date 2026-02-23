@@ -6,7 +6,7 @@
                     <success>Always</success>
                     <xpath>Defs/ResearchProjectDef[defName="MU_JumpLauncher"]/label</xpath>
                     <value>
-                        <description>mechanoid jump launcher</description>
+                        <label>mechanoid jump launcher</label>
                     </value>
                 </Operation>
 
