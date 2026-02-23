@@ -79,5 +79,6 @@
     <li IfModActive="telardo.multifloors">Mods and Shit/Multifloors</li>
     <li IfModActive="mehni.numbers">Mods and Shit/Numbers</li>
     <li IfModActive="bodlosh.weaponstats">Mods and Shit/WeaponStats</li>
+    <li IfModActive="scheigster.omnitab">Mods and Shit/Omni Tab</li>
   </v1.6>
 </loadFolders>

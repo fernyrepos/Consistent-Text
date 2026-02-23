@@ -2,11 +2,20 @@
 <Patch>          
 
                 <!-- Numbers -->
-                <Operation Class="PatchOperationReplace">
+                <!-- <Operation Class="PatchOperationReplace">
                     <success>Always</success>
                     <xpath>Defs/MainButtonDef[defName="kNumbersOverviewTab"]/label</xpath>
                     <value>
                         <label>People</label>
+                    </value>
+                </Operation> -->
+
+                <!-- Numbers -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="kNumbersOverviewTab"]/description</xpath>
+                    <value>
+                        <description>A configurable overview of the statistics and values of everything on your map.</description>
                     </value>
                 </Operation>
 
