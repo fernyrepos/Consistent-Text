@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+                <!-- Weapons -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="Bodlosh_WeaponStats"]/label</xpath>
+                    <value>
+                        <label>Armaments</label>
+                    </value>
+                </Operation>
+                <!-- Weapons -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="Bodlosh_WeaponStats"]/description</xpath>
+                    <value>
+                        <description>Easily sort the statistics of weapons and armor present on your map.</description>
+                    </value>
+                </Operation>
+
+</Patch>

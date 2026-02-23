@@ -77,5 +77,7 @@
     <li IfModActive="hailuan.iwbb">Mods and Shit/I Will Be Back</li>
     <li IfModActive="jaeger972.generippergene">Mods and Shit/Gene Ripper Gene</li>
     <li IfModActive="telardo.multifloors">Mods and Shit/Multifloors</li>
+    <li IfModActive="mehni.numbers">Mods and Shit/Numbers</li>
+    <li IfModActive="bodlosh.weaponstats">Mods and Shit/WeaponStats</li>
   </v1.6>
 </loadFolders>
