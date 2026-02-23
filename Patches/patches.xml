@@ -94,4 +94,14 @@ wood-fired generator
                 </Operation>
 
 
+<!-- Review historical records. -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="History"]/description</xpath>
+                    <value>
+                        <description>Review historical records, faction statistics, wealth, and graphs.</description>
+                    </value>
+                </Operation>
+
+
 </Patch>
