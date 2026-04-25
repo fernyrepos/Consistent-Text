@@ -61,14 +61,15 @@
   <!-- <XS_MoodAndThoughts>Mood &amp; Thoughts</XS_MoodAndThoughts> -->
   <XS_MoodAndThoughts>Mood and thoughts</XS_MoodAndThoughts>
 
-
+  <!-- <XS_SummaryOf>{0} Summary</XS_SummaryOf> -->
+  <XS_SummaryOf>Summary of {0}</XS_SummaryOf>
 
 
   <XS_SummaryShort>Summary</XS_SummaryShort>
 
 
   <XS_Xenotype>Xenotype</XS_Xenotype>
-  <XS_SummaryOf>{0} Summary</XS_SummaryOf>
+
 
   <XS_Suppressed>Suppressed</XS_Suppressed>
   <XS_Aptitudes>Aptitudes</XS_Aptitudes>
