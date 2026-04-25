@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- <VisitorsArrivedTitle>Visitors from {FACTION_name} have arrived at {WORLDOBJECT_label} (from {1}).</VisitorsArrivedTitle> -->
+  <!-- <VisitorsArrivedDesc>They are afraid to enter your territory for the following reasons:\n{1}\n\nIf you send them away they might stay in the area and come back later.</VisitorsArrivedDesc> -->
+  <VisitorsArrivedDesc>Visitors have arrived at your colony and want to sleep here as guests. They are unsure about entering your settlement for the following reasons:\n{1}\n\nIf you send them away they might stay in the area and come back later.</VisitorsArrivedDesc>
+  
+</LanguageData>

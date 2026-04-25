@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- <XS_Summary>Summary...</XS_Summary> -->
+  <XS_Summary>Summary</XS_Summary>
+
+  <!-- <XS_XenotypeSummary>Xenotype Summary</XS_XenotypeSummary> -->
+  <XS_XenotypeSummary>Xenotype summary</XS_XenotypeSummary>
+
+  <!-- <XS_SelectedGenesSummary>Selected Genes Summary</XS_SelectedGenesSummary> -->
+  <XS_SelectedGenesSummary>Summary of selected genes</XS_SelectedGenesSummary>
+
+    <!-- <XS_StatModifiers>Stat Modifiers</XS_StatModifiers> -->
+  <XS_StatModifiers>Stat modifiers</XS_StatModifiers>
+
+  <!-- <XS_DamageFactors>Damage Factors</XS_DamageFactors> -->
+  <XS_DamageFactors>Damage factors</XS_DamageFactors>
+
+  <!-- <XS_PainOffset>Pain Offset</XS_PainOffset> -->
+  <XS_PainOffset>Pain offset</XS_PainOffset>
+
+  <!-- <XS_PainFactor>Pain Factor</XS_PainFactor> -->
+  <XS_PainFactor>Pain factor</XS_PainFactor>
+
+  <!-- <XS_FoodPoisoningChance>Food Poisoning Chance</XS_FoodPoisoningChance> -->
+  <XS_FoodPoisoningChance>Food poisoning chance</XS_FoodPoisoningChance>
+
+  <!-- <XS_SocialFightChance>Social Fight Chance</XS_SocialFightChance> -->
+  <XS_SocialFightChance>Social fight chance</XS_SocialFightChance>
+
+  <!-- <XS_AggroMentalBreakChance>Aggro Mental Break Chance</XS_AggroMentalBreakChance> -->
+  <XS_AggroMentalBreakChance>Aggro mental break chance</XS_AggroMentalBreakChance>
+
+  <!-- <XS_PrisonBreakChance>Prison Break Chance</XS_PrisonBreakChance> -->
+  <XS_PrisonBreakChance>Prison break chance</XS_PrisonBreakChance>
+
+  <!-- <XS_RomanceChance>Romance Chance</XS_RomanceChance> -->
+  <XS_RomanceChance>Romance chance</XS_RomanceChance>
+  
+  <!-- <XS_LovinMTB>Lovin' MTB</XS_LovinMTB> -->
+  <XS_LovinMTB>Lovin' rate</XS_LovinMTB>
+
+  <!-- <XS_GlobalFactors>Global Factors</XS_GlobalFactors> -->
+  <XS_GlobalFactors>Global factors</XS_GlobalFactors>
+
+  <!-- <XS_ChemicalEffects>Chemical Effects</XS_ChemicalEffects> -->
+  <XS_ChemicalEffects>Chemical effects</XS_ChemicalEffects>
+
+
+  <!-- <XS_SpecialEffects>Special Effects / Immunities</XS_SpecialEffects> -->
+  <XS_SpecialEffects>Special effects / immunities</XS_SpecialEffects>
+
+  <!-- <XS_NeedsAndConditions>Needs &amp; Conditions</XS_NeedsAndConditions> -->
+  <XS_NeedsAndConditions>Needs and conditions</XS_NeedsAndConditions>
+
+  <!-- <XS_GainedAbilities>Gained Abilities</XS_GainedAbilities> -->
+  <XS_GainedAbilities>Gained abilities</XS_GainedAbilities>
+
+  <!-- <XS_WorkLimitations>Work Limitations</XS_WorkLimitations> -->
+  <XS_WorkLimitations>Work limitations</XS_WorkLimitations>
+
+  <!-- <XS_MoodAndThoughts>Mood &amp; Thoughts</XS_MoodAndThoughts> -->
+  <XS_MoodAndThoughts>Mood and thoughts</XS_MoodAndThoughts>
+
+
+
+
+  <XS_SummaryShort>Summary</XS_SummaryShort>
+
+
+  <XS_Xenotype>Xenotype</XS_Xenotype>
+  <XS_SummaryOf>{0} Summary</XS_SummaryOf>
+
+  <XS_Suppressed>Suppressed</XS_Suppressed>
+  <XS_Aptitudes>Aptitudes</XS_Aptitudes>
+  <XS_Passions>Passions</XS_Passions>
+  <XS_PassionAdd>Adds one level of passion</XS_PassionAdd>
+  <XS_PassionRemove>Removes all passion</XS_PassionRemove>
+
+  <XS_Capacities>Capacities</XS_Capacities>
+
+  <XS_DamageUnit>{0} damage</XS_DamageUnit>
+
+  <XS_DailyResourceLoss>Daily resource loss</XS_DailyResourceLoss>
+  <XS_OverdoseChance>{0} overdose chance</XS_OverdoseChance>
+  <XS_ToleranceBuildup>{0} tolerance buildup</XS_ToleranceBuildup>
+
+  <XS_ToxGasImmunity>Tox gas immunity</XS_ToxGasImmunity>
+  <XS_VacuumBurnImmunity>Vacuum burn immunity</XS_VacuumBurnImmunity>
+  <XS_IgnoreDarkness>Unaffected by darkness</XS_IgnoreDarkness>
+  <XS_Sterilized>Sterilized</XS_Sterilized>
+  <XS_PreventPermanentWounds>Prevents permanent wounds</XS_PreventPermanentWounds>
+  <XS_DontMindRawFood>Don't mind raw food</XS_DontMindRawFood>
+  <XS_ImmuneTo>Immune to: {0}</XS_ImmuneTo>
+  <XS_CausesImmunityTo>Causes immunity to: {0}</XS_CausesImmunityTo>
+  <XS_AddsNeed>Adds need: {0}</XS_AddsNeed>
+  <XS_DisablesNeed>Disables need: {0}</XS_DisablesNeed>
+  <XS_Traits>Traits</XS_Traits>
+  <XS_Forced>Forced: {0}</XS_Forced>
+  <XS_SuppressedTrait>Suppressed: {0}</XS_SuppressedTrait>
+  <XS_Disabled>Disabled: {0}</XS_Disabled>
+  <XS_Required>Required: {0}</XS_Required>
+  <XS_Removes>Removes: {0}</XS_Removes>
+  <XS_Effects>Effects</XS_Effects>
+</LanguageData>

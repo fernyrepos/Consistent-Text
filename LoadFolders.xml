@@ -80,5 +80,8 @@
     <li IfModActive="mehni.numbers">Mods and Shit/Numbers</li>
     <li IfModActive="bodlosh.weaponstats">Mods and Shit/WeaponStats</li>
     <li IfModActive="scheigster.omnitab">Mods and Shit/Omni Tab</li>
+    <li IfModActive="Nibato.AutoExtractGenes">Mods and Shit/Auto Extract Genes</li>
+		<li IfModActiveAll="orion.hospitality,esvn.rpgdialog">Mods and Shit/Hospitality with RPG Dialog</li>
+    <li IfModActive="zhuma.xenotypesummary">Mods and Shit/Xenotype Summary</li>
   </v1.6>
 </loadFolders>
