@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PsycasterColonists.label>Psycasters</PsycasterColonists.label>
+  <!-- <PsycasterColonists.description>Shows psycaster colonists and their psyfocus. Click a pawn name to open that pawn's character/psychic interface.</PsycasterColonists.description> -->
+  <PsycasterColonists.description>Review your psycasting colonists and observe their points, levels, and paths.</PsycasterColonists.description>
+</LanguageData>
