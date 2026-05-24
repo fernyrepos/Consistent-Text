@@ -84,5 +84,6 @@
 		<li IfModActiveAll="orion.hospitality,esvn.rpgdialog">Mods and Shit/Hospitality with RPG Dialog</li>
     <li IfModActive="zhuma.xenotypesummary">Mods and Shit/Xenotype Summary</li>
     <li IfModActive="codex.psycastercoloniststab">Mods and Shit/Psycaster Colonists Tab</li>
+    <li IfModActive="drilledhead.mydogshouse">Mods and Shit/MyDogsHouse</li>
   </v1.6>
 </loadFolders>

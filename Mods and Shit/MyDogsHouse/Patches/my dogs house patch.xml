@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ORIGINAL
+dog's house
+ -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Doghouse"]/label</xpath>
+		<value>
+			<label>animal house</label>
+		</value>
+	</Operation>
+<!-- ORIGINAL
+A cozy dog house for your furry friends to rest and sleep.
+ -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Doghouse"]/description</xpath>
+		<value>
+			<description>A house for animals to sleep in. Fits any animal.</description>
+		</value>
+	</Operation>
+<!-- ORIGINAL
+dog's bowl
+ -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Dogbowl"]/label</xpath>
+		<value>
+			<label>animal food bowl</label>
+		</value>
+	</Operation>
+<!-- ORIGINAL
+A simple bowl to keep your dog’s meals fresh.
+ -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Dogbowl"]/description</xpath>
+		<value>
+			<description>A bowl for animals to eat from.</description>
+		</value>
+	</Operation>
+
+</Patch>
