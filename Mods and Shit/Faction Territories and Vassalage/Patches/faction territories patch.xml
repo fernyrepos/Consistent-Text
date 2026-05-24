@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+
+<!-- Faction Territories -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/MapModeFramework.MapModeDef[defName="FactionTerritories"]/label</xpath>
+            <value>
+                <label>Faction territories</label>
+            </value>
+        </Operation>
+
+</Patch>

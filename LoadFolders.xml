@@ -84,5 +84,12 @@
 		<li IfModActiveAll="orion.hospitality,esvn.rpgdialog">Mods and Shit/Hospitality with RPG Dialog</li>
     <li IfModActive="zhuma.xenotypesummary">Mods and Shit/Xenotype Summary</li>
     <li IfModActive="codex.psycastercoloniststab">Mods and Shit/Psycaster Colonists Tab</li>
+    <li IfModActive="trickity.conversion.staff">Mods and Shit/T's Conversion Staff</li>
+    <li IfModActive="nozome.mapmodeframework">Mods and Shit/Map Mode Framework</li>
+    <li IfModActive="pb3n.simpleleadership">Mods and Shit/Simple Leadership</li>
+    <li IfModActive="jaeger972.factionterritories">Mods and Shit/Faction Territories and Vassalage</li>
+    <li IfModActive="sarg.alphaanimals">Mods and Shit/Alpha Animals</li>
+    <li IfModActive="NinaGoblin.VisitSettlements">Mods and Shit/Visit Settlements</li>
+    <!-- <li IfModActive="mayiane.firefighterarea">Mods and Shit/JustPutOuttheFires</li> -->
   </v1.6>
 </loadFolders>
