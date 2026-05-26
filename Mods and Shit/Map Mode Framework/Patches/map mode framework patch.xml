@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+
+<!-- Growing Period -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/MapModeFramework.MapModeDef[defName="GrowingPeriod"]/label</xpath>
+            <value>
+                <label>Growing period</label>
+            </value>
+        </Operation>
+
+<!-- Animal Commonality -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/MapModeFramework.MapModeDef[defName="AnimalCommonality"]/label</xpath>
+            <value>
+                <label>Animal commonality</label>
+            </value>
+        </Operation>
+
+<!-- Plant Commonality -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/MapModeFramework.MapModeDef[defName="PlantCommonality"]/label</xpath>
+            <value>
+                <label>Plant commonality</label>
+            </value>
+        </Operation>
+
+</Patch>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData>
+
+  <!-- <SL_Leaders>Leaders</SL_Leaders> -->
+  <SL_Leaders>Settlement</SL_Leaders>
+
+  <!-- <SL_FactionLeadership>Faction Leadership</SL_FactionLeadership> -->
+  <SL_FactionLeadership>Faction ruler</SL_FactionLeadership>
+
+  <!-- <SL_BaseLeadership>Base Leadership</SL_BaseLeadership> -->
+  <SL_BaseLeadership>Settlement leader</SL_BaseLeadership>
+  
+  <!-- <SL_RaidOriginInfo>(This raid originated from Base {0})</SL_RaidOriginInfo> -->
+  <SL_RaidOriginInfo>The raid party was sent from their {0} settlement.</SL_RaidOriginInfo>
+
+  <!-- <SL_RaidOriginLeaderInfo>Base Leader {0} decided to join this raid, if you can capture or kill them - all future raids from this base will be weakened.</SL_RaidOriginLeaderInfo> -->
+  <SL_RaidOriginLeaderInfo>The leader of the raiding militia from {0} has decided to join this raid. They are the most powerful figure of the settlement attacking you. If you manage to capture or kill them, all future raids from their settlement will be weakened.</SL_RaidOriginLeaderInfo>
+
+  <!-- <SL_NotAvailable>Not Available</SL_NotAvailable> -->
+  <SL_NotAvailable>Unknown</SL_NotAvailable>
+
+  <!-- <SL_CurrentEvents>Current Events</SL_CurrentEvents> -->
+  <SL_CurrentEvents>Active events</SL_CurrentEvents>
+
+  <!-- <SL_EncounterChance>Encounter Chance:</SL_EncounterChance> -->
+  <SL_EncounterChance>Encounter chance:</SL_EncounterChance>
+
+  <!-- <SL_PowerVoidEndedLetterLabel>{FACTION_name} has come out of a Power Void.</SL_PowerVoidEndedLetterLabel> -->
+  <SL_PowerVoidEndedLetterLabel>{FACTION_name} has come out of a power void.</SL_PowerVoidEndedLetterLabel>
+
+  <!-- <SL_ReinforcementsCalledLabel>Reinforcements Called</SL_ReinforcementsCalledLabel> -->
+  <SL_ReinforcementsCalledLabel>Reinforcements called</SL_ReinforcementsCalledLabel>
+
+
+
+  <!-- <SL_SiteOwnershipInfo>Base {0} has claimed ownership of this site.</SL_SiteOwnershipInfo>
+  <SL_JumpToBase>Jump to {0}</SL_JumpToBase>
+  <SL_JumpToBaseDesc>Jump to the base that owns this site.</SL_JumpToBaseDesc>
+  <SL_Location>Location:</SL_Location>
+  <SL_None>None</SL_None>
+  <SL_LeaderName>Name:</SL_LeaderName>
+  <SL_VigilantBonus>Vigilant ({0})</SL_VigilantBonus>
+  <SL_ActingLeaderChosen>The acting {LEADERTITLE} is {PAWN_nameDef} until a new leader is chosen.</SL_ActingLeaderChosen>
+  <SL_NewLeaderElectedLetterBody>{PAWN_nameDef} has been selected as the new faction leader.</SL_NewLeaderElectedLetterBody>
+  <SL_RiotingSuccess>Rioting at {0} succeeded. {PAWN_nameDef} is the new leader.</SL_RiotingSuccess>
+  <SL_RiotingFailed>Rioting at {0} has failed. The current leader remains in power.</SL_RiotingFailed>
+  <SL_SupportArriving>Reinforcements are arriving to support {0}!</SL_SupportArriving>
+  <SL_PrisonersDetected>High value prisoners detected in the area.</SL_PrisonersDetected>
+  <SL_ReinforcementsCalledBody>{0} has called for reinforcements. They will arrive in {1}.</SL_ReinforcementsCalledBody>
+  <SL_LeaderCapturedLabel>{1} captured: {0}</SL_LeaderCapturedLabel>
+  <SL_LeaderCaptured>{LEADER_nameFull}, {1} of {0}, has been captured.</SL_LeaderCaptured>
+  <SL_SanctionedCannotTrade>Cannot trade with this faction. They are sanctioned.</SL_SanctionedCannotTrade>
+  <SL_FactionLeaderValueBonus>Faction leader</SL_FactionLeaderValueBonus>
+  <SL_BaseLeaderValueBonus>Base leader</SL_BaseLeaderValueBonus>
+  <SL_General>General</SL_General>
+  <SL_EnableAlerts>Enable base status alerts</SL_EnableAlerts>
+  <SL_EnableAlerts.Desc>If Disabled, you will not receive notifications of base/faction events. </SL_EnableAlerts.Desc>
+  <SL_EnableEvents>Enable base/faction events</SL_EnableEvents>
+  <SL_EnableEvents.Desc>If Disabled, base/faction events will no longer generate. </SL_EnableEvents.Desc>
+  <SL_LeaderSpawnChance>Leader spawn chance</SL_LeaderSpawnChance> -->
+
+</LanguageData>

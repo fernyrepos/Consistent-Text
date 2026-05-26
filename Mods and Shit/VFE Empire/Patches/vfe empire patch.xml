@@ -10,4 +10,26 @@
                     </value>
                 </Operation>
 
+
+
+
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="VFEE_Royalty"]/label</xpath>
+                    <value>
+                        <label>Nobles</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/MainButtonDef[defName="VFEE_Royalty"]</xpath>
+                    <value>
+                        <description>View and manage your faction's dealings with the Empire's great hierarchy.</description>
+                    </value>
+                </Operation>
+
+
+
 </Patch>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Atoll"]</xpath>
+		<value> <!--Atolls seem to overlap with coastal atolls from the Odyssey DLC-->
+			<description>An island surrounding a large lagoon. There's very little land to build on here.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Badlands"]</xpath>
+		<value>
+			<description>Large patches of eroded rock cover this area.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Caldera"]</xpath>
+		<value>
+			<description>A large basin of water surrounded by rocks formed after a recent volcanic eruption.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Canyon"]</xpath>
+		<value>
+			<description>A deep valley between two mountains.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_CaveEntrance"]</xpath>
+		<value>
+			<description>An entrance to a network of caves can be found within the rocks.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Cirque"]</xpath>
+		<value>
+			<description>A crescent-shaped alcove with a small basin of water.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_CoastCorner"]</xpath>
+		<value>
+			<description>This tile borders a specific section of the coast.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_CoveWithIsland"]</xpath>
+		<value>
+			<description>A small indentation in the coastline that provides shelter from strong coastal winds. There's an islet within in the cove.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Crater"]</xpath>
+		<value>
+			<description>A bowl-shaped depression within the mountains. It also contains a small pond.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_DesertPlateau"]</xpath>
+		<value>
+			<description>A small rocky patch with sharp cliffs and a flat top surrounded by sand.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Glacier"]</xpath>
+		<value>
+			<description>A sheet of ice within a valley sourced as a river's origin point.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Gorge"]</xpath>
+		<value>
+			<description>A narrow cleft between two mountains with a fresh water stream running through it.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_IceOasis"]</xpath>
+		<value>
+			<description>A small patch of rich soil surrounded by snow and ice.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Island"]</xpath>
+		<value>
+			<description>A small mass of land surrounded by the ocean.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Landbridge"]</xpath>
+		<value>
+			<description>A natural bridge connecting two pieces of land.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_LoneMountain"]</xpath>
+		<value>
+			<description>A lone mountain sits in the middle of this area.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Rift"]</xpath>
+		<value>
+			<description>A thin strip of land wedged between two mountains.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_River"]</xpath>
+		<value>
+			<description>A stream of fresh water flows through here.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_RiverConfluence"]</xpath>
+		<value>
+			<description>A merging of two or more rivers.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_RiverDelta"]</xpath>
+		<value>
+			<description>A river splitting into many branches as it enters the ocean.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_RiverIsland"]</xpath>
+		<value>
+			<description>A stream of fresh water encircles one or more islands.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_RiverSource"]</xpath>
+		<value>
+			<description>A river's origin point.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_SecludedCove"]</xpath>
+		<value>
+			<description>A small indentation in the coastline that provides shelter from strong coastal winds. There's a mountain shielding the coastline.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_SecludedValley"]</xpath>
+		<value>
+			<description>A steep valley carved through a mountain with a narrow entrance and exit.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Sinkhole"]</xpath>
+		<value>
+			<description>A small hole with a pond surrounded by mountains connected to a cave network.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Skerry"]</xpath>
+		<value>
+			<description>A small, rocky mass of land surrounded by the ocean.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_SurfaceCave"]</xpath>
+		<value>
+			<description>A network of caves formed by various geological processes. A few sections are exposed to the surface.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_SwampHill"]</xpath>
+		<value>
+			<description>A patch of arable soil surrounded by muddy swamps.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TileMutatorDef[defName="GL_Tombolo"]</xpath>
+		<value>
+			<description>A sandbar connecting an island to the mainland.</description>
+		</value>
+	</Operation>
+</Patch>
