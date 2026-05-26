@@ -91,5 +91,6 @@
     <li IfModActive="sarg.alphaanimals">Mods and Shit/Alpha Animals</li>
     <li IfModActive="NinaGoblin.VisitSettlements">Mods and Shit/Visit Settlements</li>
     <!-- <li IfModActive="mayiane.firefighterarea">Mods and Shit/JustPutOuttheFires</li> -->
+    <li IfModActive="m00nl1ght.GeologicalLandforms">Mods and Shit/Geological Landforms</li>
   </v1.6>
 </loadFolders>
