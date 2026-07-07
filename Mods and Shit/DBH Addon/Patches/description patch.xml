@@ -1,27 +1,33 @@
-<?xml version="1.0" encoding="utf-8" ?>          
-<Patch>       
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
 
-        <!-- <Operation Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="DBHA_SmallWaterTank"]/description</xpath>
-            <value>
-                <description>Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 500.</description>
-            </value>
-        </Operation>
+    <!-- ORIGINAL
+blank description -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DBHA_SmallWaterTank"]/description</xpath>
+        <value>
+            <description>Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 500.</description>
+        </value>
+    </Operation>
 
-  
-        <Operation Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="DBHA_WaterTank"]/description</xpath>
-            <value>
-                <description>Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 10,000.</description>
-            </value>
-        </Operation>
+    <!-- ORIGINAL
+blank description -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DBHA_WaterTank"]/description</xpath>
+        <value>
+            <description>Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 10,000.</description>
+        </value>
+    </Operation>
 
-  
+
+    <!-- ORIGINAL
+Stores hot running water for showers and baths. Connect to any boiler to heat. -->
+    <Operation Class="PatchOperationReplace">
         <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="DBHA_HotWaterTank"]/description</xpath>
             <value>
                 <description>Stores water for use by showers and baths. Connect to any boiler to heat. Capacity: 10,000.</description>
             </value>
-        </Operation> -->
+        </Operation>
 
-</Patch>
+    </Patch>
