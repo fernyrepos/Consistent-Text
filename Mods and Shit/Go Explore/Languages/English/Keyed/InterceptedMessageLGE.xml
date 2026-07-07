@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- <LetterLabelInterceptedMessageLGE>Intercepted Message</LetterLabelInterceptedMessageLGE> -->
+  <LetterLabelInterceptedMessageLGE>Intercepted message</LetterLabelInterceptedMessageLGE>
+  <!-- <LetterInterceptedMessageLGE>Your comm unit intercepted an unencrypted message. It indicates a nearby location where some loot is stored.\nThe message was unspecific about the exact items stored.\nYou suspect it could also be a trap to lure your caravan into an ambush.</LetterInterceptedMessageLGE> -->
+  <LetterInterceptedMessageLGE>You have intercepted an unencrypted message. It indicates a nearby location where some loot is stored.\nThe message was unspecific about the exact items stored.\nYou suspect it could also be a trap to lure your caravan into an ambush.</LetterInterceptedMessageLGE>
+
+</LanguageData>

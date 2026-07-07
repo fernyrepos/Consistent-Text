@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- <SGSOutpostManager_SelectOutput>Select Output</SGSOutpostManager_SelectOutput> -->
+    <SGSOutpostManager_SelectOutput>Select output</SGSOutpostManager_SelectOutput>
+
+    <!-- <SGSOutpostManager_OutputMaterial>Output Material</SGSOutpostManager_OutputMaterial> -->
+    <SGSOutpostManager_OutputMaterial>Output material</SGSOutpostManager_OutputMaterial>
+
+    <!-- <SGSOutpostManager_ProductionTime>Production Time</SGSOutpostManager_ProductionTime> -->
+    <SGSOutpostManager_ProductionTime>Production time</SGSOutpostManager_ProductionTime>
+
+
+
+    <SGSOutpostManager_Outpost>Outpost</SGSOutpostManager_Outpost>
+    <SGSOutpostManager_Rename>Rename</SGSOutpostManager_Rename>
+    <SGSOutpostManager_Type>Type</SGSOutpostManager_Type>
+    <SGSOutpostManager_Selection>Selection</SGSOutpostManager_Selection>
+    
+</LanguageData>

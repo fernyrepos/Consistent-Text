@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Elosth_CleanBeforeCreatingXenogerm>Clean before creating xenogerm</Elosth_CleanBeforeCreatingXenogerm>
+  <Elosth_CleanBeforeDoingSensitiveBills>Clean before doing sensitive bills</Elosth_CleanBeforeDoingSensitiveBills>
+  <Elosth_CleanBeforeResearch>Clean before research</Elosth_CleanBeforeResearch>
+  <Elosth_CleanBeforeTendingPatient>Clean before tending a patient</Elosth_CleanBeforeTendingPatient>
+  <Elosth_DesignateHarvesting>Designate harvesting</Elosth_DesignateHarvesting>
+  <Elosth_DesignateHunting>Designate hunting</Elosth_DesignateHunting>
+  <Elosth_DesignateMining>Designate mining</Elosth_DesignateMining>
+  <Elosth_UseMoralGuideAbilities>Use moral guide abilities</Elosth_UseMoralGuideAbilities>
+
+  <Elosth_Macromanagement_PlayerHome>Player home</Elosth_Macromanagement_PlayerHome>
+  <Elosth_Macromanagement_Pocket>Pocket</Elosth_Macromanagement_Pocket>
+  <Elosth_Macromanagement_Camp>camp</Elosth_Macromanagement_Camp>
+  <Elosth_Macromanagement_ActivateOnNewMaps>Activate on new maps</Elosth_Macromanagement_ActivateOnNewMaps>
+  <Elosth_Macromanagement_ActiveOnThisMap>Active on this map</Elosth_Macromanagement_ActiveOnThisMap>
+  <Elosth_Macromanagement_DesignateHarvesting>Designate Harvesting</Elosth_Macromanagement_DesignateHarvesting>
+  <Elosth_Macromanagement_ResourceGoal>Resource goal</Elosth_Macromanagement_ResourceGoal>
+  <Elosth_Macromanagement_NutritionGoal>Nutrition goal</Elosth_Macromanagement_NutritionGoal>
+  <Elosth_Macromanagement_DesignateHunting>Designate Hunting</Elosth_Macromanagement_DesignateHunting>
+  <Elosth_Macromanagement_HerdAnimal>herd animal</Elosth_Macromanagement_HerdAnimal>
+  <Elosth_Macromanagement_Predator>predator</Elosth_Macromanagement_Predator>
+  <Elosth_Macromanagement_Adult>adult</Elosth_Macromanagement_Adult>
+  <Elosth_Macromanagement_Insect>insect</Elosth_Macromanagement_Insect>
+  <Elosth_Macromanagement_WildMan>wild man</Elosth_Macromanagement_WildMan>
+  <Elosth_Macromanagement_RevengeChanceThreshold>Revenge chance threshold</Elosth_Macromanagement_RevengeChanceThreshold>
+  <Elosth_Macromanagement_DesignateMining>Designate Mining</Elosth_Macromanagement_DesignateMining>
+  <Elosth_Macromanagement_Prisoner>prisoner</Elosth_Macromanagement_Prisoner>
+  <Elosth_Macromanagement_QuestLodger>quest lodger</Elosth_Macromanagement_QuestLodger>
+  <Elosth_Macromanagement_UseMoralGuideAbilities>Use Moral Guide Abilities</Elosth_Macromanagement_UseMoralGuideAbilities>
+  <Elosth_Macromanagement_HealthPercentageThreshold>Health percentage threshold</Elosth_Macromanagement_HealthPercentageThreshold>
+  <Elosth_Macromanagement_MoodOffsetThreshold>Mood offset threshold</Elosth_Macromanagement_MoodOffsetThreshold>
+  <Elosth_Macromanagement_CertaintyThreshold>Certainty threshold</Elosth_Macromanagement_CertaintyThreshold>
+  <Elosth_Macromanagement_Convertee>convertee</Elosth_Macromanagement_Convertee>
+  <Elosth_Macromanagement_ReconstructQueue>Reconstruct queue</Elosth_Macromanagement_ReconstructQueue>
+  <Elosth_Macromanagement_HelpText>Work in progress. Some features of the Mod options are currently non-functional.</Elosth_Macromanagement_HelpText>
+  <Elosth_Macromanagement_Amount>amount</Elosth_Macromanagement_Amount>
+  <Elosth_Macromanagement_NutritionAmount>nutrition amount</Elosth_Macromanagement_NutritionAmount>
+
+</LanguageData>

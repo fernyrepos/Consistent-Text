@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <MountPassengers_Gizmo_SaddleUpPassenger>Saddle Up Passenger</MountPassengers_Gizmo_SaddleUpPassenger> -->
+  <MountPassengers_Gizmo_SaddleUpPassenger>Co-board nearest mount</MountPassengers_Gizmo_SaddleUpPassenger>
+
+  <!-- <MountPassengers_Gizmo_DismountPassenger>Dismount Passenger</MountPassengers_Gizmo_DismountPassenger> -->
+  <MountPassengers_Gizmo_DismountPassenger>Dismount passenger</MountPassengers_Gizmo_DismountPassenger>
+<!-- 
+  <MountPassengers_Gizmo_CancelPassengerTarget>Cancel passenger target</MountPassengers_Gizmo_CancelPassengerTarget>
+  <MountPassengers_Gizmo_CancelPassengerTarget_Desc>Stop this passenger's forced attack target so they can auto-target again.</MountPassengers_Gizmo_CancelPassengerTarget_Desc>
+
+
+  <MountPassengers_Gizmo_DismountPassenger_Desc>Leave this mount as a passenger and remain drafted.</MountPassengers_Gizmo_DismountPassenger_Desc>
+
+
+
+
+
+  <MountPassengers_Gizmo_SaddleUpPassenger_Desc>Board the nearest mounted animal with an available passenger seat.</MountPassengers_Gizmo_SaddleUpPassenger_Desc>
+  <MountPassengers_Gizmo_PassengerCapacity>Passenger capacity: {0}</MountPassengers_Gizmo_PassengerCapacity>
+  <MountPassengers_Gizmo_PassengerCapacity_Desc>Set this animal type's passenger capacity (0-{0}).</MountPassengers_Gizmo_PassengerCapacity_Desc>
+  <MountPassengers_Gizmo_BoardPassenger>Board passenger</MountPassengers_Gizmo_BoardPassenger>
+  <MountPassengers_Gizmo_BoardPassenger_Desc>Choose a drafted colonist to walk to this mounted animal and board as a combat passenger.</MountPassengers_Gizmo_BoardPassenger_Desc>
+
+
+
+
+
+
+  <MountPassengers_SettingsCategory>Mount Passengers</MountPassengers_SettingsCategory>
+
+  <MountPassengers_Setting_AccuracyPenaltyEnabled>Apply passenger mounted accuracy penalty</MountPassengers_Setting_AccuracyPenaltyEnabled>
+  <MountPassengers_Setting_AccuracyPenaltyEnabled_Tip>Passengers suffer a configurable ranged accuracy penalty while mounted.</MountPassengers_Setting_AccuracyPenaltyEnabled_Tip>
+  <MountPassengers_Setting_AccuracyPenaltySlider>Passenger mounted accuracy penalty: {0}%</MountPassengers_Setting_AccuracyPenaltySlider>
+  <MountPassengers_Setting_AccuracyPenaltySlider_Tip>Default is 5%, half of Giddy-Up 2's default mounted rider accuracy penalty.</MountPassengers_Setting_AccuracyPenaltySlider_Tip>
+  <MountPassengers_Setting_HandlingAccuracySlider>Passenger handling accuracy impact: {0}% per level</MountPassengers_Setting_HandlingAccuracySlider>
+  <MountPassengers_Setting_HandlingAccuracySlider_Tip>Default is 0.25% per Animals skill level above or below the mount's minimum handling skill, half of Giddy-Up 2's default handling accuracy impact.</MountPassengers_Setting_HandlingAccuracySlider_Tip>
+  <MountPassengers_Setting_MountingTimeSlider>Passenger mounting time: {0}x</MountPassengers_Setting_MountingTimeSlider>
+  <MountPassengers_Setting_MountingTimeSlider_Tip>Default is 0.50x, meaning passengers take half as long as Giddy-Up's normal rider mounting delay.</MountPassengers_Setting_MountingTimeSlider_Tip>
+  <MountPassengers_Setting_CaravanSpeedEnabled>Apply passenger capacity to caravan speed</MountPassengers_Setting_CaravanSpeedEnabled>
+  <MountPassengers_Setting_CaravanSpeedEnabled_Tip>When forming/travelling caravans, configured passenger seats let one mount cover more than one pawn for movement speed calculations.</MountPassengers_Setting_CaravanSpeedEnabled_Tip>
+  <MountPassengers_Setting_CaravanSpeedSlider>Caravan passenger speed impact: {0}x</MountPassengers_Setting_CaravanSpeedSlider>
+  <MountPassengers_Setting_CaravanSpeedSlider_Tip>How strongly configured passenger seats improve caravan speed. 1.00x applies the full capacity-based adjustment; 0 disables the adjustment without changing seat capacity.</MountPassengers_Setting_CaravanSpeedSlider_Tip>
+  <MountPassengers_Setting_AnimalCapacityHeader>Animal passenger capacity</MountPassengers_Setting_AnimalCapacityHeader>
+  <MountPassengers_Setting_ShowDisabledAnimals>Show animals with 0 passenger slots</MountPassengers_Setting_ShowDisabledAnimals>
+  <MountPassengers_Setting_ShowDisabledAnimals_Tip>Enable this only when you want to opt additional animals into passenger support. Disabled animals with no custom tuning are hidden by default.</MountPassengers_Setting_ShowDisabledAnimals_Tip>
+  <MountPassengers_Setting_ShowLastVerticalOffsets>Show last passenger vertical offset sliders</MountPassengers_Setting_ShowLastVerticalOffsets>
+  <MountPassengers_Setting_ShowLastVerticalOffsets_Tip>Advanced tuning: adds a per-animal slider that moves the furthest occupied passenger seat up/down on the animal texture.</MountPassengers_Setting_ShowLastVerticalOffsets_Tip>
+  <MountPassengers_Setting_Reset>Reset all settings to defaults</MountPassengers_Setting_Reset>
+  <MountPassengers_Setting_ResetConfirm>Confirm reset all settings to defaults</MountPassengers_Setting_ResetConfirm>
+  <MountPassengers_Setting_Reset_Tip>Resets combat options, caravan speed impact, hidden-animal visibility, animal passenger capacity overrides, and last passenger vertical offsets to the baked defaults.</MountPassengers_Setting_Reset_Tip>
+  <MountPassengers_Setting_ResetConfirmHelp>Click confirm to clear custom animal overrides and restore the baked default settings.</MountPassengers_Setting_ResetConfirmHelp>
+  <MountPassengers_Setting_CapacityDefaultsNote>Capacity defaults use baked tuning first, then body size fallback for untuned animals. Current supported maximum is {0} passengers.</MountPassengers_Setting_CapacityDefaultsNote>
+  <MountPassengers_Setting_Seats>Seats</MountPassengers_Setting_Seats>
+  <MountPassengers_Setting_LastVertical>Last vertical</MountPassengers_Setting_LastVertical>
+  <MountPassengers_Setting_LastVertical_Tip>Moves the furthest occupied passenger seat up/down on this animal's texture. Earlier passengers are spaced between the rider and this last passenger anchor.</MountPassengers_Setting_LastVertical_Tip>
+  <MountPassengers_Setting_SourceHeaderExpand_Tip>Click to expand animals from this source.</MountPassengers_Setting_SourceHeaderExpand_Tip>
+  <MountPassengers_Setting_SourceHeaderCollapse_Tip>Click to collapse animals from this source.</MountPassengers_Setting_SourceHeaderCollapse_Tip>
+  <MountPassengers_Setting_UnknownSource>Unknown source</MountPassengers_Setting_UnknownSource>
+
+
+
+  <MountPassengers_CapacityOption_Singular>{0} passenger</MountPassengers_CapacityOption_Singular>
+  <MountPassengers_CapacityOption_Plural>{0} passengers</MountPassengers_CapacityOption_Plural>
+  <MountPassengers_FloatMenu_NoEligibleDraftedColonists>No eligible drafted colonists</MountPassengers_FloatMenu_NoEligibleDraftedColonists>
+  <MountPassengers_FloatMenu_BoardSeat>Board {0}: {1}</MountPassengers_FloatMenu_BoardSeat>
+  <MountPassengers_FloatMenu_BoardPassengerDisabled>Board passenger: {0} ({1})</MountPassengers_FloatMenu_BoardPassengerDisabled>
+  <MountPassengers_SeatLabel>Passenger spot {0}</MountPassengers_SeatLabel>
+  <MountPassengers_SeatLabelFallback>Passenger spot</MountPassengers_SeatLabelFallback>
+
+  <MountPassengers_CannotBoard_MissingPassengerOrRider>A drafted passenger and mounted primary rider are required.</MountPassengers_CannotBoard_MissingPassengerOrRider>
+  <MountPassengers_CannotBoard_NotDraftedStandingSameMap>Passenger and rider must be drafted, standing, and on the same map.</MountPassengers_CannotBoard_NotDraftedStandingSameMap>
+  <MountPassengers_CannotBoard_NotAlliedHumanlike>Only allied humanlike colonists may be passengers.</MountPassengers_CannotBoard_NotAlliedHumanlike>
+  <MountPassengers_CannotBoard_AlreadyPassenger>That pawn is already a mount passenger.</MountPassengers_CannotBoard_AlreadyPassenger>
+  <MountPassengers_CannotBoard_NotMountedByRider>This animal is not being mounted by that rider.</MountPassengers_CannotBoard_NotMountedByRider>
+  <MountPassengers_CannotBoard_NoFreeSeats>This mount has no free passenger seats.</MountPassengers_CannotBoard_NoFreeSeats>
+  <MountPassengers_CannotBoard_NotRightNow>This pawn cannot board as a passenger right now.</MountPassengers_CannotBoard_NotRightNow>
+  <MountPassengers_CannotBoard_Downed>Downed pawns cannot board as passengers.</MountPassengers_CannotBoard_Downed>
+  <MountPassengers_CannotBoard_NoMap>No map is available.</MountPassengers_CannotBoard_NoMap>
+  <MountPassengers_CannotBoard_NoEligibleMountedAnimal>No eligible mounted animal with a passenger seat was found.</MountPassengers_CannotBoard_NoEligibleMountedAnimal>
+  <MountPassengers_CannotBoard_RiderNotDrafted>The primary rider must be drafted.</MountPassengers_CannotBoard_RiderNotDrafted>
+
+  <MountPassengers_ExtraPawn>extra pawn</MountPassengers_ExtraPawn>
+  <MountPassengers_ExtraPawns>extra pawns</MountPassengers_ExtraPawns>
+  <MountPassengers_CaravanSpeedExplanation>Mount passenger capacity: {0} {1} carried ({2})</MountPassengers_CaravanSpeedExplanation> -->
+</LanguageData>

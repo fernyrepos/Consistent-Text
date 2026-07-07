@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <SkipdoorMenu_AlreadyLoading>Already loading for {0}. Use Cancel Transport to abort.</SkipdoorMenu_AlreadyLoading> -->
+  <SkipdoorMenu_AlreadyLoading>Already loading for {0}. Use 'cancel transport' to abort.</SkipdoorMenu_AlreadyLoading>
+
+  <!-- <SkipdoorMenu_NoOtherPortals>No other active Skipdoors found.</SkipdoorMenu_NoOtherPortals> -->
+  <SkipdoorMenu_NoOtherPortals>No other active skipdoors found.</SkipdoorMenu_NoOtherPortals>
+
+  <!-- <SkipdoorMenu_CancelTransport>Cancel Transport</SkipdoorMenu_CancelTransport> -->
+  <SkipdoorMenu_CancelTransport>Cancel transport</SkipdoorMenu_CancelTransport>
+
+  <!-- <SkipdoorMenu_DialogTitle>Portal Transport</SkipdoorMenu_DialogTitle> -->
+  <SkipdoorMenu_DialogTitle>Skipdoor transport</SkipdoorMenu_DialogTitle>
+
+  <!-- <SkipdoorMenu_TransportDesc>Open the portal transport menu. Select items, pawns, or mechs to be hauled to this portal by colonists, then skipped to another portal as they arrive.</SkipdoorMenu_TransportDesc> -->
+  <SkipdoorMenu_TransportDesc>Open the skipdoor transport menu. Select items, pawns, or mechs to be hauled to this skipdoor by colonists, then skipped to another skipdoor as they arrive.</SkipdoorMenu_TransportDesc>
+
+  <!-- <SkipdoorMenu_PortalAt>Portal at {0}</SkipdoorMenu_PortalAt> -->
+  <SkipdoorMenu_PortalAt>Skipdoor at {0}</SkipdoorMenu_PortalAt>
+
+
+
+  <SkipdoorMenu_Transport>Transport</SkipdoorMenu_Transport>
+  <SkipdoorMenu_CancelTransportDesc>Cancel the current transport operation to {0}. Items already skipped will not be returned.</SkipdoorMenu_CancelTransportDesc>
+  <SkipdoorMenu_FloatMenuHeader>── From: {0} ──</SkipdoorMenu_FloatMenuHeader>
+  <SkipdoorMenu_FloatMenuDest>→  {0}  ({1}, {2})</SkipdoorMenu_FloatMenuDest>
+  <SkipdoorMenu_TransportTitle>{0}  →  {1}</SkipdoorMenu_TransportTitle>
+  <SkipdoorMenu_TransportButton>Confirm</SkipdoorMenu_TransportButton>
+  <SkipdoorMenu_TransportStarted>Colonists are loading items into {0}. Each item will be skipped to {1} as it arrives.</SkipdoorMenu_TransportStarted>
+  <SkipdoorMenu_TransportComplete>Items have been skipped from {0} to {1}.</SkipdoorMenu_TransportComplete>
+  <SkipdoorMenu_NothingSelected>Nothing was selected to transport.</SkipdoorMenu_NothingSelected>
+
+</LanguageData>

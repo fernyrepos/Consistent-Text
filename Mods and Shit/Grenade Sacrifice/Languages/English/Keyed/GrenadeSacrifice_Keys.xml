@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- <GS_PullPin>Pull Pin</GS_PullPin> -->
+	<GS_PullPin>Self sacrifice</GS_PullPin>
+	<!-- <GS_PullPinDesc>Pull the pin on {0}. The fuse burns for {1} seconds, then it detonates centered on this pawn - wherever they are by then. The blast is identical to a thrown grenade landing on their tile, and the grenade is consumed.\n\nThe pin cannot be put back in.</GS_PullPinDesc>
+	<GS_AlreadyPulled>{0} has already pulled a pin</GS_AlreadyPulled>
+	<GS_PinPulled>Pin pulled!</GS_PinPulled>
+	<GS_PinPulledMessage>{0} pulled the pin on {1}!</GS_PinPulledMessage> -->
+</LanguageData>

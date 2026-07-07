@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!-- <AlmostThereDesc0>Cmon guys, we're almost there! With this enabled, your caravan won't rest when {0} hours away from its target. NOTE: the number of hours that are considered "almost there" can be configured in the mod settings!</AlmostThereDesc0> -->
+	<AlmostThereDesc0>This caravan will not rest if it is {0} hours out from its destination.\n\nClick to change rest style.</AlmostThereDesc0>
+
+	<!-- <AlmostThereDesc1>Caravan will not rest at night. Use at your own risk!</AlmostThereDesc1> -->
+	<AlmostThereDesc1>This caravan will not rest at night.\n\nClick to change rest style.</AlmostThereDesc1>
+
+	<!-- <AlmostThereDesc2>Ignore Almost There, move normally during the day, and rest normally at night.</AlmostThereDesc2> -->
+	<AlmostThereDesc2>This caravan will rest when colonists are tired.\n\nClick to change rest style.</AlmostThereDesc2>
+
+
+	<!-- <AlmostThereLabel0>Almost there!</AlmostThereLabel0> -->
+	<AlmostThereLabel0>Push through</AlmostThereLabel0>
+	<!-- <AlmostThereLabel2>Going normally</AlmostThereLabel2> -->
+	<AlmostThereLabel2>Rest at will</AlmostThereLabel2>
+
+
+
+	<!-- <AlmostThereLabel1>Never rest</AlmostThereLabel1> -->
+
+
+<!-- 
+	<DefaultCaravanMode_Title>Default Caravan Mode</DefaultCaravanMode_Title>
+	<DefaultCaravanMode_Desc>Newly created caravans will use this default mode. Note: existing caravans will not change their mode when this option is changed.</DefaultCaravanMode_Desc> -->
+
+
+
+
+	<!-- <AlmostThereHours_Title>Almost There Hours: {0} hours</AlmostThereHours_Title>
+	<AlmostThereNightFactor_Title>Night Factor: {0}</AlmostThereNightFactor_Title>
+	<AlmostThereNightFactor>Traveling At Night</AlmostThereNightFactor> -->
+</LanguageData>

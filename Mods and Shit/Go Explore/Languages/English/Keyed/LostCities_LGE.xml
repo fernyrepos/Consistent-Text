@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- <LetterLabelToxicLostCityLGE>Toxic City Opportunity</LetterLabelToxicLostCityLGE> -->
+  <LetterLabelToxicLostCityLGE>Toxic city opportunity</LetterLabelToxicLostCityLGE>
+  
+  <!-- <LetterLabelInfestedLostCityLGE>Infested City Opportunity</LetterLabelInfestedLostCityLGE> -->
+  <LetterLabelInfestedLostCityLGE>Infested city opportunity</LetterLabelInfestedLostCityLGE>
+  <!-- <LetterInfestedLostCityLGE>You heard rumors of insect infested city ruins nearby.\nSome stuff probably survived and is ready for looting but one would have to sneak by the insects or exterminate them.</LetterInfestedLostCityLGE> -->
+
+  <!-- <LetterLabelStandartLostCityLGE>Bombarded City Opportunity</LetterLabelStandartLostCityLGE> -->
+  <LetterLabelStandartLostCityLGE>Bombarded city opportunity</LetterLabelStandartLostCityLGE>
+  
+</LanguageData>

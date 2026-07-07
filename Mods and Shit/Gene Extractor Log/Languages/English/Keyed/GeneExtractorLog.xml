@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- <GEL_GizmoLabel>Extract log</GEL_GizmoLabel> -->
+  <GEL_GizmoLabel>View usage history</GEL_GizmoLabel>
+
+  <!-- <GEL_WindowTitle>Gene Extraction Log</GEL_WindowTitle> -->
+  <GEL_WindowTitle>Usage history</GEL_WindowTitle>
+
+  <!-- <GEL_GizmoDesc>View the last 10 gene extraction records.</GEL_GizmoDesc>
+  <GEL_NoHistory>No gene extraction records yet.</GEL_NoHistory>
+  <GEL_NoGeneInfo>No gene information available.</GEL_NoGeneInfo>
+  <GEL_Latest>New</GEL_Latest> -->
+</LanguageData>

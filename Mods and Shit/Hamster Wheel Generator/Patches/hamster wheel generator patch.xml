@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- original:
+hamster wheel generator
+ -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="HamsterWheelGenerator"]/label</xpath>
+            <value>
+                <label>human hamster wheel generator</label>
+            </value>
+        </Operation>
+
+</Patch>

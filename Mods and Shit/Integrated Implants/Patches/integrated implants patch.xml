@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>          
 
+			<!-- <description>use the vanguard accelerator to briefly gain inhuman speed and reflexes.</description> -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AbilityDef[defName="LTS_Vanguard"]/description</xpath>
+		<value>
+			<description>Use the vanguard accelerator to briefly gain inhuman speed and reflexes.</description>
+		</value>
+	</Operation>
+
+
 	<!-- <Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PsychicSustainer"]/label</xpath>
 		<value>

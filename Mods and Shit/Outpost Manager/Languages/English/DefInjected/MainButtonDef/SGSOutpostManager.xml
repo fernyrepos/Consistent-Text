@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- <OutpostManager.label>Outpost Manager</OutpostManager.label> -->
+    <OutpostManager.label>Outposts</OutpostManager.label>
+    <!-- <OutpostManager.description>Open up the Outpost Manager Menu</OutpostManager.description> -->
+    <OutpostManager.description>Manage your faction's established world map outposts.</OutpostManager.description>
+
+</LanguageData>

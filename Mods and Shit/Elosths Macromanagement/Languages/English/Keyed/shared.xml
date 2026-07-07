@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Elosth_Override>{0} already exists. Replace it?</Elosth_Override>
+  <Elosth_SubModUnsatisfiedDependencies>Unsatisfied dependencies:</Elosth_SubModUnsatisfiedDependencies>
+  <Elosth_SubModDependencies>Dependencies:</Elosth_SubModDependencies>
+  <Elosth_SubModConflictingWithTip>Conflicting:</Elosth_SubModConflictingWithTip>
+  <Elosth_SubModIncompatibleWithTip>Incompatible:</Elosth_SubModIncompatibleWithTip>
+  <Elosth_SettingsHaveChangedWarning>Settings have changed.</Elosth_SettingsHaveChangedWarning>
+  <Elosth_SettingsHaveChangedReload>Changes require a restart to take effect.</Elosth_SettingsHaveChangedReload>
+  <Elosth_SettingsHaveChangedReapply>Reapply is available, but restart is recommended.</Elosth_SettingsHaveChangedReapply>
+  <Elosth_Presets>Presets</Elosth_Presets>
+  <Elosth_ConfirmResetAllSubMods>Do you want to reset everything?</Elosth_ConfirmResetAllSubMods>
+  <Elosth_MarkAllAsSeen>Mark all as seen</Elosth_MarkAllAsSeen>
+  <Elosth_ConfirmMarkAllSubModsAsSeen>Do you want to mark everything as seen?</Elosth_ConfirmMarkAllSubModsAsSeen>
+  <Elosth_AuthorPreset>Use author preset</Elosth_AuthorPreset>
+  <Elosth_SavePreset>Save preset</Elosth_SavePreset>
+  <Elosth_ApplyPreset>Do you want to apply preset {0}? This action is irreversible.</Elosth_ApplyPreset>
+  <Elosth_OverridePreset>Do you want to override the preset {0}?</Elosth_OverridePreset>
+  <Elosth_DeletePreset>Do you want to delete the preset {0}?</Elosth_DeletePreset>
+  <Elosth_RepeatsOverTime>Repeats over time</Elosth_RepeatsOverTime>
+  <Elosth_SatisfiedSubModHelp>You'll see this if all dependencies are satisfied</Elosth_SatisfiedSubModHelp>
+  <Elosth_AddedSubModHelp>You'll see this if it's not a fresh install or you have deleted your config and a new submod has been added</Elosth_AddedSubModHelp>
+  <Elosth_UpdatedSubModHelp>You'll see this if it's not a fresh install or you have deleted your config and a submod has been updated</Elosth_UpdatedSubModHelp>
+  <Elosth_UnsatisfiedSubModHelp>You'll see this if dependencies aren't satisfied</Elosth_UnsatisfiedSubModHelp>
+  <Elosth_ConflictingSubModHelp>You'll see this if there's any known conflicts with any of your installed mods</Elosth_ConflictingSubModHelp>
+  <Elosth_IncompatibleSubModHelp>You'll see this if there's any known incompatibility with any of your installed mods</Elosth_IncompatibleSubModHelp>
+  <Elosth_ObsoleteSubModHelp>You'll see this if a submod is obsolete</Elosth_ObsoleteSubModHelp>
+  <Elosth_SelectGenes>Select Genes</Elosth_SelectGenes>
+  <Elosth_SelectedGenes>Selected Genes</Elosth_SelectedGenes>
+  <Elosth_All>All</Elosth_All>
+  <Elosth_FilterByWorkTags>Filter by work tags</Elosth_FilterByWorkTags>
+  <Elosth_Any>Any</Elosth_Any>
+  <Elosth_FilterBySkill>Filter by skill</Elosth_FilterBySkill>
+  <Elosth_Generated>Generated</Elosth_Generated>
+  <Elosth_SortBy>Sort by</Elosth_SortBy>
+  <Elosth_HighestSkill>Highest skill</Elosth_HighestSkill>
+  <Elosth_Select>select</Elosth_Select>
+  <Elosth_Pick>pick</Elosth_Pick>
+  <Elosth_Blacklist>blacklist</Elosth_Blacklist>
+  <Elosth_Whitelist>whitelist</Elosth_Whitelist>
+  <Elosth_SelectTraits>Select Traits</Elosth_SelectTraits>
+  <Elosth_OnlyCommon>Only common</Elosth_OnlyCommon>
+  <Elosth_ConflictsWithPassions>Conflicts with passions</Elosth_ConflictsWithPassions>
+  <Elosth_ConflictsWithTraits>Conflicts with traits</Elosth_ConflictsWithTraits>
+  <Elosth_RandomMentalState>Random mental state</Elosth_RandomMentalState>
+  <Elosth_SelectHediffs>Select Hediffs</Elosth_SelectHediffs>
+  <Elosth_Good>Good</Elosth_Good>
+  <Elosth_Bad>Bad</Elosth_Bad>
+  <Elosth_Injuries>Injuries</Elosth_Injuries>
+  <Elosth_Addictions>Addictions</Elosth_Addictions>
+  <Elosth_Restrictions>Restrictions</Elosth_Restrictions>
+  <Elosth_BodyPart>Body part</Elosth_BodyPart>
+  <Elosth_Severity>Severity</Elosth_Severity>
+  <Elosth_SelectBackstories>Select Backstories</Elosth_SelectBackstories>
+  <Elosth_SpawnCategories>Spawn categories</Elosth_SpawnCategories>
+  <Elosth_Selected>Selected</Elosth_Selected>
+  <Elosth_SelectedHediffs>Selected Hediffs</Elosth_SelectedHediffs>
+  <Elosth_Hediffs>Hediffs</Elosth_Hediffs>
+
+  <Elosth_BiologicalAge>Biological age</Elosth_BiologicalAge>
+  <Elosth_ChronologicalAge>Chronological age</Elosth_ChronologicalAge>
+  <Elosth_MustBeCapableOfViolence>Must be capable of violence</Elosth_MustBeCapableOfViolence>
+  <Elosth_AllowDead>Allow dead</Elosth_AllowDead>
+  <Elosth_AllowDowned>Allow downed</Elosth_AllowDowned>
+  <Elosth_AllowGay>Allow gay</Elosth_AllowGay>
+  <Elosth_AllowPregnant>Allow pregnant</Elosth_AllowPregnant>
+  <Elosth_AllowFood>Allow food</Elosth_AllowFood>
+  <Elosth_AllowAddictions>Allow addictions</Elosth_AllowAddictions>
+  <Elosth_DontGiveWeapon>Don't give weapon</Elosth_DontGiveWeapon>
+  <Elosth_ForceDead>Force dead</Elosth_ForceDead>
+  <Elosth_FavoriteColor>Favorite color</Elosth_FavoriteColor>
+  <Elosth_PickColor>Pick Color</Elosth_PickColor>
+  <Elosth_StartingRelations>Starting relations</Elosth_StartingRelations>
+  <Elosth_Hair>Hair</Elosth_Hair>
+  <Elosth_PickHair>Pick Hair</Elosth_PickHair>
+  <Elosth_Brightness>Brightness</Elosth_Brightness>
+  <Elosth_Beard>Beard</Elosth_Beard>
+  <Elosth_PickBeard>Pick Beard</Elosth_PickBeard>
+  <Elosth_Head>Head</Elosth_Head>
+  <Elosth_PickHead>Pick Head</Elosth_PickHead>
+  <Elosth_Body>Body</Elosth_Body>
+  <Elosth_PickBody>Pick Body</Elosth_PickBody>
+  <Elosth_FaceTattoo>Face tattoo</Elosth_FaceTattoo>
+  <Elosth_PickFaceTattoo>Pick Face Tattoo</Elosth_PickFaceTattoo>
+  <Elosth_BodyTattoo>Body tattoo</Elosth_BodyTattoo>
+  <Elosth_PickBodyTattoo>Pick Body Tattoo</Elosth_PickBodyTattoo>
+  <Elosth_SelectChildhoodsLabel>Select childhoods</Elosth_SelectChildhoodsLabel>
+  <Elosth_SelectAdulthoodsLabel>Select adulthoods</Elosth_SelectAdulthoodsLabel>
+  <Elosth_AddSkill>Add skill</Elosth_AddSkill>
+  <Elosth_SelectTraitsLabel>Select traits</Elosth_SelectTraitsLabel>
+  <Elosth_SelectHediffsLabel>Select hediffs</Elosth_SelectHediffsLabel>
+  <Elosth_Form>Form</Elosth_Form>
+  <Elosth_Benefit>Benefit</Elosth_Benefit>
+  <Elosth_Downside>Downside</Elosth_Downside>
+  <Elosth_Aggressive>Aggressive</Elosth_Aggressive>
+  <Elosth_Redress>Redress</Elosth_Redress>
+  <Elosth_ResponseToAggression>Response to aggression</Elosth_ResponseToAggression>
+
+</LanguageData>

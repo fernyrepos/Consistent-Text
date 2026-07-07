@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- Family Tree -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/MainButtonDef[defName="FamilyTree"]/label</xpath>
+    <value><label>Family tree</label></value>
+  </Operation>
+
+    <!-- <description>View the family trees and relationships of your colonists.</description> -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/MainButtonDef[defName="FamilyTree"]/description</xpath>
+    <value><description>View the bloodline connections between your colonists and their relatives.</description></value>
+  </Operation>
+
+</Patch>

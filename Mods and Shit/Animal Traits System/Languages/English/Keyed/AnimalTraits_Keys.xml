@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- <AnimalTraits_AnimalTab>Animal</AnimalTraits_AnimalTab> -->
+    <AnimalTraits_AnimalTab>Bio</AnimalTraits_AnimalTab>
+    
+    <!-- <AnimalTraits_Identity>Identity</AnimalTraits_Identity> -->
+    <AnimalTraits_Identity>Animal</AnimalTraits_Identity>
+
+    <!-- <AnimalTraits_TraitEffectsSummary>Trait Effects Summary</AnimalTraits_TraitEffectsSummary> -->
+    <AnimalTraits_TraitEffectsSummary>Affected stats</AnimalTraits_TraitEffectsSummary>
+    
+    <!-- <AnimalTraits_LifeStage>Life Stage:</AnimalTraits_LifeStage> -->
+    <AnimalTraits_LifeStage>Life stage:</AnimalTraits_LifeStage>
+
+</LanguageData>

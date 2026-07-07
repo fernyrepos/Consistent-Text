@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <BTD_SaveDesign>Save Design</BTD_SaveDesign> -->
+  <BTD_SaveDesign>Save design</BTD_SaveDesign>
+
+  <!-- <BTD_SaveDesignDesc>Save this gravship as a reusable blueprint design</BTD_SaveDesignDesc> -->
+  <BTD_SaveDesignDesc>Save this gravship as a reusable blueprint design.</BTD_SaveDesignDesc>
+
+  <!-- <BTD_ActivateEngine>Activate Engine</BTD_ActivateEngine> -->
+  <BTD_ActivateEngine>Activate engine</BTD_ActivateEngine>
+
+    <!-- <BTD_ActivateEngineDesc>Activate this dormant grav engine, replacing it with a fully operational unit</BTD_ActivateEngineDesc> -->
+  <BTD_ActivateEngineDesc>Activate this dormant grav engine, replacing it with a fully operational unit.</BTD_ActivateEngineDesc>
+
+  <!-- <BTD_DeactivateEngine>Deactivate Engine</BTD_DeactivateEngine> -->
+  <BTD_DeactivateEngine>Deactivate engine</BTD_DeactivateEngine>
+
+  <!-- <BTD_DeactivateEngineDesc>Deactivate this grav engine and store it as a dormant unit</BTD_DeactivateEngineDesc> -->
+  <BTD_DeactivateEngineDesc>Deactivate this grav engine and store it as a dormant unit.</BTD_DeactivateEngineDesc>
+
+  <!-- <BTD_BrowseDesigns>Browse Designs</BTD_BrowseDesigns> -->
+  <BTD_BrowseDesigns>Browse designs</BTD_BrowseDesigns>
+
+  <!-- <BTD_ClearSelection>Clear Selection</BTD_ClearSelection> -->
+  <BTD_ClearSelection>Clear selection</BTD_ClearSelection>
+
+  <BTD_EngineActivated>Grav engine activated</BTD_EngineActivated>
+  <BTD_EngineDeactivated>Grav engine deactivated</BTD_EngineDeactivated>
+  <BTD_EngineDefNotFound>Grav engine def not found: {0}</BTD_EngineDefNotFound>
+  <BTD_EngineDormantStatus>Dormant</BTD_EngineDormantStatus>
+  <BTD_StoredShipName>Stored ship: {0}</BTD_StoredShipName>
+  <BTD_StoredCooldown>Cooldown: {0}</BTD_StoredCooldown>
+
+  <!-- <BTD_BrowseDesignsTitle>Browse Gravship Designs</BTD_BrowseDesignsTitle> -->
+  <BTD_BrowseDesignsTitle>Browse gravship designs</BTD_BrowseDesignsTitle>
+  <!-- <BTD_PlayerDesigns>Player Designs</BTD_PlayerDesigns> -->
+  <BTD_PlayerDesigns>Player designs</BTD_PlayerDesigns>
+  <!-- <BTD_FullDesign>Full Design</BTD_FullDesign> -->
+  <BTD_FullDesign>Full design</BTD_FullDesign>
+
+
+  <BTD_Barebones>Barebones</BTD_Barebones>
+  <BTD_Search>Search</BTD_Search>
+  <BTD_NoDesignsAvailable>No designs available</BTD_NoDesignsAvailable>
+  <BTD_NoDesignsMatch>No designs match your search</BTD_NoDesignsMatch>
+  <BTD_NoDescriptionAvailable>No description available</BTD_NoDescriptionAvailable>
+
+  <!-- <BTD_NoPreview>No Preview</BTD_NoPreview> -->
+  <BTD_NoPreview>No preview</BTD_NoPreview>
+  <BTD_Tiles>Tiles</BTD_Tiles>
+  <BTD_Close>Close</BTD_Close>
+  <BTD_Select>Select</BTD_Select>
+  <BTD_Delete>Delete</BTD_Delete>
+  <!-- <BTD_ModInfo>Mod Info</BTD_ModInfo> -->
+  <BTD_ModInfo>Mod info</BTD_ModInfo>
+  <BTD_RequiresVGE>Requires VGE</BTD_RequiresVGE>
+  <BTD_ConfirmDeleteDesign>Delete '{0}'? This cannot be undone.</BTD_ConfirmDeleteDesign>
+  <BTD_DesignDeleted>Design '{0}' deleted</BTD_DesignDeleted>
+  <BTD_DeleteFailed>Failed to delete '{0}'</BTD_DeleteFailed>
+  <BTD_PreviewTitle>{0} ({1})</BTD_PreviewTitle>
+  <BTD_NoPreviewAvailable>No preview image available</BTD_NoPreviewAvailable>
+
+  <!-- <BTD_ModsUsed>Mods Used: {0}</BTD_ModsUsed> -->
+  <BTD_ModsUsed>Mods used: {0}</BTD_ModsUsed>
+
+  <BTD_NoModDependencies>This design has no mod dependencies</BTD_NoModDependencies>
+  <BTD_Workshop>Workshop</BTD_Workshop>
+  <BTD_WorkshopLinkNotAvailable>Workshop link not available</BTD_WorkshopLinkNotAvailable>
+
+  <!-- <BTD_SelectDockingPoint>Select Primary Docking Point</BTD_SelectDockingPoint> -->
+  <BTD_SelectDockingPoint>Select primary docking point</BTD_SelectDockingPoint>
+
+  <BTD_ChooseDockingLocation>Choose any location for space station docking:</BTD_ChooseDockingLocation>
+  <BTD_CurrentSelection>Current selection: {0} at {1}</BTD_CurrentSelection>
+  <BTD_Confirm>Confirm</BTD_Confirm>
+  <BTD_Cancel>Cancel</BTD_Cancel>
+
+  <!-- <BTD_NameYourDesign>Name Your Gravship Design</BTD_NameYourDesign> -->
+  <BTD_NameYourDesign>Name your gravship design</BTD_NameYourDesign>
+
+  <BTD_Name>Name</BTD_Name>
+  <BTD_Description>Description (optional)</BTD_Description>
+  <BTD_Save>Save</BTD_Save>
+  <BTD_CharacterCount>{0}/{1}</BTD_CharacterCount>
+
+  <!-- <BTD_SelectCategory>Select Category</BTD_SelectCategory> -->
+  <BTD_SelectCategory>Select category</BTD_SelectCategory>
+
+  <!-- <BTD_SelectDesign>Select Design</BTD_SelectDesign> -->
+  <BTD_SelectDesign>Select design</BTD_SelectDesign>
+
+  <!-- <BTD_SelectCategoryFirst>Select Category First</BTD_SelectCategoryFirst> -->
+  <BTD_SelectCategoryFirst>Select category first</BTD_SelectCategoryFirst>
+
+  <!-- <BTD_SpawnMode>Spawn Mode: {0}</BTD_SpawnMode> -->
+  <BTD_SpawnMode>Spawn mode: {0}</BTD_SpawnMode>
+
+  <!-- <BTD_PreviewSelection>Preview Selection</BTD_PreviewSelection> -->
+  <BTD_PreviewSelection>Preview selection</BTD_PreviewSelection>
+
+  <!-- <BTD_BrowseAllDesigns>Browse All Designs</BTD_BrowseAllDesigns> -->
+  <BTD_BrowseAllDesigns>Browse all designs</BTD_BrowseAllDesigns>
+
+  <BTD_Planning>Planning</BTD_Planning>
+
+  <!-- <BTD_CustomGravship>Custom Gravship: {0}</BTD_CustomGravship> -->
+  <BTD_CustomGravship>Custom gravship: {0}</BTD_CustomGravship>
+
+  <!-- <BTD_CustomGravshipNone>Custom Gravship: None selected</BTD_CustomGravshipNone> -->
+  <BTD_CustomGravshipNone>Custom gravship: None selected</BTD_CustomGravshipNone>
+  <!-- <BTD_CustomGravshipMode>Custom Gravship: {0} ({1})</BTD_CustomGravshipMode> -->
+  <BTD_CustomGravshipMode>Custom gravship: {0} ({1})</BTD_CustomGravshipMode>
+
+  <!-- Messages (Success/Info) -->
+  <BTD_DesignSaved>Gravship blueprint '{0}' saved!</BTD_DesignSaved>
+  <BTD_DesignSelected>Selected: {0} ({1})</BTD_DesignSelected>
+  <BTD_EnterName>Please enter a name for the design</BTD_EnterName>
+  <BTD_NoDesignsInCategory>No designs found in category {0}</BTD_NoDesignsInCategory>
+  <BTD_NoCategoriesFound>No design categories found. Click Refresh or add design files.</BTD_NoCategoriesFound>
+  <BTD_CouldNotLoadDesign>Could not load design for preview</BTD_CouldNotLoadDesign>
+  <BTD_DesignNotFound>Design not found: {0}</BTD_DesignNotFound>
+
+  <!-- Save Error Messages -->
+  <BTD_FailedToSave>Failed to save: {0}</BTD_FailedToSave>
+  <BTD_DesignDataMissing>Design data is missing</BTD_DesignDataMissing>
+  <BTD_DesignMustHaveName>Design must have a name</BTD_DesignMustHaveName>
+  <BTD_DesignHasNoStructures>Design has no structures</BTD_DesignHasNoStructures>
+  <BTD_PermissionDenied>Failed to save gravship blueprint: Permission denied</BTD_PermissionDenied>
+  <BTD_DirectoryError>Failed to save gravship blueprint: Could not create directory</BTD_DirectoryError>
+  <BTD_FileSystemError>Failed to save gravship blueprint: File system error</BTD_FileSystemError>
+  <BTD_UnexpectedError>Failed to save gravship blueprint: Unexpected error</BTD_UnexpectedError>
+
+  <!-- Error Tracker Messages -->
+  <BTD_SpawnComplete>completed with errors</BTD_SpawnComplete>
+  <BTD_SpawnCompleteSubstitutions>completed with substitutions</BTD_SpawnCompleteSubstitutions>
+  <BTD_SpawnErrors>Gravship spawned with errors - check log for details</BTD_SpawnErrors>
+  <BTD_SpawnSubstitutions>Gravship spawned with substitutions for missing mod content</BTD_SpawnSubstitutions>
+
+  <!-- Loading Messages (LongEventHandler) -->
+  <BTD_SpawningGravship>Spawning gravship: {0}</BTD_SpawningGravship>
+  <BTD_SpawningGravshipBarebones>Spawning gravship (barebones): {0}</BTD_SpawningGravshipBarebones>
+  <BTD_PlacingPlans>Placing plans for: {0}</BTD_PlacingPlans>
+
+  <!-- Downed Gravship Quest -->
+  <BTD_DownedGravship>Downed Gravship</BTD_DownedGravship>
+
+  <!-- Salvage Gravship Quest -->
+  <BTD_SalvageGravship>Salvage Gravship</BTD_SalvageGravship>
+  <BTD_SalvageQuest>Salvage Quest: {0}</BTD_SalvageQuest>
+  <BTD_SalvageQuestNone>Salvage Quest: None selected</BTD_SalvageQuestNone>
+  <BTD_SalvageQuestConfigured>Endgame salvage quest: {0}</BTD_SalvageQuestConfigured>
+
+  <!-- Salvage Engine Initialization -->
+  <BTD_GravEngineInitializingAlert>Grav engine initializing</BTD_GravEngineInitializingAlert>
+  <BTD_GravEngineInitializingAlertDesc>The encrypted grav engine has started sending a signal which will attract enemies to this location. Complete hacking it in order to stop the signal.</BTD_GravEngineInitializingAlertDesc>
+
+  <!-- <BTD_InitializeGravEngine>Begin Initialization</BTD_InitializeGravEngine> -->
+  <BTD_InitializeGravEngine>Begin initialization</BTD_InitializeGravEngine>
+
+  <BTD_InitializeGravEngineDesc>Begin the initialization process for the encrypted grav engine. This will trigger a raid gauntlet.</BTD_InitializeGravEngineDesc>
+  <BTD_InitializeWarning>Beginning initialization will start the grav engine's activation sequence, which will attract hostile forces to this location. Are you ready?</BTD_InitializeWarning>
+  <BTD_InitializationStarted>Grav engine initialization started</BTD_InitializationStarted>
+  <BTD_InitializationComplete>Grav engine initialization complete</BTD_InitializationComplete>
+  <BTD_Proceed>Proceed</BTD_Proceed>
+  <BTD_HackingDisabled>Hacking disabled</BTD_HackingDisabled>
+  <BTD_MustInitializeFirst>The grav engine must be initialized before it can be hacked</BTD_MustInitializeFirst>
+  <BTD_GravcoreExtracted>{0} components extracted from the grav core</BTD_GravcoreExtracted>
+  <BTD_CannotUninstallGravshipPart>Gravship parts cannot be uninstalled at a downed gravship site</BTD_CannotUninstallGravshipPart>
+  <BTD_CannotReinstallGravshipPart>Gravship parts cannot be reinstalled at a downed gravship site</BTD_CannotReinstallGravshipPart>
+  <BTD_PlacedGodMode>Successfully placed {0} items</BTD_PlacedGodMode>
+  <BTD_PlacedDesignations>Successfully placed {0} designations</BTD_PlacedDesignations>
+  <BTD_BlueprintsPlaced>{0} blueprints placed</BTD_BlueprintsPlaced>
+  <BTD_SkippedResearch>skipped {0} (research required)</BTD_SkippedResearch>
+  <BTD_SkippedModded>skipped {0} (modded content not available)</BTD_SkippedModded>
+  <BTD_SkippedNoSubstructure>skipped {0} (no substructure)</BTD_SkippedNoSubstructure>
+
+  <!-- <BTD_SelectBlueprint>Select Blueprint</BTD_SelectBlueprint> -->
+  <BTD_SelectBlueprint>Select blueprint</BTD_SelectBlueprint>
+
+  <BTD_SelectedDesign>Selected: {0} ({1})</BTD_SelectedDesign>
+  <BTD_NoDesignSelected>No design selected</BTD_NoDesignSelected>
+
+  <!-- <BTD_SetBlueprintRotation>Set Rotation</BTD_SetBlueprintRotation> -->
+  <BTD_SetBlueprintRotation>Set rotation</BTD_SetBlueprintRotation>
+  <BTD_CurrentRotation>Current rotation: {0}</BTD_CurrentRotation>
+
+  <!-- <BTD_PlaceBlueprint>Place Blueprint</BTD_PlaceBlueprint> -->
+  <BTD_PlaceBlueprint>Place blueprint</BTD_PlaceBlueprint>
+
+  <BTD_PlaceBlueprintDesc>Place selected blueprint layer by layer</BTD_PlaceBlueprintDesc>
+  <BTD_MustSelectDesignFirst>You must select a blueprint design first</BTD_MustSelectDesignFirst>
+
+  <BTD_North>North</BTD_North>
+  <BTD_East>East</BTD_East>
+  <BTD_South>South</BTD_South>
+  <BTD_West>West</BTD_West>
+
+  <!-- <BTD_LayerPlans>Place Plans</BTD_LayerPlans> -->
+  <BTD_LayerPlans>Place plans</BTD_LayerPlans>
+  <!-- <BTD_LayerSubstructure>Place Substructure</BTD_LayerSubstructure> -->
+  <BTD_LayerSubstructure>Place substructure</BTD_LayerSubstructure>
+  <!-- <BTD_LayerHull>Place Hull</BTD_LayerHull> -->
+  <BTD_LayerHull>Place hull</BTD_LayerHull>
+  <!-- <BTD_LayerFacilities>Place Facilities</BTD_LayerFacilities> -->
+  <BTD_LayerFacilities>Place facilities</BTD_LayerFacilities>
+  <!-- <BTD_LayerPaint>Place Paint</BTD_LayerPaint> -->
+  <BTD_LayerPaint>Place paint</BTD_LayerPaint>
+
+  <BTD_ShuttleLandingSection>Shuttle Landing</BTD_ShuttleLandingSection>
+  <BTD_ShuttleLandingFixLabel>Allow shuttles to land near doors and wall lamps</BTD_ShuttleLandingFixLabel>
+  <BTD_ShuttlePreserveRoofLabel>Allow shuttles to ignore constructed roof (launch, land, build)</BTD_ShuttlePreserveRoofLabel>
+
+</LanguageData>

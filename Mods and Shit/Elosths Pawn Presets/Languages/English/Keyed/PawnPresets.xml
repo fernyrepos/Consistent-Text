@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- <Elosth_PawnPresets_EditPawnPresets>Edit Pawn Presets</Elosth_PawnPresets_EditPawnPresets> -->
+  <Elosth_PawnPresets_EditPawnPresets>Edit presets</Elosth_PawnPresets_EditPawnPresets>
+
+  <!-- <Elosth_PawnPresets_PawnPresets>Pawn presets</Elosth_PawnPresets_PawnPresets> -->
+  <Elosth_PawnPresets_PawnPresets>Presets</Elosth_PawnPresets_PawnPresets>
+
+  <!-- <Elosth_PawnPresets_UsePawnPresets>Use pawn presets</Elosth_PawnPresets_UsePawnPresets> -->
+  <Elosth_PawnPresets_UsePawnPresets>Presets</Elosth_PawnPresets_UsePawnPresets>
+
+  <!-- <Elosth_PawnPresets_PassionRedistributionNone>Random skill passions</Elosth_PawnPresets_PassionRedistributionNone>
+  <Elosth_PawnPresets_PassionRedistributionSkills>Selected skill passions</Elosth_PawnPresets_PassionRedistributionSkills>
+  <Elosth_PawnPresets_PassionRedistributionEvenly>Evenly spread skill passions</Elosth_PawnPresets_PassionRedistributionEvenly>
+  <Elosth_PawnPresets_ScenPart_PawnPresets>Apply pawn presets: {0}.</Elosth_PawnPresets_ScenPart_PawnPresets>
+  <Elosth_PawnPresets_TraitsTip>Vanilla trait limit is 3; for creepjoiners, it is 1. Those limits aren’t enforced by this mod.</Elosth_PawnPresets_TraitsTip>
+  <Elosth_PawnPresets_HediffsTip>0.5 is the default RimWorld value for hediffs with no severity or with the default initial severity.</Elosth_PawnPresets_HediffsTip>
+  <Elosth_PawnPresets_TendWithQuality>Tend with quality</Elosth_PawnPresets_TendWithQuality>
+  <Elosth_PawnPresets_SaveOnChange>Save on change</Elosth_PawnPresets_SaveOnChange>
+  <Elosth_PawnPresets_StartingDeadPawnWarning>Starting with dead colonists is not currently supported by this mod and will interrupt new game startup.</Elosth_PawnPresets_StartingDeadPawnWarning> -->
+
+</LanguageData>

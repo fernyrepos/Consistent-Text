@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- original:
+human-power generator
+ -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="HPGMHumanPowerGenerator"]/label</xpath>
+            <value>
+                <label>bicycle generator</label>
+            </value>
+        </Operation>
+
+<!-- Produces power by man. press the pedal firmly. -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="HPGMHumanPowerGenerator"]/description</xpath>
+            <value>
+                <description>A generator that converts bicycling labor into electricity.</description>
+            </value>
+        </Operation>
+
+</Patch>

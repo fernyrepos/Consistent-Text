@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- <MLC_Toggle_Tooltip>Toggle Minimal Light Control</MLC_Toggle_Tooltip> -->
+  <MLC_Toggle_Tooltip>Toggle increased brightness.</MLC_Toggle_Tooltip>
+
+  <!-- <MLC_Default_Title>Default state</MLC_Default_Title>
+  <MLC_Default_Desc>Should this function be enabled on a new save?</MLC_Default_Desc>
+  
+  <MLC_Mode_Title>Mode</MLC_Mode_Title>
+  <MLC_Mode_Desc>Only darker - Change brightness only when weather is darker than modifier.
+Any weather - Shift brightness using modifier.</MLC_Mode_Desc>
+  <MLC_Mode_Darker>Only darker</MLC_Mode_Darker>
+  <MLC_Mode_Relative>Any weather</MLC_Mode_Relative>
+  
+  <MLC_Modifier_Title>Light level modifier</MLC_Modifier_Title>
+  <MLC_Modifier_Desc>Only darker - How dark can it be?
+Any weather - Shift all light levels using this value.
+Values: 10 - bright, 0 - dark</MLC_Modifier_Desc> -->
+
+
+</LanguageData>

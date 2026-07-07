@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- <FamilyTreeMod.LineBrightness>Tree Lines Brightness: {0}%</FamilyTreeMod.LineBrightness> -->
+  <FamilyTreeMod.LineBrightness>Line brightness: {0}%</FamilyTreeMod.LineBrightness>
+
+  <!-- <FamilyTreeMod.WindowTitle>Rizryn's Family Tree Mod</FamilyTreeMod.WindowTitle> -->
+  <FamilyTreeMod.WindowTitle>Family tree</FamilyTreeMod.WindowTitle>
+
+  <!-- <FamilyTreeMod.ControlsHelp>L-Click: Select Pawn &amp; View Genes  |  Double L-Click: Find Pawn  |  Drag: Pan Camera\nR-Click: Highlight Bloodline (R-Click background to clear)  |  Ctrl + R-Click: Isolate Bloodline</FamilyTreeMod.ControlsHelp> -->
+  <FamilyTreeMod.ControlsHelp>L-Click: Select pawn &amp; view genes  |  Double L-Click: Find pawn  |  Drag: Pan camera\nR-Click: Highlight bloodline (R-Click background to clear)  |  Ctrl + R-Click: Isolate bloodline</FamilyTreeMod.ControlsHelp>
+
+  <!-- <FamilyTreeMod.BackToFullTree>Back to Full Tree</FamilyTreeMod.BackToFullTree> -->
+  <FamilyTreeMod.BackToFullTree>Back to full tree</FamilyTreeMod.BackToFullTree>
+
+  <!-- <FamilyTreeMod.ModeInheritedFrom>Mode: Inherited From</FamilyTreeMod.ModeInheritedFrom> -->
+  <FamilyTreeMod.ModeInheritedFrom>Mode: Inherited from</FamilyTreeMod.ModeInheritedFrom>
+
+  <!-- <FamilyTreeMod.ModeOriginatesFrom>Mode: Originates From</FamilyTreeMod.ModeOriginatesFrom> -->
+  <FamilyTreeMod.ModeOriginatesFrom>Mode: Originates from</FamilyTreeMod.ModeOriginatesFrom>
+
+  <!-- <FamilyTreeMod.SiblingParentsOf>Sibling Parents of:</FamilyTreeMod.SiblingParentsOf> -->
+  <FamilyTreeMod.SiblingParentsOf>Sibling parents of:</FamilyTreeMod.SiblingParentsOf>
+
+  <!-- <FamilyTreeMod.RelatedParentsOf>Related Parents of:</FamilyTreeMod.RelatedParentsOf> -->
+  <FamilyTreeMod.RelatedParentsOf>Related parents of:</FamilyTreeMod.RelatedParentsOf>
+
+  <!-- <FamilyTreeMod.AdoptiveParentsOf>Adoptive Parents of:</FamilyTreeMod.AdoptiveParentsOf> -->
+  <FamilyTreeMod.AdoptiveParentsOf>Adoptive parents of:</FamilyTreeMod.AdoptiveParentsOf>
+
+  <!-- <FamilyTreeMod.RelationshipParentsOf>{0} Parents of:</FamilyTreeMod.RelationshipParentsOf> -->
+  <FamilyTreeMod.RelationshipParentsOf>{0} parents of:</FamilyTreeMod.RelationshipParentsOf>
+
+  <!-- <FamilyTreeMod.ParentChildParentsOf>{0}-{1} Parents of:</FamilyTreeMod.ParentChildParentsOf> -->
+  <FamilyTreeMod.ParentChildParentsOf>{0}-{1} parents of:</FamilyTreeMod.ParentChildParentsOf>
+  
+  <!-- <FamilyTreeMod.CoParent>Co-Parent</FamilyTreeMod.CoParent> -->
+  <FamilyTreeMod.CoParent>Co-parent</FamilyTreeMod.CoParent>
+
+  <!-- <FamilyTreeMod.AdoptiveCoParent>Adoptive Co-Parent</FamilyTreeMod.AdoptiveCoParent> -->
+  <FamilyTreeMod.AdoptiveCoParent>Adoptive co-parent</FamilyTreeMod.AdoptiveCoParent>
+
+  <!-- <FamilyTreeMod.MultipleBirth>Multiple Birth</FamilyTreeMod.MultipleBirth> -->
+  <FamilyTreeMod.MultipleBirth>Multiple birth</FamilyTreeMod.MultipleBirth>
+
+  <!-- <FamilyTreeMod.DistantDescendant>Distant Descendant</FamilyTreeMod.DistantDescendant> -->
+  <FamilyTreeMod.DistantDescendant>Distant descendant</FamilyTreeMod.DistantDescendant>
+
+  <!-- <FamilyTreeMod.DistantAncestor>Distant Ancestor</FamilyTreeMod.DistantAncestor> -->
+  <FamilyTreeMod.DistantAncestor>Distant ancestor</FamilyTreeMod.DistantAncestor>
+
+
+</LanguageData>

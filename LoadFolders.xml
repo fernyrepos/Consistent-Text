@@ -93,5 +93,24 @@
     <li IfModActive="NinaGoblin.VisitSettlements">Mods and Shit/Visit Settlements</li>
     <!-- <li IfModActive="mayiane.firefighterarea">Mods and Shit/JustPutOuttheFires</li> -->
     <li IfModActive="m00nl1ght.GeologicalLandforms">Mods and Shit/Geological Landforms</li>
+    <li IfModActive="rizryn.familytree">Mods and Shit/Rizryn Family Tree</li>
+    <li IfModActive="gabrieel1482.skipdoormenu">Mods and Shit/Skipdoor Menu</li>
+    <li IfModActive="resplice.xotr.charmweavers">Mods and Shit/Resplice Charmweavers</li>
+    <li IfModActive="aelanna.getoutofmychair">Mods and Shit/Get Out Of My Chair</li>
+    <li IfModActive="east.geneextractorlog">Mods and Shit/Gene Extractor Log</li>
+    <li IfModActive="luved.animaltraits">Mods and Shit/Animal Traits System</li>
+    <li IfModActive="chezhou.Building.Skinner">Mods and Shit/Skinner</li>
+    <li IfModActive="lts.i">Mods and Shit/Integrated Implants</li>
+    <li IfModActive="albion.goexplore">Mods and Shit/Go Explore</li>
+    <li IfModActive="duz.almosttherefork">Mods and Shit/Almost There</li>
+    <li IfModActive="elosth.pawnpresets">Mods and Shit/Elosths Pawn Presets</li>
+    <li IfModActive="scherub.planningextended">Mods and Shit/Planning Extended</li>
+    <li IfModActive="btd.remix.gravshipblueprints">Mods and Shit/Gravship Blueprints</li>
+    <li IfModActive="legator.grenadesacrifice">Mods and Shit/Grenade Sacrifice</li>
+    <li IfModActive="memegoddess.giddyup">Mods and Shit/Giddy Up 2</li>
+    <li IfModActive="font.mountpassengers">Mods and Shit/Mount Passengers</li>
+    <li IfModActive="zal.hamsterwheelgenerator">Mods and Shit/Hamster Wheel Generator</li>
+    <li IfModActive="FLASHPOINT55.HumanPowerGeneratorMod">Mods and Shit/Human Power Generator Mod</li>
+    <li IfModActive="FluffyTowels.StandingCryptosleepCasket">Mods and Shit/Standing Cryptosleep Casket</li>
   </v1.6>
 </loadFolders>
