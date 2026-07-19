@@ -111,6 +111,7 @@
     <li IfModActive="font.mountpassengers">Mods and Shit/Mount Passengers</li>
     <li IfModActive="zal.hamsterwheelgenerator">Mods and Shit/Hamster Wheel Generator</li>
     <li IfModActive="FLASHPOINT55.HumanPowerGeneratorMod">Mods and Shit/Human Power Generator Mod</li>
-    <li IfModActive="FluffyTowels.StandingCryptosleepCasket">Mods and Shit/Standing Cryptosleep Casket</li>
+    <li IfModActive="FluffyTowels.StandingCryptosleepCasket">Mods and Shit/Standing Cryptopods</li>
+    <li IfModActive="Skyl3lazer.ApparelPolicyBuilder">Mods and Shit/Apparel Policy Builder</li>
   </v1.6>
 </loadFolders>

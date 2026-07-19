@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+      
+  <!-- <ResearchPaper>Research papers</ResearchPaper> -->
+  <ResearchPapers>Knowledge</ResearchPapers>
+
+  <!-- <ResearchPaper>Research paper</ResearchPaper> -->
+  <ResearchPaper>Knowledge</ResearchPaper>
+
+  <!-- Notification -->
+  <ResearchLost>Lost research: {0}</ResearchLost>
+  <ResearchLostDesc>Lost knowledge of the following research project: {0}.</ResearchLostDesc>
+
+  <!-- Settings sections -->
+  <RP_Settings_GeneralSection>General</RP_Settings_GeneralSection>
+  <RP_Settings_NotificationSection>Notification</RP_Settings_NotificationSection>
+  <RP_Settings_ExcludedSection>Excluded</RP_Settings_ExcludedSection>
+
+  <!-- Spawn missing papers -->
+  <RP_Settings_SpawnMissingPapers>Spawn missing papers</RP_Settings_SpawnMissingPapers>
+  <RP_Settings_SpawnMissingPapers_Desc>Spawn missing research papers when the game starts.</RP_Settings_SpawnMissingPapers_Desc>
+
+  <!-- Min tech level -->
+  <RP_Settings_MinTechLevel>Min tech level for paper spawning: {0}</RP_Settings_MinTechLevel>
+  <RP_Settings_MinTechLevel_Any>any</RP_Settings_MinTechLevel_Any>
+  <RP_Settings_MinTechLevel_Desc>Only spawn research papers for projects at or above this tech level. Set to 'any' to spawn papers for all tech levels.</RP_Settings_MinTechLevel_Desc>
+
+  <!-- Excluded researches section -->
+  <RP_Settings_AutoExcluded_Tip>Excluded from spawning paper due to mod conflict.</RP_Settings_AutoExcluded_Tip>
+  <RP_Settings_TechLevelExcluded_Tip>Excluded from spawning paper by the minimum tech level setting above.</RP_Settings_TechLevelExcluded_Tip>
+
+  <!-- Retain percent -->
+  <RP_Settings_RetainPercent>Retained progress on research loss: {0}%</RP_Settings_RetainPercent>
+  <RP_Settings_RetainPercent_Desc>How much research progress is kept when a paper is lost. At 75%, only 25% of the original cost must be re-researched.</RP_Settings_RetainPercent_Desc>
+
+  <!-- Loss notifications -->
+  <RP_Settings_LetterForLoss>Letter for lost research</RP_Settings_LetterForLoss>
+  <RP_Settings_LetterForLoss_Desc>Send a letter when research is lost.</RP_Settings_LetterForLoss_Desc>
+  <RP_Settings_MessageForLoss>Message for lost research</RP_Settings_MessageForLoss>
+  <RP_Settings_MessageForLoss_Desc>Send a message when research is lost.</RP_Settings_MessageForLoss_Desc>
+
+  <!-- Excluded researches -->
+  <RP_Settings_ExcludedListLabel>Excluded from spawning papers:</RP_Settings_ExcludedListLabel>
+  <RP_Settings_ExcludedListLabel_Tip>Research projects checked here will not spawn a paper when completed. Already-completed projects are unaffected.</RP_Settings_ExcludedListLabel_Tip>
+  <RP_Settings_ResearchIncluded_Tip>Will spawn paper on finishing research.</RP_Settings_ResearchIncluded_Tip>
+  <RP_Settings_ResearchExcluded_Tip>Excluded from spawning paper by user.</RP_Settings_ResearchExcluded_Tip>
+  <RP_Dialog_SelectAll>Select all</RP_Dialog_SelectAll>
+  <RP_Dialog_ClearAll>Clear all</RP_Dialog_ClearAll>
+
+</LanguageData>

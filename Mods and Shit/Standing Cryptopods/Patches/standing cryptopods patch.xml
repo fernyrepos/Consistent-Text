@@ -5,7 +5,7 @@
 A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years, Using revolutionary literalyturnitsideways(tm) technology, we have now made cryptosleep caskets HALF the size and therefore TWICE as space efficient. -->
 
         <Operation Class="PatchOperationReplace">
-            <xpath>Defs/GeneDef[defName="StandingCryptosleepCasket"]/description</xpath>
+            <xpath>Defs/ThingDef[defName="StandingCryptosleepCasket"]/description</xpath>
             <value>
                 <description>A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years.\n\nWhile mostly use for starflight or long term storage, it also found popularity with needlecasters.</description>
             </value>

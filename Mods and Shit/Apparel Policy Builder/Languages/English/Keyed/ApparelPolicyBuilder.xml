@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <APB.OpenFilter>Policy builder</APB.OpenFilter> -->
+  <APB.OpenFilter>Filter via stats</APB.OpenFilter>
+
+  <!-- <APB.Title>Apparel Policy Builder</APB.Title> -->
+  <APB.Title>Filter via stats</APB.Title>
+
+</LanguageData>
