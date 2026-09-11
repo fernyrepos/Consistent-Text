@@ -23,4 +23,15 @@
                 </rulesStrings>
             </value>
         </Operation>
+
+        <!-- An advanced, high-density digital storage server designed to archive research findings. Instead of taking up entire rooms with dusty paper, a single datacore can hold thousands of research papers, preserving knowledge efficiently. Built tough, it can withstand multiple explosions and is entirely fireproof.
+
+        Drawback: Provides no boost to research speed. -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="ResearchServer"]/description</xpath>
+            <value>
+                <description>An advanced digital storage server designed to store massive amounts of research knowledge efficiently. It can withstand explosions and is fireproof. Does not provide a boost to nearby research benches.</description>
+            </value>
+        </Operation>
+
 </Patch>

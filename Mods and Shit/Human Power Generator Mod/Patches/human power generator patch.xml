@@ -19,4 +19,12 @@ human-power generator
             </value>
         </Operation>
 
+<!-- Cycling and Produce power. -->
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="HPGMGenerate"]/description</xpath>
+            <value>
+                <description>Generate electricity via cycling.</description>
+            </value>
+        </Operation>
+
 </Patch>

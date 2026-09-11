@@ -116,5 +116,9 @@
     <li IfModActive="Skyl3lazer.ApparelPolicyBuilder">Mods and Shit/Apparel Policy Builder</li>
     <li IfModActive="Alma.TossEm">Mods and Shit/Right Click to Toss Carried Pawn</li>
     <li IfModActiveAll="UNAGI.A.BIGpome,Hol.bigpom">Mods and Shit/Big Pom English Translation</li>
+    <li IfModActive="vanillaexpanded.vbrewe">Mods and Shit/VE Brewing</li>
+    <li IfModActive="VanillaExpanded.VAEEndAndExt">Mods and Shit/VAE Endangered</li>
+    <li IfModActive="VanillaExpanded.VGeneticsE">Mods and Shit/VE Genetics</li>
+    <li IfModActive="vanillaexpanded.vanillaaspirationsexpanded">Mods and Shit/VE Aspirations</li>
   </v1.6>
 </loadFolders>

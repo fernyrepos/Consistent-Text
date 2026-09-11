@@ -12,4 +12,13 @@
                     </value>
                 </Operation>
 
+<!-- A pontent mixture of burning herbs used to calm dark spirits and entities. The simple design does not disturb nature. -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="T_BuldingInhibitingIncense"]/description</xpath>
+                    <value>
+                        <description>A container filled with a potent mixture of burning herbs used to calm dark spirits and entities. The simple design of the container does not disturb nature.</description>
+                    </value>
+                </Operation>
+
 </Patch>

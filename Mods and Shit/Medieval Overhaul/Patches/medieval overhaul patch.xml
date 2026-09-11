@@ -20,4 +20,53 @@
                     </value>
                 </Operation>
 
+
+                <!-- A bee hive. \n\Deconstruct to obtain a queen bee. -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="DankPyon_BeeHive"]/description</xpath>
+                    <value>
+                        <description>A natural bee hive containing a swarm of bees. The hive can be dismantled to get a queen bee and some honey.</description>
+                    </value>
+                </Operation>
+
+
+                <!-- Miscellaneous bits and bobs to repair equipment -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="DankPyon_RepairTools"]/description</xpath>
+                    <value>
+                        <description>Miscellaneous bits and bobs that can be used to repair weapons, apparel, and armor at a mending bench.</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="DankPyon_RepairTools"]</xpath>
+                    <value>
+                        <descriptionHyperlinks>
+                            <ThingDef>DankPyon_MendingBench</ThingDef>
+                        </descriptionHyperlinks>
+                    </value>
+                </Operation>
+
+
+                <!-- This sapphire-embedded necklace shines its familiar blue gleam, ensuring those around the wearer take note of the wealthy man or woman who walks amongst them -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="DankPyon_Ring_Sapphire"]/description</xpath>
+                    <value>
+                        <description>This sapphire-embedded ring shines its familiar blue gleam, ensuring those around the wearer take note of the wealthy man or woman who walks amongst them.</description>
+                    </value>
+                </Operation>
+
+
+                <!-- A healer's basic ring, slippin on this garment imbues the hands with better tending quality and while also increasing the wearer's vitality. -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="DankPyon_Ring_Tending"]/description</xpath>
+                    <value>
+                        <description>A ring imbued with a magical power that helps the wearer tend to wounds and illnesses. The wearer also recovers from injuries faster.</description>
+                    </value>
+                </Operation>
+
 </Patch>

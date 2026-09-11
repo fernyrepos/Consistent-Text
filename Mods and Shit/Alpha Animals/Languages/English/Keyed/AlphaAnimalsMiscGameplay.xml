@@ -26,7 +26,7 @@
 	<AA_LetterLabelMechanoidSappers>Mechanoid sappers</AA_LetterLabelMechanoidSappers>
 
 	<!-- <AA_LetterLabelFungalHusk>Fungal Husks</AA_LetterLabelFungalHusk> -->
-	<AA_LetterLabelFungalHusk>Fungal Husks</AA_LetterLabelFungalHusk>
+	<AA_LetterLabelFungalHusk>Fungal husks</AA_LetterLabelFungalHusk>
 
 	<!-- <AA_BlueGel>Blue Gel production</AA_BlueGel> -->
 	<AA_BlueGel>Blue gel production</AA_BlueGel>
@@ -56,7 +56,7 @@
 	<AA_PoisonShockTroop>Poison shock troop</AA_PoisonShockTroop>
 
 	<!-- <AA_FireyShockTroop>Firey Shock Troop</AA_FireyShockTroop> -->
-	<AA_FireyShockTroop>Firey shock troop</AA_FireyShockTroop>
+	<AA_FireyShockTroop>Fiery shock troop</AA_FireyShockTroop>
 
 	<!-- <AA_EMPShockTroop>EMP Shock Troop</AA_EMPShockTroop> -->
 	<AA_EMPShockTroop>EMP shock troop</AA_EMPShockTroop>
@@ -80,7 +80,7 @@
 	<AA_DamageRangedElectric>Electric ranged attacker</AA_DamageRangedElectric>
 
 	<!-- <AA_DamageRangedFire>Firey Ranged Attacker</AA_DamageRangedFire> -->
-	<AA_DamageRangedFire>Firey ranged attacker</AA_DamageRangedFire>
+	<AA_DamageRangedFire>Fiery ranged attacker</AA_DamageRangedFire>
 
 	<!-- <AA_DamageRangedDOT>DOT Ranged Attacker</AA_DamageRangedDOT> -->
 	<AA_DamageRangedDOT>DOT ranged attacker</AA_DamageRangedDOT>
@@ -92,10 +92,10 @@
 	<AA_MountFast>Fast mount</AA_MountFast>
 
 	<!-- <AA_MountArmoured>Armoured Mount</AA_MountArmoured> -->
-	<AA_MountArmoured>Armoured mount</AA_MountArmoured>
+	<AA_MountArmoured>Armored mount</AA_MountArmoured>
 
 	<!-- <AA_MountFastArmoured>Armoured and Fast Mount</AA_MountFastArmoured> -->
-	<AA_MountFastArmoured>Armoured/fast mount</AA_MountFastArmoured>
+	<AA_MountFastArmoured>Armored fast mount</AA_MountFastArmoured>
 
 	<!-- <AA_PackAnimal>Pack Animal</AA_PackAnimal> -->
 	<AA_PackAnimal>Pack animal</AA_PackAnimal>
@@ -147,9 +147,10 @@
 
 
 
-	<!-- <AA_HuskNotTameable>The Fungal Husk only exists to spread its fungal infection, it can't be tamed</AA_HuskNotTameable>
+	<!-- <AA_HuskNotTameable>The Fungal Husk only exists to spread its fungal infection, it can't be tamed</AA_HuskNotTameable> -->
+	<AA_HuskNotTameable>The fungal husk only exists to spread its fungal infection, it can't be tamed</AA_HuskNotTameable>
 	
-	<AA_Detonate>Detonate</AA_Detonate>
+	<!-- AA_Detonate>Detonate</AA_Detonate>
 	<AA_DetonateDesc>Force this animal to detonate. This will kill the animal and cause an explosion.</AA_DetonateDesc>
 	
 	<AA_AnimalDoingWeirdJob>Animal is busy doing a job.</AA_AnimalDoingWeirdJob>
@@ -160,50 +161,58 @@
 
 
 
-	<!-- <LetterColossalAerofleetPasses>A strange floating creature bounces around in the distance, blundering around the landscape.\n\nA small horde of smaller specimens seem to be attracted to it, and follow it at a short distance.\n\nThey seem to be mostly harmless, and will probably leave the area when they have fed.</LetterColossalAerofleetPasses>
+	<!-- <LetterColossalAerofleetPasses>A strange floating creature bounces around in the distance, blundering around the landscape.\n\nA small horde of smaller specimens seem to be attracted to it, and follow it at a short distance.\n\nThey seem to be mostly harmless, and will probably leave the area when they have fed.</LetterColossalAerofleetPasses> -->
+	<LetterColossalAerofleetPasses>A strange floating creature bounces around in the distance, blundering around the landscape. A small horde of smaller specimens seem to be attracted to it, and follow it at a short distance.\n\nThey seem to be mostly harmless, and will probably leave the area when they have fed.</LetterColossalAerofleetPasses>
 
-	<LetterLabelSkyAsteroid>Strange asteroid</LetterLabelSkyAsteroid>
+	<!-- <LetterLabelSkyAsteroid>Strange asteroid</LetterLabelSkyAsteroid>
 	<LetterSkyAsteroid>A small, strange asteroid seems to have entered the atmosphere of this planet. Impact is imminent.</LetterSkyAsteroid>
 
 	<LetterLabelBumbledroneMigration>Bumbledrone migration</LetterLabelBumbledroneMigration>
-	<LetterBumbledroneMigration>A small group of bumbledrones, led by a bumbledrone queen, has entered this area.\n\nBumbledrones are generally not aggressive, unless threatened.\n\nThey will probably leave this area after a while in search of a quieter place, since the colony is too noisy for them.</LetterBumbledroneMigration>
- -->
+	<LetterBumbledroneMigration>A small group of bumbledrones, led by a bumbledrone queen, has entered this area.\n\nBumbledrones are generally not aggressive, unless threatened.\n\nThey will probably leave this area after a while in search of a quieter place, since the colony is too noisy for them.</LetterBumbledroneMigration> -->
 
 
-	<!-- <ManhuntingArcticLion>An arctic lion is stalking one of your colonists from the shadows.\n\nIt will be almost invisible until it decides to attack and is damaged by your colonists. Colonists that are drafted and alert and automatic defenses will be able to detect it, so you should prepare quickly! \n\nArctic lions are fearsome, genetically engineered creatures bred for combat in cold climates.</ManhuntingArcticLion>
+	<!-- <ManhuntingArcticLion>An arctic lion is stalking one of your colonists from the shadows.\n\nIt will be almost invisible until it decides to attack and is damaged by your colonists. Colonists that are drafted and alert and automatic defenses will be able to detect it, so you should prepare quickly! \n\nArctic lions are fearsome, genetically engineered creatures bred for combat in cold climates.</ManhuntingArcticLion> -->
+	<ManhuntingArcticLion>An arctic lion is stalking one of your colonists from the shadows.\n\nIt will be almost invisible until it decides to attack and is damaged by your colonists. Colonists that are drafted and alert and automatic defenses will be able to detect it, so you should prepare quickly!\n\nArctic lions are fearsome, genetically engineered creatures bred for combat in cold climates.</ManhuntingArcticLion>
 
-	<LetterLabelBlizzariskClutchMother>Blizzarisk clutch mother</LetterLabelBlizzariskClutchMother>
-	<BlizzariskClutchMother>A huge spider like creature called a Blizzarisk, adapted to cold climates, wanders through this territory.\n\nThis Blizzarisk seems to be of much bigger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</BlizzariskClutchMother>
+	<!-- <LetterLabelBlizzariskClutchMother>Blizzarisk clutch mother</LetterLabelBlizzariskClutchMother>
+	<BlizzariskClutchMother>A huge spider like creature called a Blizzarisk, adapted to cold climates, wanders through this territory.\n\nThis Blizzarisk seems to be of much bigger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</BlizzariskClutchMother> -->
+	<BlizzariskClutchMother>A huge spider-like creature called a blizzarisk, adapted to cold climates, wanders through this territory.\n\nThis blizzarisk is much bigger than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</BlizzariskClutchMother>
 
-	<LetterLabelDunealiskClutchMother>Dunealisk clutch mother</LetterLabelDunealiskClutchMother>
-	<DunealiskClutchMother>A huge spider like creature called a Dunealisk, adapted to hot climates, wanders through this territory.\n\nThis Dunealisk seems to be of much bigger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</DunealiskClutchMother>
+	<!-- <LetterLabelDunealiskClutchMother>Dunealisk clutch mother</LetterLabelDunealiskClutchMother>
+	<DunealiskClutchMother>A huge spider like creature called a Dunealisk, adapted to hot climates, wanders through this territory.\n\nThis Dunealisk seems to be of much bigger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</DunealiskClutchMother> -->
+	<DunealiskClutchMother>A huge spider-like creature called a dunealisk, adapted to hot climates, wanders through this territory.\n\nThis dunealisk is much bigger than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</DunealiskClutchMother>
 
-	<LetterLabelFeraliskClutchMother>Feralisk clutch mother</LetterLabelFeraliskClutchMother>
-	<FeraliskClutchMother>A huge spider like creature called a Feralisk wanders through this territory.\n\nThis Feralisk seems to be of much bigger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</FeraliskClutchMother>
+	<!-- <LetterLabelFeraliskClutchMother>Feralisk clutch mother</LetterLabelFeraliskClutchMother>
+	<FeraliskClutchMother>A huge spider like creature called a Feralisk wanders through this territory.\n\nThis Feralisk seems to be of much bigger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</FeraliskClutchMother> -->
+	<FeraliskClutchMother>A huge spider-like creature called a feralisk wanders through this territory.\n\nThis feralisk is much bigger than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</FeraliskClutchMother>
 	
-	<AA_LetterLabelAnimaliskEnters>Animalisk spotted</AA_LetterLabelAnimaliskEnters>
-	<AA_LetterAnimaliskEnters>A huge spider like creature with arcane runes carved on its exoskeleton wanders through this territory.\n\nThis creature is an Animalisk, a gigantic herbivorous insect that devours Anima grass and trees.</AA_LetterAnimaliskEnters>
- -->
+	<!-- <AA_LetterLabelAnimaliskEnters>Animalisk spotted</AA_LetterLabelAnimaliskEnters>
+	<AA_LetterAnimaliskEnters>A huge spider like creature with arcane runes carved on its exoskeleton wanders through this territory.\n\nThis creature is an Animalisk, a gigantic herbivorous insect that devours Anima grass and trees.</AA_LetterAnimaliskEnters> -->
+	<AA_LetterAnimaliskEnters>A huge spider-like creature with arcane runes carved on its exoskeleton wanders through this territory.\n\nThis creature is an animalisk, a gigantic herbivorous insect that devours anima grass and trees.</AA_LetterAnimaliskEnters>
 
 
 
-	<!-- <SummitCrab>The ground trembles as a massive hermit crab living inside a huge boulder drags itself across this region.\n\nThe gargantuan bouldermit isn't hostile, but it is almost impervious to gunfire and it will lay waste to anything in its path if not stopped.</SummitCrab>
 
-	<LetterLabelCactipinePod>Strange drop pod</LetterLabelCactipinePod>
-	<CactipineDropPod>The air roars with the unmistakable sound of a drop pod during re-entry. Scanners detect life signs inside, but they are REALLY weird life signs, as if the scanner couldn't tell whether it is animal or plant life.</CactipineDropPod>
+	<!-- <SummitCrab>The ground trembles as a massive hermit crab living inside a huge boulder drags itself across this region.\n\nThe gargantuan bouldermit isn't hostile, but it is almost impervious to gunfire and it will lay waste to anything in its path if not stopped.</SummitCrab> -->
 
-	<LetterLabelGallatrossPasses>Gallatross wanders</LetterLabelGallatrossPasses>
-	<LetterGallatrossPasses>Legends tell of a creature so huge and powerful that entire tribes fled at the sight of it. Such legends were inspired by the Gallatross, an immense creature with a ravenous appetite. Perhaps it is somehow related to the elusive Thrumbo? Such questions are probably impossible to answer.</LetterGallatrossPasses>
+	<!-- <LetterLabelCactipinePod>Strange drop pod</LetterLabelCactipinePod>
+	<CactipineDropPod>The air roars with the unmistakable sound of a drop pod during re-entry. Scanners detect life signs inside, but they are REALLY weird life signs, as if the scanner couldn't tell whether it is animal or plant life.</CactipineDropPod> -->
+	<CactipineDropPod>The air roars with the unmistakable sound of a drop pod during re-entry.\n\nIt appears there are life signs inside, but they are really weird life signs, as if might be both animal and plant life.</CactipineDropPod>
 
-	<LetterLabelBlackHiveAttack>Black hive attack</LetterLabelBlackHiveAttack>
-	<LetterBlackHiveAttack>Insectoids in the rim are genetically altered organisms designed to fight mechanoid invasions. The Black Hive was the best of the best, designed to be much more aggressive than usual, and capable of laying siege to impregnable mechanoid fortresses. Existing insectoid species were improved and several new species were created and added to the Hive to increase its lethality.\n\nA group of Black Hive insectoids has tunneled to this location, and will attack your base immediately.</LetterBlackHiveAttack>
-	 -->
+	<!-- <LetterLabelGallatrossPasses>Gallatross wanders</LetterLabelGallatrossPasses>
+	<LetterGallatrossPasses>Legends tell of a creature so huge and powerful that entire tribes fled at the sight of it. Such legends were inspired by the Gallatross, an immense creature with a ravenous appetite. Perhaps it is somehow related to the elusive Thrumbo? Such questions are probably impossible to answer.</LetterGallatrossPasses> -->
+	<LetterGallatrossPasses>Legends tell of a creature so huge and powerful that entire tribes fled at the sight of it. Such legends were inspired by the gallatross, an immense creature with a ravenous appetite. Perhaps it is somehow related to the elusive thrumbo? Such questions are probably impossible to answer.</LetterGallatrossPasses>
+
+	<!-- <LetterLabelBlackHiveAttack>Black hive attack</LetterLabelBlackHiveAttack>
+	<LetterBlackHiveAttack>Insectoids in the rim are genetically altered organisms designed to fight mechanoid invasions. The Black Hive was the best of the best, designed to be much more aggressive than usual, and capable of laying siege to impregnable mechanoid fortresses. Existing insectoid species were improved and several new species were created and added to the Hive to increase its lethality.\n\nA group of Black Hive insectoids has tunneled to this location, and will attack your base immediately.</LetterBlackHiveAttack> -->
+	<LetterBlackHiveAttack>A group of black hive insectoids have tunneled to this location, and will attack your base immediately.</LetterBlackHiveAttack>
 
 
-<!-- 
-	<AA_LetterMechanoidSappers>A previously cloaked ancient mechanoid assembler has mysteriously appeared nearby.\n\nA swarm of mechanoids spews forth, quickly readying for an attack.\n\nOne of these mechanoids is a dangerous Demolisher, so they'll probably go straight for the walls!</AA_LetterMechanoidSappers>
+	
+	<!-- <AA_LetterMechanoidSappers>A previously cloaked ancient mechanoid assembler has mysteriously appeared nearby.\n\nA swarm of mechanoids spews forth, quickly readying for an attack.\n\nOne of these mechanoids is a dangerous Demolisher, so they'll probably go straight for the walls!</AA_LetterMechanoidSappers> -->
+	<AA_LetterMechanoidSappers>A previously cloaked ancient mechanoid assembler has mysteriously appeared nearby. A swarm of mechanoids spews forth, quickly readying for an attack.\n\nOne of these mechanoids is a dangerous demolisher, so they'll probably go straight for the walls!</AA_LetterMechanoidSappers>
 
-	<AA_LetterLabelMatureFleshbeast>Devoured whole</AA_LetterLabelMatureFleshbeast>
+	<!-- <AA_LetterLabelMatureFleshbeast>Devoured whole</AA_LetterLabelMatureFleshbeast>
 	<AA_LetterMatureFleshbeast>A grotesque creature has swallowed {0} whole! If you act quickly, perhaps you can still save {0_objective}.</AA_LetterMatureFleshbeast> -->
 
 
@@ -212,11 +221,12 @@
 	<!-- <AA_LetterFungalHusk>Bloating, shambling corpses animated by a terrible weaponized fungus have entered this territory!\n\nDon't let them attack your colonists, or they will be afflicted by a fast acting fungal infection that can kill quickly if untreated.</AA_LetterFungalHusk>
 	
 	<AA_LetterLabelMime>Mime revealed</AA_LetterLabelMime>
-	<AA_LetterMime>{0} was a Mime all along! {0_possessive} extreme hunger was too much for {0_objective}, and {0_pronoun} will attack the rest of the colonists to try to satiate it.</AA_LetterMime>
+	<AA_LetterMime>{0} was a Mime all along! {0_possessive} extreme hunger was too much for {0_objective}, and {0_pronoun} will attack the rest of the colonists to try to satiate it.</AA_LetterMime> -->
+	<AA_LetterMime>{0} was a mime all along! {0_possessive} extreme hunger was too much for {0_objective}, and {0_pronoun} will attack the rest of the colonists to try to satiate it.</AA_LetterMime>
 
-	<AA_LetterLabelBehemothPasses>Rare behemoth</AA_LetterLabelBehemothPasses>
-	<AA_LetterBehemothPasses>A small herd of behemoth have wandered into the area.\n\nThese gargantuan creatures have a voracious appetite, and a very dangerous fire breath that could probably set a whole forest on fire.\n\nThey are commonly used as beasts of burden by a fearsome race known as Forsaken.</AA_LetterBehemothPasses>
- -->
+	<!-- <AA_LetterLabelBehemothPasses>Rare behemoth</AA_LetterLabelBehemothPasses>
+	<AA_LetterBehemothPasses>A small herd of behemoth have wandered into the area.\n\nThese gargantuan creatures have a voracious appetite, and a very dangerous fire breath that could probably set a whole forest on fire.\n\nThey are commonly used as beasts of burden by a fearsome race known as Forsaken.</AA_LetterBehemothPasses> -->
+	<AA_LetterBehemothPasses>A small herd of behemoths have wandered into the area. These gargantuan creatures have a voracious appetite, and a very dangerous fire breath that could probably set a whole forest on fire.\n\nThey are commonly used as beasts of burden by a fearsome race known as forsaken.</AA_LetterBehemothPasses>
 
 	<!-- <HyperweaveDesc>Hyperweave production</HyperweaveDesc>
 	<AA_UraniumCrystalsDesc>Uranium crystal loosening</AA_UraniumCrystalsDesc>
@@ -230,8 +240,9 @@
 	<ChunkSlagSteelDesc>Steel chunk loosening</ChunkSlagSteelDesc>
 	<RawMushrooms>Raw mushrooms growth</RawMushrooms>
 	<AA_MealNutrientPaste>Nutrient paste production</AA_MealNutrientPaste>
-	<AA_Wood>Time to "trim" trees</AA_Wood>
-	<AA_MutantImplantsDesc>Time to excise implant</AA_MutantImplantsDesc>
+	<AA_Wood>Time to "trim" trees</AA_Wood> -->
+	<AA_Wood>Time to trim trees</AA_Wood>
+	<!-- <AA_MutantImplantsDesc>Time to excise implant</AA_MutantImplantsDesc>
 	<AA_CinderSilkDesc>Cindersilk production</AA_CinderSilkDesc>
 	<AA_MothSilkDesc>Moth silk production</AA_MothSilkDesc> -->
 
@@ -268,9 +279,11 @@
 
 	<!-- <AA_Yes>Yes</AA_Yes>
 	<AA_No>No</AA_No>
-	<AA_NoRanged>This animal doesn't have ranged attacks. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal attack in melee.</AA_NoRanged>
-	<AA_Ranged>This animal uses ranged attacks, and will only use melee attacks if the enemy gets into melee range. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal search for appropriate cover and use its ranged attack.</AA_Ranged>
-	 -->
+	<AA_NoRanged>This animal doesn't have ranged attacks. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal attack in melee.</AA_NoRanged> -->
+	<AA_NoRanged>This animal doesn't have ranged attacks. To order it to attack, it needs to be trained to guard and attack, then it needs to be assigned to follow a master when drafted or working. The release button on the master's commands bar will make the animal attack in melee.</AA_NoRanged>
+	<!-- <AA_Ranged>This animal uses ranged attacks, and will only use melee attacks if the enemy gets into melee range. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal search for appropriate cover and use its ranged attack.</AA_Ranged> -->
+	<AA_Ranged>This animal uses ranged attacks, and will only use melee attacks if the enemy gets into melee range. To order it to attack, it needs to be trained to guard and attack, then it needs to be assigned to follow a master when drafted or working. The release button on the master's commands bar will make the animal search for appropriate cover and use its ranged attack.</AA_Ranged>
+	
 
 	<!-- <AA_Tank>Tank</AA_Tank>
 	<AA_Artillery>Artillery</AA_Artillery>
@@ -292,11 +305,14 @@
 	
 	<AA_FarmMilkDesc>This is a farm animal that produces milk.</AA_FarmMilkDesc>
 	<AA_FarmFoodDesc>This is a farm animal that produces food items.</AA_FarmFoodDesc>
-	<AA_FarmWoolDesc>This is a farm animal that produces wool / textiles.</AA_FarmWoolDesc>
-	<AA_FarmChemfuelDesc>This is a farm animal that produces chemfuel.</AA_FarmChemfuelDesc>
-	<AA_FarmWoolAndMilkDesc>This is a farm animal that produces wool / textiles and milk.</AA_FarmWoolAndMilkDesc>
-	<AA_FarmWoolAndEggsDesc>This is a farm animal that produces wool / textiles and eggs.</AA_FarmWoolAndEggsDesc>
-	<AA_FarmBuildingAndMilkDesc>This is a farm animal that produces building materials and milk.</AA_FarmBuildingAndMilkDesc>
+	<AA_FarmWoolDesc>This is a farm animal that produces wool / textiles.</AA_FarmWoolDesc> -->
+	<AA_FarmWoolDesc>This is a farm animal that produces wool or textiles.</AA_FarmWoolDesc>
+	<!-- <AA_FarmChemfuelDesc>This is a farm animal that produces chemfuel.</AA_FarmChemfuelDesc>
+	<AA_FarmWoolAndMilkDesc>This is a farm animal that produces wool / textiles and milk.</AA_FarmWoolAndMilkDesc> -->
+	<AA_FarmWoolAndMilkDesc>This is a farm animal that produces wool or textiles as well as milk.</AA_FarmWoolAndMilkDesc>
+	<!-- <AA_FarmWoolAndEggsDesc>This is a farm animal that produces wool / textiles and eggs.</AA_FarmWoolAndEggsDesc> -->
+	<AA_FarmWoolAndEggsDesc>This is a farm animal that produces wool or textiles as well as eggs.</AA_FarmWoolAndEggsDesc>
+	<!-- <AA_FarmBuildingAndMilkDesc>This is a farm animal that produces building materials and milk.</AA_FarmBuildingAndMilkDesc>
 	<AA_FarmBuildingDesc>This is a farm animal that produces building materials.</AA_FarmBuildingDesc>
 	<AA_FarmMedicineDesc>This is a farm animal that produces medicines.</AA_FarmMedicineDesc>
 	<AA_FarmDrugsDesc>This is a farm animal that produces drugs.</AA_FarmDrugsDesc>
@@ -319,10 +335,12 @@
 	<AA_PetDesc>This animal is a pet. Isn't he cute?</AA_PetDesc> -->
 
 
-	<!-- <AA_OnlyBlackHive>This ability must target a Black Hive insect</AA_OnlyBlackHive>
-	<AA_OnlyOneHivePerMap>Only one hive entrance can be built</AA_OnlyOneHivePerMap>
-	<AA_NoMoreLarvaeAllowed>No more larvae can spawn, as the colony already has 4 Black Hive insectoids or more</AA_NoMoreLarvaeAllowed>
-	<AA_LarvaeTimeSpawn>Time to spawn new black larvae: {0}</AA_LarvaeTimeSpawn>
+	<!-- <AA_OnlyBlackHive>This ability must target a Black Hive insect</AA_OnlyBlackHive> -->
+	<AA_OnlyBlackHive>This ability must target a black hive insect</AA_OnlyBlackHive>
+	<!-- <AA_OnlyOneHivePerMap>Only one hive entrance can be built</AA_OnlyOneHivePerMap>
+	<AA_NoMoreLarvaeAllowed>No more larvae can spawn, as the colony already has 4 Black Hive insectoids or more</AA_NoMoreLarvaeAllowed> -->
+	<AA_NoMoreLarvaeAllowed>No more larvae can spawn, as the colony already has 4 black hive insectoids or more</AA_NoMoreLarvaeAllowed>
+	<!-- <AA_LarvaeTimeSpawn>Time to spawn new black larvae: {0}</AA_LarvaeTimeSpawn>
 	<AA_HiveInvalidPosition>A hive entrance can't be built here</AA_HiveInvalidPosition>
 	<AA_CocoonInsectSpawnIn>Insect emerging in: {0}</AA_CocoonInsectSpawnIn>
 	<AA_PlantConversionRadius>Plant conversion radius</AA_PlantConversionRadius>
@@ -351,8 +369,9 @@
 	<AA_KOFailed>KO failed</AA_KOFailed> -->
 
 
-	<!-- <AA_LetterLabelAlphaCargoPodCrash>Alpha Animals Cargo Pod</AA_LetterLabelAlphaCargoPodCrash>
-	<AA_AlphaCargoPodCrash>You have detected a cargo pod crashing nearby. Captive exotic animals seem to be inside.\n\nWho knows, but perhaps you'll find something useful in the wreckage.</AA_AlphaCargoPodCrash>
+	<!-- <AA_LetterLabelAlphaCargoPodCrash>Alpha Animals Cargo Pod</AA_LetterLabelAlphaCargoPodCrash> -->
+	<AA_LetterLabelAlphaCargoPodCrash>Cargo pod</AA_LetterLabelAlphaCargoPodCrash>
+	<!-- <AA_AlphaCargoPodCrash>You have detected a cargo pod crashing nearby. Captive exotic animals seem to be inside.\n\nWho knows, but perhaps you'll find something useful in the wreckage.</AA_AlphaCargoPodCrash>
 	<AA_AsexualHatched>{0} has reproduced asexually.</AA_AsexualHatched>
 	<AA_AsexualCloning>{0} has cloned itself.</AA_AsexualCloning>
 	<AA_AsexualHatchedEgg>{0} has sporulated.</AA_AsexualHatchedEgg>
@@ -366,11 +385,14 @@
 	<AA_TimeToMetamorphosis>Time to metamorphosis: {0}</AA_TimeToMetamorphosis>
 	
 	<AA_NotTameable>This creature is untameable</AA_NotTameable>
-	<AA_GallatrossNotTameable>The Moribund Gallatross is untameable and quickly returns into the wild, awaiting to die</AA_GallatrossNotTameable>
-	<AA_MimeNotTameable>The Mime refuses to be tamed</AA_MimeNotTameable>
-	<AA_ClutchmotherNotTameable>The clutchmother is too wild to be kept tamed!</AA_ClutchmotherNotTameable>
-	<AA_StomachContents>{0} creatures swallowed whole. </AA_StomachContents>
-	<AA_DigestionTime>Will be consumed in {0}</AA_DigestionTime> -->
+	<AA_GallatrossNotTameable>The Moribund Gallatross is untameable and quickly returns into the wild, awaiting to die</AA_GallatrossNotTameable> -->
+	<AA_GallatrossNotTameable>The moribund gallatross is untameable and quickly returns into the wild, awaiting to die</AA_GallatrossNotTameable>
+	<!-- <AA_MimeNotTameable>The Mime refuses to be tamed</AA_MimeNotTameable> -->
+	<AA_MimeNotTameable>The mime refuses to be tamed</AA_MimeNotTameable>
+	<!-- <AA_ClutchmotherNotTameable>The clutchmother is too wild to be kept tamed!</AA_ClutchmotherNotTameable>
+	<AA_StomachContents>{0} creatures swallowed whole. </AA_StomachContents> -->
+	<AA_StomachContents>{0} creatures swallowed whole.</AA_StomachContents>
+	<!-- <AA_DigestionTime>Will be consumed in {0}</AA_DigestionTime> -->
 
 
 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+<!-- Rename -->   
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GR_Fleshling"]/label</xpath>
+                    <value>
+                        <label>minor genetic horror</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GR_AberrantFleshbeast"]/label</xpath>
+                    <value>
+                        <label>brute genetic horror</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GR_FleshMonstrosity"]/label</xpath>
+                    <value>
+                        <label>genetic monstrosity</label>
+                    </value>
+                </Operation>
+
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/PawnKindDef[defName="GR_Fleshling"]/label</xpath>
+                    <value>
+                        <label>minor genetic horror</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/PawnKindDef[defName="GR_AberrantFleshbeast"]/label</xpath>
+                    <value>
+                        <label>brute genetic horror</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/PawnKindDef[defName="GR_FleshMonstrosity"]/label</xpath>
+                    <value>
+                        <label>genetic monstrosity</label>
+                    </value>
+                </Operation>
+</Patch>
