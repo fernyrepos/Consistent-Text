@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- <PetStay_Sit_Label>Sit!</PetStay_Sit_Label> -->
+  <PetStay_Sit_Label>Sit</PetStay_Sit_Label>
+  <!-- <PetStay_Cancel_Label>Cancel Stay</PetStay_Cancel_Label> -->
+  <PetStay_Cancel_Label>Cancel sit</PetStay_Cancel_Label>
+  <!-- <PetStay_Cancel_Desc>Cancel the stay order and allow the pet to resume normal activities.</PetStay_Cancel_Desc> -->
+  <PetStay_Cancel_Desc>Cancel the sit order and allow the pet to resume normal activities.</PetStay_Cancel_Desc>
+  <!-- <PetStay_Message_Hungry>{0} broke stay command due to urgent hunger.</PetStay_Message_Hungry> -->
+  <PetStay_Message_Hungry>{0} broke sit command due to urgent hunger.</PetStay_Message_Hungry>
+  <!-- <PetStay_Message_MentalState>{0} broke stay command due to a mental break.</PetStay_Message_MentalState> -->
+  <PetStay_Message_MentalState>{0} broke sit command due to a mental break.</PetStay_Message_MentalState>
+  <!-- <PetStay_Message_CannotReach>{0} cannot reach the designated position and broke stay command.</PetStay_Message_CannotReach> -->
+  <PetStay_Message_CannotReach>{0} cannot reach the designated position and broke sit command.</PetStay_Message_CannotReach>
+  <!-- <PetStay_Message_InvalidCell>{0}'s designated stay position became invalid.</PetStay_Message_InvalidCell> -->
+  <PetStay_Message_InvalidCell>{0}'s designated sit position became invalid.</PetStay_Message_InvalidCell>
+
+
+</LanguageData>

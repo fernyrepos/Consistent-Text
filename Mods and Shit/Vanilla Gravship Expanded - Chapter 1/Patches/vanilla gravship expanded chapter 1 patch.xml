@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VanillaGravshipExpanded.StartingGravshipDef[defName="VGE_StartingGravjumper_Default"]/description</xpath>
+    <value>
+      <description>The baseline starting gravjumper.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VanillaGravshipExpanded.StartingGravshipDef[defName="VGE_StartingGravjumper_OdysseyDLC"]/description</xpath>
+    <value>
+      <description>A classic-feeling old-school gravjumper.</description>
+    </value>
+  </Operation>
+
+</Patch>

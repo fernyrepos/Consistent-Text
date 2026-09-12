@@ -120,5 +120,13 @@
     <li IfModActive="VanillaExpanded.VAEEndAndExt">Mods and Shit/VAE Endangered</li>
     <li IfModActive="VanillaExpanded.VGeneticsE">Mods and Shit/VE Genetics</li>
     <li IfModActive="vanillaexpanded.vanillaaspirationsexpanded">Mods and Shit/VE Aspirations</li>
+    <li IfModActive="Axolki.BioTabPlus">Mods and Shit/Bio Tab Plus</li>
+    <li IfModActive="dustydinoface.Archeankin">Mods and Shit/Archeankin</li>
+    <li IfModActive="drilledhead.Wallpenmarker">Mods and Shit/DHM Wallpenmarker</li>
+    <li IfModActive="mytigio.HarbingerKin">Mods and Shit/HarbingerKin - Phytokin</li>
+    <li IfModActive="neachi.simplepetstay">Mods and Shit/Sit Simple Pet Stay</li>
+    <li IfModActive="hubertdragon.rimmessianfox">Mods and Shit/Rimmessian Fox</li>
+    <li IfModActive="vanillaexpanded.gravship">Mods and Shit/Vanilla Gravship Expanded - Chapter 1</li>
+    <li IfModActive="vanillaexpanded.gravship2">Mods and Shit/Vanilla Gravship Expanded - Chapter 2</li>
   </v1.6>
 </loadFolders>

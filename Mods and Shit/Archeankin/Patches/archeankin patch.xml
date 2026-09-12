@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+		<description>Phytokin are genetically modified plant based humanoids that can subsist on sunlight, have a genetic expertise in all things plants and have hightened phychic sensitivity. Archeankin are a variant of phytokin that have adapted to gain some of the properties of archean trees, a species of tree bioengineered to terraform deadworlds and early-stage rimworlds in the terraforming of new planets. This adaptation has given them reistance to harsh atmospheres, the ability to cut off an archean bush sapling from their own body, and even the ability to breathe out special mechanite infused pollen that grants creatures in a radius temporarily resistance to harsh enviroments. These abilities make archeankin a common sight on worlds in the process of being terraformed.</description>
+ -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/XenotypeDef[defName="ArcheanKin"]/description</xpath>
+		<value>
+			<description>Archeankin are a variant of phytokin adapted to gain some of the properties of archean trees, a species bioengineered to terraform deadworlds and early-stage rimworlds. This adaptation has given them resistance to harsh atmospheres, the ability to cut an archean bush sapling from their own body, and the ability to breathe out mechanite-infused pollen that temporarily grants nearby creatures resistance to harsh environments. These abilities make archeankin a common sight on worlds in the process of being terraformed.</description>
+		</value>
+	</Operation>
+
+<!-- ORIGINAL
+		<descriptionShort>Archean kin are a variant of phytokin that have gained various traits of archean trees.</descriptionShort>
+ -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/XenotypeDef[defName="ArcheanKin"]/descriptionShort</xpath>
+		<value>
+			<descriptionShort>Archeankin are a strain of phytokin whose biology has adapted to mirror the ancient archean tree. Used on asteroids and deadworlds, archeankin were often a staple of a ship's crew. They are resistant to the vacuum of space and are able to plant bushes capable of enriching nearby terrain into rich soil, as well as providing vacuum resistance to their allies.</descriptionShort>
+		</value>
+	</Operation>
+
+    <!-- <description>A bush that has evolved to fertilise soil</description> -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AcheanBush"]/description</xpath>
+		<value>
+            <description>A bush bioengineered to terraform deadworlds and early-stage rimworlds. Like its larger archean tree counterpart, the bush hosts a special microbial community in its roots which enriches nearby terrain into rich soil, though its smaller root system limits its effective range. Archean bushes are hardy enough to survive in the vacuum of space and produce a small amount of oxygen.\n\nArchean bushes are sterile, preventing them from becoming an invasive species after terraforming has been completed. They can only be propagated from cuttings produced by archeankin. Their delicate root systems prevent them from being replanted.</description>		</value>
+	</Operation>
+
+</Patch>

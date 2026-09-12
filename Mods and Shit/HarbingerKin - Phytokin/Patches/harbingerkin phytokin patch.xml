@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ORIGINAL
+Powerful advisors to rulers and despots, harbingerkins are grotesque but cunning and possess an affinity with the harbinger tree, having abilities similar to the twisted tree. They are able to consume raw flesh without negative effects and in fact can help the environment by consuming the corpses of the dead. They are excellent at taking care of plants and reproduce via planting a saplingchild near harbinger trees.
+ -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/XenotypeDef[defName="mytigio_Harbingerkin"]/descriptionShort</xpath>
+		<value>
+			<descriptionShort>Harbingerkin are grotesque but cunning corrupt phytokin with an affinity for harbinger trees. They can consume raw flesh without negative effects, dispose of corpses by eating them, and reproduce by planting sapling children near harbinger trees.</descriptionShort>
+		</value>
+	</Operation>
+
+<!-- ORIGINAL
+Unlike the standard phytokin, who were genetically engineered to have a connection to plantlife of all sorts, the Harbingerkin is an abomination created by the corrupting touch of the Harbinger Tree on the senstive psyche and developing form of a sapling child.  Like their mothers, they are able to subsist only on sunlight, however their ravinous hunger for meat makes them excellent herders and hunters.  While they still enjoy a genetic peace from growing and planting, they do not have the inherent skill their mothers do at caring for plants.\n\nBecause this particular xenogerm has been corrupted by the void energy of Harbinger tres, allowing a symbiosis with Harbinger trees and their hunger for raw flesh Harbingerkin have no issue consuming raw flesh, even raw human flesh, without mental or physical downsides, and in fact have an unnatural need to do so. Furthermore, they are able to plant spores in a corpse on a semi-regular basis to produce a Harbinger Tree.  Any sapling child planted near a harbinger tree has a high chance of being infected and twisted into a harbingerkin.
+ -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/XenotypeDef[defName="mytigio_Harbingerkin"]/description</xpath>
+		<value>
+			<description>Unlike standard phytokin, who were genetically engineered to connect with plant life of all kinds, harbingerkin are abominations created by the corrupting touch of a harbinger tree on the sensitive psyche and developing body of a sapling child. Like their mothers, they can subsist on sunlight alone, but their ravenous hunger for meat makes them excellent herders and hunters. While they still draw genetic satisfaction from growing and planting, they do not share their mothers' natural skill at caring for plants.\n\nThis xenogerm has been corrupted by the void energy of harbinger trees, creating a symbiosis with the trees and their hunger for raw flesh. Harbingerkin can consume raw meat, even raw human flesh, without mental or physical downsides, and in fact have an unnatural need to do so. They can also plant spores in a corpse on a semi-regular basis to produce a harbinger tree. Any sapling child planted near a harbinger tree has a high chance of being infected and twisted into a harbingerkin.</description>
+		</value>
+	</Operation>
+
+</Patch>

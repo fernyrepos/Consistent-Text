@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ORIGINAL
+A subspecies of the red fox, its origin is questioned throughout the Rim. It resembles a mythological species of vixen found in greek mythology. 
+
+Despite its size and strenght, the lupine beast is still nimble and elusive, capable of dodging attacks with ease. They are higly adaptable creatures, just like their smaller vixen counterpart.
+ -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Rimmessian_fox"]/description</xpath>
+		<value>
+			<description>A subspecies of the red fox, its origin is questioned throughout the Rim. It resembles a mythological species of vixen found in greek mythology. 
+
+Despite its size and strength, the lupine beast is still nimble and elusive, capable of dodging attacks with ease. They are higly adaptable creatures, just like their smaller vixen counterpart.</description>
+		</value>
+	</Operation>
+
+</Patch>

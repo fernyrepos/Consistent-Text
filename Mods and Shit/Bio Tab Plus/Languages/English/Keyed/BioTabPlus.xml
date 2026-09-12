@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- <BioTabPlus.SettingsTooltip>Bio Tab+ Settings</BioTabPlus.SettingsTooltip> -->
+  <BioTabPlus.SettingsTooltip>Settings</BioTabPlus.SettingsTooltip>
+
+  <!-- <BioTabPlus.RevertToVanilla>Revert to Vanilla</BioTabPlus.RevertToVanilla> -->
+  <BioTabPlus.RevertToVanilla>Revert to vanilla</BioTabPlus.RevertToVanilla>
+
+  <!-- <BioTabPlus.CompactView>Compact View</BioTabPlus.CompactView> -->
+  <BioTabPlus.CompactView>Compact view</BioTabPlus.CompactView>
+
+  <!-- <BioTabPlus.DetailedView>Detailed View</BioTabPlus.DetailedView> -->
+  <BioTabPlus.DetailedView>Detailed view</BioTabPlus.DetailedView>
+
+  <!-- <BioTabPlus.TraumaAndIntegrity>Trauma &amp; Integrity</BioTabPlus.TraumaAndIntegrity> -->
+  <BioTabPlus.TraumaAndIntegrity>Psyche</BioTabPlus.TraumaAndIntegrity>
+
+  <!-- <BioTabPlus.PawnType>Pawn Type</BioTabPlus.PawnType> -->
+  <BioTabPlus.PawnType>Pawn type</BioTabPlus.PawnType>
+
+</LanguageData>
